@@ -1,0 +1,84 @@
+; Altium SchLib Template File
+; Generated: 2026-08-01T20:05:33.034222
+; Component count: 5
+; 
+
+[COMPONENT]
+Name=STM32F103C8T6
+Description=STM32F103 MCU LQFP48
+Manufacturer=STMicro
+Package=LQFP48
+LCSC=
+Pins=8
+Pin1=1,IO,-150,-300
+Pin2=2,IO,-150,-200
+Pin3=3,IO,-150,-100
+Pin4=4,IO,-150,0
+Pin5=5,IO,-150,100
+Pin6=6,IO,-150,200
+Pin7=7,IO,-150,300
+Pin8=8,IO,-150,400
+
+[COMPONENT]
+Name=STM32F407VGT6
+Description=STM32F407 MCU LQFP100
+Manufacturer=STMicro
+Package=LQFP100
+LCSC=
+Pins=8
+Pin1=1,IO,-150,-300
+Pin2=2,IO,-150,-200
+Pin3=3,IO,-150,-100
+Pin4=4,IO,-150,0
+Pin5=5,IO,-150,100
+Pin6=6,IO,-150,200
+Pin7=7,IO,-150,300
+Pin8=8,IO,-150,400
+
+[COMPONENT]
+Name=STM32G030F6P6
+Description=STM32G030 MCU TSSOP20
+Manufacturer=STMicro
+Package=TSSOP20
+LCSC=
+Pins=8
+Pin1=1,IO,-150,-300
+Pin2=2,IO,-150,-200
+Pin3=3,IO,-150,-100
+Pin4=4,IO,-150,0
+Pin5=5,IO,-150,100
+Pin6=6,IO,-150,200
+Pin7=7,IO,-150,300
+Pin8=8,IO,-150,400
+
+[COMPONENT]
+Name=STM32L432KCU6
+Description=STM32L432 MCU UFQFPN32
+Manufacturer=STMicro
+Package=UFQFPN32
+LCSC=
+Pins=8
+Pin1=1,IO,-150,-300
+Pin2=2,IO,-150,-200
+Pin3=3,IO,-150,-100
+Pin4=4,IO,-150,0
+Pin5=5,IO,-150,100
+Pin6=6,IO,-150,200
+Pin7=7,IO,-150,300
+Pin8=8,IO,-150,400
+
+[COMPONENT]
+Name=STM32H743VIT6
+Description=STM32H743 MCU LQFP100
+Manufacturer=STMicro
+Package=LQFP100
+LCSC=
+Pins=8
+Pin1=1,IO,-150,-300
+Pin2=2,IO,-150,-200
+Pin3=3,IO,-150,-100
+Pin4=4,IO,-150,0
+Pin5=5,IO,-150,100
+Pin6=6,IO,-150,200
+Pin7=7,IO,-150,300
+Pin8=8,IO,-150,400

@@ -1,0 +1,38 @@
+[
+  {
+    "mpn": "TYPE-C-31-M-12",
+    "lcsc_code": "C165948",
+    "description": "USB Type-C Receptacle 16-pin",
+    "manufacturer": "Korean Hrop",
+    "price": "0.10",
+    "stock": 100000,
+    "package": "SMD",
+    "category": "connectors",
+    "datasheet": "",
+    "image_url": ""
+  },
+  {
+    "mpn": "TYPE-C-31-M-17",
+    "lcsc_code": "C2764990",
+    "description": "USB Type-C Receptacle 24-pin",
+    "manufacturer": "Korean Hrop",
+    "price": "0.12",
+    "stock": 80000,
+    "package": "SMD",
+    "category": "connectors",
+    "datasheet": "",
+    "image_url": ""
+  },
+  {
+    "mpn": "USB4105-GF-A",
+    "lcsc_code": "C2681844",
+    "description": "USB Type-C 3.1 Receptacle",
+    "manufacturer": "GCT",
+    "price": "0.15",
+    "stock": 60000,
+    "package": "SMD",
+    "category": "connectors",
+    "datasheet": "",
+    "image_url": ""
+  }
+]

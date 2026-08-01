@@ -1,0 +1,14 @@
+{
+  "categories": {
+    "resistors": 6,
+    "capacitors": 6,
+    "inductors": 6,
+    "leds": 5,
+    "mcus_stm32": 5,
+    "mcus_esp32": 4,
+    "connectors": 3,
+    "voltage_regulators": 4
+  },
+  "total": 39,
+  "generated": 0
+}

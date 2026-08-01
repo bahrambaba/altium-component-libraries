@@ -1,0 +1,52 @@
+; Altium SchLib Template File
+; Generated: 2026-08-01T20:05:33.035840
+; Component count: 3
+; 
+
+[COMPONENT]
+Name=TYPE-C-31-M-12
+Description=USB Type-C Receptacle 16-pin
+Manufacturer=Korean Hrop
+Package=SMD
+LCSC=
+Pins=8
+Pin1=1,IO,-150,-300
+Pin2=2,IO,-150,-200
+Pin3=3,IO,-150,-100
+Pin4=4,IO,-150,0
+Pin5=5,IO,-150,100
+Pin6=6,IO,-150,200
+Pin7=7,IO,-150,300
+Pin8=8,IO,-150,400
+
+[COMPONENT]
+Name=TYPE-C-31-M-17
+Description=USB Type-C Receptacle 24-pin
+Manufacturer=Korean Hrop
+Package=SMD
+LCSC=
+Pins=8
+Pin1=1,IO,-150,-300
+Pin2=2,IO,-150,-200
+Pin3=3,IO,-150,-100
+Pin4=4,IO,-150,0
+Pin5=5,IO,-150,100
+Pin6=6,IO,-150,200
+Pin7=7,IO,-150,300
+Pin8=8,IO,-150,400
+
+[COMPONENT]
+Name=USB4105-GF-A
+Description=USB Type-C 3.1 Receptacle
+Manufacturer=GCT
+Package=SMD
+LCSC=
+Pins=8
+Pin1=1,IO,-150,-300
+Pin2=2,IO,-150,-200
+Pin3=3,IO,-150,-100
+Pin4=4,IO,-150,0
+Pin5=5,IO,-150,100
+Pin6=6,IO,-150,200
+Pin7=7,IO,-150,300
+Pin8=8,IO,-150,400

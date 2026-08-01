@@ -1,0 +1,64 @@
+; Altium SchLib Template File
+; Generated: 2026-08-01T20:05:33.035346
+; Component count: 6
+; 
+
+[COMPONENT]
+Name=RC0402FR-07100KL
+Description=100K Ohm 0402 Resistor
+Manufacturer=Yageo
+Package=0402
+LCSC=
+Pins=2
+Pin1=1,Passive,-100,0
+Pin2=2,Passive,100,0
+
+[COMPONENT]
+Name=RC0402FR-0710KL
+Description=10K Ohm 0402 Resistor
+Manufacturer=Yageo
+Package=0402
+LCSC=
+Pins=2
+Pin1=1,Passive,-100,0
+Pin2=2,Passive,100,0
+
+[COMPONENT]
+Name=RC0402FR-074K7L
+Description=4.7K Ohm 0402 Resistor
+Manufacturer=Yageo
+Package=0402
+LCSC=
+Pins=2
+Pin1=1,Passive,-100,0
+Pin2=2,Passive,100,0
+
+[COMPONENT]
+Name=RC0402FR-071KL
+Description=1K Ohm 0402 Resistor
+Manufacturer=Yageo
+Package=0402
+LCSC=
+Pins=2
+Pin1=1,Passive,-100,0
+Pin2=2,Passive,100,0
+
+[COMPONENT]
+Name=RC0402FR-07220RL
+Description=220 Ohm 0402 Resistor
+Manufacturer=Yageo
+Package=0402
+LCSC=
+Pins=2
+Pin1=1,Passive,-100,0
+Pin2=2,Passive,100,0
+
+[COMPONENT]
+Name=RC0402FR-0747RL
+Description=47 Ohm 0402 Resistor
+Manufacturer=Yageo
+Package=0402
+LCSC=
+Pins=2
+Pin1=1,Passive,-100,0
+Pin2=2,Passive,100,0

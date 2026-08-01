@@ -1,0 +1,54 @@
+; Altium SchLib Template File
+; Generated: 2026-08-01T20:05:33.034659
+; Component count: 5
+; 
+
+[COMPONENT]
+Name=150060GS75000
+Description=Green LED 0603
+Manufacturer=Wurth
+Package=0603
+LCSC=
+Pins=2
+Pin1=1,Passive,-100,0
+Pin2=2,Passive,100,0
+
+[COMPONENT]
+Name=150060RS75000
+Description=Red LED 0603
+Manufacturer=Wurth
+Package=0603
+LCSC=
+Pins=2
+Pin1=1,Passive,-100,0
+Pin2=2,Passive,100,0
+
+[COMPONENT]
+Name=150060YS75000
+Description=Yellow LED 0603
+Manufacturer=Wurth
+Package=0603
+LCSC=
+Pins=2
+Pin1=1,Passive,-100,0
+Pin2=2,Passive,100,0
+
+[COMPONENT]
+Name=150060BS75000
+Description=Blue LED 0603
+Manufacturer=Wurth
+Package=0603
+LCSC=
+Pins=2
+Pin1=1,Passive,-100,0
+Pin2=2,Passive,100,0
+
+[COMPONENT]
+Name=WL-SMCW-0603-White
+Description=White LED 0603
+Manufacturer=Wurth
+Package=0603
+LCSC=
+Pins=2
+Pin1=1,Passive,-100,0
+Pin2=2,Passive,100,0

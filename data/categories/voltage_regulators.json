@@ -1,0 +1,50 @@
+[
+  {
+    "mpn": "AMS1117-3.3",
+    "lcsc_code": "C6186",
+    "description": "3.3V LDO Voltage Regulator",
+    "manufacturer": "AMS",
+    "price": "0.05",
+    "stock": 200000,
+    "package": "SOT-223",
+    "category": "voltage_regulators",
+    "datasheet": "",
+    "image_url": ""
+  },
+  {
+    "mpn": "RT9013-33GB",
+    "lcsc_code": "C53480",
+    "description": "3.3V 500mA LDO SOT-23",
+    "manufacturer": "Richtek",
+    "price": "0.03",
+    "stock": 80000,
+    "package": "SOT-23",
+    "category": "voltage_regulators",
+    "datasheet": "",
+    "image_url": ""
+  },
+  {
+    "mpn": "ME6211C33M5G",
+    "lcsc_code": "C82955",
+    "description": "3.3V 500mA LDO SOT-23-5",
+    "manufacturer": "ME",
+    "price": "0.02",
+    "stock": 90000,
+    "package": "SOT-23-5",
+    "category": "voltage_regulators",
+    "datasheet": "",
+    "image_url": ""
+  },
+  {
+    "mpn": "XC6206P332MR",
+    "lcsc_code": "C5306",
+    "description": "3.3V 250mA LDO SOT-23",
+    "manufacturer": "Torex",
+    "price": "0.03",
+    "stock": 120000,
+    "package": "SOT-23",
+    "category": "voltage_regulators",
+    "datasheet": "",
+    "image_url": ""
+  }
+]

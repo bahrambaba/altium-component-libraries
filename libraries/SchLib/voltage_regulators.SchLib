@@ -1,0 +1,68 @@
+; Altium SchLib Template File
+; Generated: 2026-08-01T20:05:33.034989
+; Component count: 4
+; 
+
+[COMPONENT]
+Name=AMS1117-3.3
+Description=3.3V LDO Voltage Regulator
+Manufacturer=AMS
+Package=SOT-223
+LCSC=
+Pins=8
+Pin1=1,IO,-150,-300
+Pin2=2,IO,-150,-200
+Pin3=3,IO,-150,-100
+Pin4=4,IO,-150,0
+Pin5=5,IO,-150,100
+Pin6=6,IO,-150,200
+Pin7=7,IO,-150,300
+Pin8=8,IO,-150,400
+
+[COMPONENT]
+Name=RT9013-33GB
+Description=3.3V 500mA LDO SOT-23
+Manufacturer=Richtek
+Package=SOT-23
+LCSC=
+Pins=8
+Pin1=1,IO,-150,-300
+Pin2=2,IO,-150,-200
+Pin3=3,IO,-150,-100
+Pin4=4,IO,-150,0
+Pin5=5,IO,-150,100
+Pin6=6,IO,-150,200
+Pin7=7,IO,-150,300
+Pin8=8,IO,-150,400
+
+[COMPONENT]
+Name=ME6211C33M5G
+Description=3.3V 500mA LDO SOT-23-5
+Manufacturer=ME
+Package=SOT-23-5
+LCSC=
+Pins=8
+Pin1=1,IO,-150,-300
+Pin2=2,IO,-150,-200
+Pin3=3,IO,-150,-100
+Pin4=4,IO,-150,0
+Pin5=5,IO,-150,100
+Pin6=6,IO,-150,200
+Pin7=7,IO,-150,300
+Pin8=8,IO,-150,400
+
+[COMPONENT]
+Name=XC6206P332MR
+Description=3.3V 250mA LDO SOT-23
+Manufacturer=Torex
+Package=SOT-23
+LCSC=
+Pins=8
+Pin1=1,IO,-150,-300
+Pin2=2,IO,-150,-200
+Pin3=3,IO,-150,-100
+Pin4=4,IO,-150,0
+Pin5=5,IO,-150,100
+Pin6=6,IO,-150,200
+Pin7=7,IO,-150,300
+Pin8=8,IO,-150,400

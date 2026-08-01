@@ -1,0 +1,74 @@
+[
+  {
+    "mpn": "RC0402FR-07100KL",
+    "lcsc_code": "C25114",
+    "description": "100K Ohm 0402 Resistor",
+    "manufacturer": "Yageo",
+    "price": "0.001",
+    "stock": 50000,
+    "package": "0402",
+    "category": "resistors",
+    "datasheet": "",
+    "image_url": ""
+  },
+  {
+    "mpn": "RC0402FR-0710KL",
+    "lcsc_code": "C25743",
+    "description": "10K Ohm 0402 Resistor",
+    "manufacturer": "Yageo",
+    "price": "0.001",
+    "stock": 80000,
+    "package": "0402",
+    "category": "resistors",
+    "datasheet": "",
+    "image_url": ""
+  },
+  {
+    "mpn": "RC0402FR-074K7L",
+    "lcsc_code": "C25917",
+    "description": "4.7K Ohm 0402 Resistor",
+    "manufacturer": "Yageo",
+    "price": "0.001",
+    "stock": 60000,
+    "package": "0402",
+    "category": "resistors",
+    "datasheet": "",
+    "image_url": ""
+  },
+  {
+    "mpn": "RC0402FR-071KL",
+    "lcsc_code": "C11702",
+    "description": "1K Ohm 0402 Resistor",
+    "manufacturer": "Yageo",
+    "price": "0.001",
+    "stock": 100000,
+    "package": "0402",
+    "category": "resistors",
+    "datasheet": "",
+    "image_url": ""
+  },
+  {
+    "mpn": "RC0402FR-07220RL",
+    "lcsc_code": "C25076",
+    "description": "220 Ohm 0402 Resistor",
+    "manufacturer": "Yageo",
+    "price": "0.001",
+    "stock": 70000,
+    "package": "0402",
+    "category": "resistors",
+    "datasheet": "",
+    "image_url": ""
+  },
+  {
+    "mpn": "RC0402FR-0747RL",
+    "lcsc_code": "C25117",
+    "description": "47 Ohm 0402 Resistor",
+    "manufacturer": "Yageo",
+    "price": "0.001",
+    "stock": 45000,
+    "package": "0402",
+    "category": "resistors",
+    "datasheet": "",
+    "image_url": ""
+  }
+]

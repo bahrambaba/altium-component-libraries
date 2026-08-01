@@ -1,0 +1,50 @@
+[
+  {
+    "mpn": "ESP32-WROOM-32E",
+    "lcsc_code": "C269247",
+    "description": "ESP32 WiFi+BT Module",
+    "manufacturer": "Espressif",
+    "price": "2.80",
+    "stock": 50000,
+    "package": "Module",
+    "category": "mcus_esp32",
+    "datasheet": "",
+    "image_url": ""
+  },
+  {
+    "mpn": "ESP32-WROVER-E",
+    "lcsc_code": "C279248",
+    "description": "ESP32 WROVER with PSRAM",
+    "manufacturer": "Espressif",
+    "price": "3.50",
+    "stock": 30000,
+    "package": "Module",
+    "category": "mcus_esp32",
+    "datasheet": "",
+    "image_url": ""
+  },
+  {
+    "mpn": "ESP32-C3-WROOM-02",
+    "lcsc_code": "C295252",
+    "description": "ESP32-C3 WiFi Module",
+    "manufacturer": "Espressif",
+    "price": "2.10",
+    "stock": 35000,
+    "package": "Module",
+    "category": "mcus_esp32",
+    "datasheet": "",
+    "image_url": ""
+  },
+  {
+    "mpn": "ESP32-S3-WROOM-1",
+    "lcsc_code": "C3004033",
+    "description": "ESP32-S3 WiFi Module",
+    "manufacturer": "Espressif",
+    "price": "2.50",
+    "stock": 40000,
+    "package": "Module",
+    "category": "mcus_esp32",
+    "datasheet": "",
+    "image_url": ""
+  }
+]

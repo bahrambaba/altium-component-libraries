@@ -1,0 +1,62 @@
+[
+  {
+    "mpn": "STM32F103C8T6",
+    "lcsc_code": "C8734",
+    "description": "STM32F103 MCU LQFP48",
+    "manufacturer": "STMicro",
+    "price": "1.50",
+    "stock": 20000,
+    "package": "LQFP48",
+    "category": "mcus_stm32",
+    "datasheet": "",
+    "image_url": ""
+  },
+  {
+    "mpn": "STM32F407VGT6",
+    "lcsc_code": "C23376",
+    "description": "STM32F407 MCU LQFP100",
+    "manufacturer": "STMicro",
+    "price": "5.80",
+    "stock": 15000,
+    "package": "LQFP100",
+    "category": "mcus_stm32",
+    "datasheet": "",
+    "image_url": ""
+  },
+  {
+    "mpn": "STM32G030F6P6",
+    "lcsc_code": "C5340863",
+    "description": "STM32G030 MCU TSSOP20",
+    "manufacturer": "STMicro",
+    "price": "0.60",
+    "stock": 18000,
+    "package": "TSSOP20",
+    "category": "mcus_stm32",
+    "datasheet": "",
+    "image_url": ""
+  },
+  {
+    "mpn": "STM32L432KCU6",
+    "lcsc_code": "C92504",
+    "description": "STM32L432 MCU UFQFPN32",
+    "manufacturer": "STMicro",
+    "price": "2.40",
+    "stock": 12000,
+    "package": "UFQFPN32",
+    "category": "mcus_stm32",
+    "datasheet": "",
+    "image_url": ""
+  },
+  {
+    "mpn": "STM32H743VIT6",
+    "lcsc_code": "C173854",
+    "description": "STM32H743 MCU LQFP100",
+    "manufacturer": "STMicro",
+    "price": "12.50",
+    "stock": 8000,
+    "package": "LQFP100",
+    "category": "mcus_stm32",
+    "datasheet": "",
+    "image_url": ""
+  }
+]

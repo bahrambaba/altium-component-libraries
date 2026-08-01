@@ -1,0 +1,62 @@
+[
+  {
+    "mpn": "150060GS75000",
+    "lcsc_code": "C72043",
+    "description": "Green LED 0603",
+    "manufacturer": "Wurth",
+    "price": "0.02",
+    "stock": 40000,
+    "package": "0603",
+    "category": "leds",
+    "datasheet": "",
+    "image_url": ""
+  },
+  {
+    "mpn": "150060RS75000",
+    "lcsc_code": "C72044",
+    "description": "Red LED 0603",
+    "manufacturer": "Wurth",
+    "price": "0.02",
+    "stock": 35000,
+    "package": "0603",
+    "category": "leds",
+    "datasheet": "",
+    "image_url": ""
+  },
+  {
+    "mpn": "150060YS75000",
+    "lcsc_code": "C72045",
+    "description": "Yellow LED 0603",
+    "manufacturer": "Wurth",
+    "price": "0.02",
+    "stock": 30000,
+    "package": "0603",
+    "category": "leds",
+    "datasheet": "",
+    "image_url": ""
+  },
+  {
+    "mpn": "150060BS75000",
+    "lcsc_code": "C72046",
+    "description": "Blue LED 0603",
+    "manufacturer": "Wurth",
+    "price": "0.02",
+    "stock": 28000,
+    "package": "0603",
+    "category": "leds",
+    "datasheet": "",
+    "image_url": ""
+  },
+  {
+    "mpn": "WL-SMCW-0603-White",
+    "lcsc_code": "C72047",
+    "description": "White LED 0603",
+    "manufacturer": "Wurth",
+    "price": "0.02",
+    "stock": 25000,
+    "package": "0603",
+    "category": "leds",
+    "datasheet": "",
+    "image_url": ""
+  }
+]

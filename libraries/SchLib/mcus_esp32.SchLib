@@ -1,0 +1,68 @@
+; Altium SchLib Template File
+; Generated: 2026-08-01T20:05:33.033799
+; Component count: 4
+; 
+
+[COMPONENT]
+Name=ESP32-WROOM-32E
+Description=ESP32 WiFi+BT Module
+Manufacturer=Espressif
+Package=Module
+LCSC=
+Pins=8
+Pin1=1,IO,-150,-300
+Pin2=2,IO,-150,-200
+Pin3=3,IO,-150,-100
+Pin4=4,IO,-150,0
+Pin5=5,IO,-150,100
+Pin6=6,IO,-150,200
+Pin7=7,IO,-150,300
+Pin8=8,IO,-150,400
+
+[COMPONENT]
+Name=ESP32-WROVER-E
+Description=ESP32 WROVER with PSRAM
+Manufacturer=Espressif
+Package=Module
+LCSC=
+Pins=8
+Pin1=1,IO,-150,-300
+Pin2=2,IO,-150,-200
+Pin3=3,IO,-150,-100
+Pin4=4,IO,-150,0
+Pin5=5,IO,-150,100
+Pin6=6,IO,-150,200
+Pin7=7,IO,-150,300
+Pin8=8,IO,-150,400
+
+[COMPONENT]
+Name=ESP32-C3-WROOM-02
+Description=ESP32-C3 WiFi Module
+Manufacturer=Espressif
+Package=Module
+LCSC=
+Pins=8
+Pin1=1,IO,-150,-300
+Pin2=2,IO,-150,-200
+Pin3=3,IO,-150,-100
+Pin4=4,IO,-150,0
+Pin5=5,IO,-150,100
+Pin6=6,IO,-150,200
+Pin7=7,IO,-150,300
+Pin8=8,IO,-150,400
+
+[COMPONENT]
+Name=ESP32-S3-WROOM-1
+Description=ESP32-S3 WiFi Module
+Manufacturer=Espressif
+Package=Module
+LCSC=
+Pins=8
+Pin1=1,IO,-150,-300
+Pin2=2,IO,-150,-200
+Pin3=3,IO,-150,-100
+Pin4=4,IO,-150,0
+Pin5=5,IO,-150,100
+Pin6=6,IO,-150,200
+Pin7=7,IO,-150,300
+Pin8=8,IO,-150,400
