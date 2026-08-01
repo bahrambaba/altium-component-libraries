@@ -1,0 +1,167 @@
+[
+  {
+    "name": "150060GS75000",
+    "description": "Green LED 0603",
+    "manufacturer": "Wurth",
+    "package": "0603",
+    "is_passive": true,
+    "pins": [
+      {
+        "number": "1",
+        "name": "1",
+        "x": -100,
+        "y": 0
+      },
+      {
+        "number": "2",
+        "name": "2",
+        "x": 100,
+        "y": 0
+      }
+    ],
+    "parameters": {
+      "LCSC": "",
+      "Datasheet": "",
+      "Category": "leds"
+    },
+    "body": {
+      "type": "rectangle",
+      "x": -50,
+      "y": -25,
+      "w": 100,
+      "h": 50
+    }
+  },
+  {
+    "name": "150060RS75000",
+    "description": "Red LED 0603",
+    "manufacturer": "Wurth",
+    "package": "0603",
+    "is_passive": true,
+    "pins": [
+      {
+        "number": "1",
+        "name": "1",
+        "x": -100,
+        "y": 0
+      },
+      {
+        "number": "2",
+        "name": "2",
+        "x": 100,
+        "y": 0
+      }
+    ],
+    "parameters": {
+      "LCSC": "",
+      "Datasheet": "",
+      "Category": "leds"
+    },
+    "body": {
+      "type": "rectangle",
+      "x": -50,
+      "y": -25,
+      "w": 100,
+      "h": 50
+    }
+  },
+  {
+    "name": "150060YS75000",
+    "description": "Yellow LED 0603",
+    "manufacturer": "Wurth",
+    "package": "0603",
+    "is_passive": true,
+    "pins": [
+      {
+        "number": "1",
+        "name": "1",
+        "x": -100,
+        "y": 0
+      },
+      {
+        "number": "2",
+        "name": "2",
+        "x": 100,
+        "y": 0
+      }
+    ],
+    "parameters": {
+      "LCSC": "",
+      "Datasheet": "",
+      "Category": "leds"
+    },
+    "body": {
+      "type": "rectangle",
+      "x": -50,
+      "y": -25,
+      "w": 100,
+      "h": 50
+    }
+  },
+  {
+    "name": "150060BS75000",
+    "description": "Blue LED 0603",
+    "manufacturer": "Wurth",
+    "package": "0603",
+    "is_passive": true,
+    "pins": [
+      {
+        "number": "1",
+        "name": "1",
+        "x": -100,
+        "y": 0
+      },
+      {
+        "number": "2",
+        "name": "2",
+        "x": 100,
+        "y": 0
+      }
+    ],
+    "parameters": {
+      "LCSC": "",
+      "Datasheet": "",
+      "Category": "leds"
+    },
+    "body": {
+      "type": "rectangle",
+      "x": -50,
+      "y": -25,
+      "w": 100,
+      "h": 50
+    }
+  },
+  {
+    "name": "WL-SMCW-0603-White",
+    "description": "White LED 0603",
+    "manufacturer": "Wurth",
+    "package": "0603",
+    "is_passive": true,
+    "pins": [
+      {
+        "number": "1",
+        "name": "1",
+        "x": -100,
+        "y": 0
+      },
+      {
+        "number": "2",
+        "name": "2",
+        "x": 100,
+        "y": 0
+      }
+    ],
+    "parameters": {
+      "LCSC": "",
+      "Datasheet": "",
+      "Category": "leds"
+    },
+    "body": {
+      "type": "rectangle",
+      "x": -50,
+      "y": -25,
+      "w": 100,
+      "h": 50
+    }
+  }
+]

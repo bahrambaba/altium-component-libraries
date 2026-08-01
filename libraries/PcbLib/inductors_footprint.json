@@ -1,0 +1,176 @@
+[
+  {
+    "name": "RC0402FR-07100KL",
+    "package": "0402",
+    "description": "100K Ohm 0402 Resistor",
+    "dimensions": {
+      "width": 1.0,
+      "height": 0.5,
+      "pad_w": 0.5,
+      "pad_h": 0.5
+    },
+    "pads": [
+      {
+        "number": 1,
+        "x": -0.5,
+        "y": 0,
+        "w": 0.5,
+        "h": 0.5
+      },
+      {
+        "number": 2,
+        "x": 0.5,
+        "y": 0,
+        "w": 0.5,
+        "h": 0.5
+      }
+    ],
+    "silkscreen": [],
+    "courtyard": []
+  },
+  {
+    "name": "RC0402FR-0710KL",
+    "package": "0402",
+    "description": "10K Ohm 0402 Resistor",
+    "dimensions": {
+      "width": 1.0,
+      "height": 0.5,
+      "pad_w": 0.5,
+      "pad_h": 0.5
+    },
+    "pads": [
+      {
+        "number": 1,
+        "x": -0.5,
+        "y": 0,
+        "w": 0.5,
+        "h": 0.5
+      },
+      {
+        "number": 2,
+        "x": 0.5,
+        "y": 0,
+        "w": 0.5,
+        "h": 0.5
+      }
+    ],
+    "silkscreen": [],
+    "courtyard": []
+  },
+  {
+    "name": "RC0402FR-074K7L",
+    "package": "0402",
+    "description": "4.7K Ohm 0402 Resistor",
+    "dimensions": {
+      "width": 1.0,
+      "height": 0.5,
+      "pad_w": 0.5,
+      "pad_h": 0.5
+    },
+    "pads": [
+      {
+        "number": 1,
+        "x": -0.5,
+        "y": 0,
+        "w": 0.5,
+        "h": 0.5
+      },
+      {
+        "number": 2,
+        "x": 0.5,
+        "y": 0,
+        "w": 0.5,
+        "h": 0.5
+      }
+    ],
+    "silkscreen": [],
+    "courtyard": []
+  },
+  {
+    "name": "RC0402FR-071KL",
+    "package": "0402",
+    "description": "1K Ohm 0402 Resistor",
+    "dimensions": {
+      "width": 1.0,
+      "height": 0.5,
+      "pad_w": 0.5,
+      "pad_h": 0.5
+    },
+    "pads": [
+      {
+        "number": 1,
+        "x": -0.5,
+        "y": 0,
+        "w": 0.5,
+        "h": 0.5
+      },
+      {
+        "number": 2,
+        "x": 0.5,
+        "y": 0,
+        "w": 0.5,
+        "h": 0.5
+      }
+    ],
+    "silkscreen": [],
+    "courtyard": []
+  },
+  {
+    "name": "RC0402FR-07220RL",
+    "package": "0402",
+    "description": "220 Ohm 0402 Resistor",
+    "dimensions": {
+      "width": 1.0,
+      "height": 0.5,
+      "pad_w": 0.5,
+      "pad_h": 0.5
+    },
+    "pads": [
+      {
+        "number": 1,
+        "x": -0.5,
+        "y": 0,
+        "w": 0.5,
+        "h": 0.5
+      },
+      {
+        "number": 2,
+        "x": 0.5,
+        "y": 0,
+        "w": 0.5,
+        "h": 0.5
+      }
+    ],
+    "silkscreen": [],
+    "courtyard": []
+  },
+  {
+    "name": "RC0402FR-0747RL",
+    "package": "0402",
+    "description": "47 Ohm 0402 Resistor",
+    "dimensions": {
+      "width": 1.0,
+      "height": 0.5,
+      "pad_w": 0.5,
+      "pad_h": 0.5
+    },
+    "pads": [
+      {
+        "number": 1,
+        "x": -0.5,
+        "y": 0,
+        "w": 0.5,
+        "h": 0.5
+      },
+      {
+        "number": 2,
+        "x": 0.5,
+        "y": 0,
+        "w": 0.5,
+        "h": 0.5
+      }
+    ],
+    "silkscreen": [],
+    "courtyard": []
+  }
+]

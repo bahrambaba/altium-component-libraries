@@ -1,0 +1,44 @@
+[
+  {
+    "name": "TYPE-C-31-M-12",
+    "package": "SMD",
+    "description": "USB Type-C Receptacle 16-pin",
+    "dimensions": {
+      "width": 2.0,
+      "height": 2.0,
+      "pad_w": 0.5,
+      "pad_h": 0.5
+    },
+    "pads": [],
+    "silkscreen": [],
+    "courtyard": []
+  },
+  {
+    "name": "TYPE-C-31-M-17",
+    "package": "SMD",
+    "description": "USB Type-C Receptacle 24-pin",
+    "dimensions": {
+      "width": 2.0,
+      "height": 2.0,
+      "pad_w": 0.5,
+      "pad_h": 0.5
+    },
+    "pads": [],
+    "silkscreen": [],
+    "courtyard": []
+  },
+  {
+    "name": "USB4105-GF-A",
+    "package": "SMD",
+    "description": "USB Type-C 3.1 Receptacle",
+    "dimensions": {
+      "width": 2.0,
+      "height": 2.0,
+      "pad_w": 0.5,
+      "pad_h": 0.5
+    },
+    "pads": [],
+    "silkscreen": [],
+    "courtyard": []
+  }
+]

@@ -1,0 +1,90 @@
+{
+  "update_time": "2026-08-01T19:22:22.722368",
+  "sources": [
+    {
+      "source": "JLCPCB/LCSC",
+      "total": 39,
+      "generated": 0,
+      "details": {
+        "categories": {
+          "resistors": 6,
+          "capacitors": 6,
+          "inductors": 6,
+          "leds": 5,
+          "mcus_stm32": 5,
+          "mcus_esp32": 4,
+          "connectors": 3,
+          "voltage_regulators": 4
+        }
+      }
+    },
+    {
+      "source": "GitHub Aggregator",
+      "total": 0,
+      "generated": 0,
+      "details": {
+        "repos": 0
+      }
+    },
+    {
+      "source": "Altium Generator",
+      "total": 0,
+      "generated": 8,
+      "details": {
+        "categories": [
+          {
+            "name": "mcus_esp32",
+            "components": 4,
+            "schlib": "/home/runner/work/altium-component-libraries/altium-component-libraries/libraries/SchLib/mcus_esp32.SchLib",
+            "pcblib": "/home/runner/work/altium-component-libraries/altium-component-libraries/libraries/PcbLib/mcus_esp32.PcbLib"
+          },
+          {
+            "name": "mcus_stm32",
+            "components": 5,
+            "schlib": "/home/runner/work/altium-component-libraries/altium-component-libraries/libraries/SchLib/mcus_stm32.SchLib",
+            "pcblib": "/home/runner/work/altium-component-libraries/altium-component-libraries/libraries/PcbLib/mcus_stm32.PcbLib"
+          },
+          {
+            "name": "leds",
+            "components": 5,
+            "schlib": "/home/runner/work/altium-component-libraries/altium-component-libraries/libraries/SchLib/leds.SchLib",
+            "pcblib": "/home/runner/work/altium-component-libraries/altium-component-libraries/libraries/PcbLib/leds.PcbLib"
+          },
+          {
+            "name": "voltage_regulators",
+            "components": 4,
+            "schlib": "/home/runner/work/altium-component-libraries/altium-component-libraries/libraries/SchLib/voltage_regulators.SchLib",
+            "pcblib": "/home/runner/work/altium-component-libraries/altium-component-libraries/libraries/PcbLib/voltage_regulators.PcbLib"
+          },
+          {
+            "name": "resistors",
+            "components": 6,
+            "schlib": "/home/runner/work/altium-component-libraries/altium-component-libraries/libraries/SchLib/resistors.SchLib",
+            "pcblib": "/home/runner/work/altium-component-libraries/altium-component-libraries/libraries/PcbLib/resistors.PcbLib"
+          },
+          {
+            "name": "connectors",
+            "components": 3,
+            "schlib": "/home/runner/work/altium-component-libraries/altium-component-libraries/libraries/SchLib/connectors.SchLib",
+            "pcblib": "/home/runner/work/altium-component-libraries/altium-component-libraries/libraries/PcbLib/connectors.PcbLib"
+          },
+          {
+            "name": "capacitors",
+            "components": 6,
+            "schlib": "/home/runner/work/altium-component-libraries/altium-component-libraries/libraries/SchLib/capacitors.SchLib",
+            "pcblib": "/home/runner/work/altium-component-libraries/altium-component-libraries/libraries/PcbLib/capacitors.PcbLib"
+          },
+          {
+            "name": "inductors",
+            "components": 6,
+            "schlib": "/home/runner/work/altium-component-libraries/altium-component-libraries/libraries/SchLib/inductors.SchLib",
+            "pcblib": "/home/runner/work/altium-component-libraries/altium-component-libraries/libraries/PcbLib/inductors.PcbLib"
+          }
+        ],
+        "timestamp": "2026-08-01T19:22:22.722181"
+      }
+    }
+  ],
+  "total_fetched": 39,
+  "total_generated": 8
+}

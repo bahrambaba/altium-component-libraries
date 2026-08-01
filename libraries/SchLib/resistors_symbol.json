@@ -1,0 +1,200 @@
+[
+  {
+    "name": "RC0402FR-07100KL",
+    "description": "100K Ohm 0402 Resistor",
+    "manufacturer": "Yageo",
+    "package": "0402",
+    "is_passive": true,
+    "pins": [
+      {
+        "number": "1",
+        "name": "1",
+        "x": -100,
+        "y": 0
+      },
+      {
+        "number": "2",
+        "name": "2",
+        "x": 100,
+        "y": 0
+      }
+    ],
+    "parameters": {
+      "LCSC": "",
+      "Datasheet": "",
+      "Category": "resistors"
+    },
+    "body": {
+      "type": "rectangle",
+      "x": -50,
+      "y": -25,
+      "w": 100,
+      "h": 50
+    }
+  },
+  {
+    "name": "RC0402FR-0710KL",
+    "description": "10K Ohm 0402 Resistor",
+    "manufacturer": "Yageo",
+    "package": "0402",
+    "is_passive": true,
+    "pins": [
+      {
+        "number": "1",
+        "name": "1",
+        "x": -100,
+        "y": 0
+      },
+      {
+        "number": "2",
+        "name": "2",
+        "x": 100,
+        "y": 0
+      }
+    ],
+    "parameters": {
+      "LCSC": "",
+      "Datasheet": "",
+      "Category": "resistors"
+    },
+    "body": {
+      "type": "rectangle",
+      "x": -50,
+      "y": -25,
+      "w": 100,
+      "h": 50
+    }
+  },
+  {
+    "name": "RC0402FR-074K7L",
+    "description": "4.7K Ohm 0402 Resistor",
+    "manufacturer": "Yageo",
+    "package": "0402",
+    "is_passive": true,
+    "pins": [
+      {
+        "number": "1",
+        "name": "1",
+        "x": -100,
+        "y": 0
+      },
+      {
+        "number": "2",
+        "name": "2",
+        "x": 100,
+        "y": 0
+      }
+    ],
+    "parameters": {
+      "LCSC": "",
+      "Datasheet": "",
+      "Category": "resistors"
+    },
+    "body": {
+      "type": "rectangle",
+      "x": -50,
+      "y": -25,
+      "w": 100,
+      "h": 50
+    }
+  },
+  {
+    "name": "RC0402FR-071KL",
+    "description": "1K Ohm 0402 Resistor",
+    "manufacturer": "Yageo",
+    "package": "0402",
+    "is_passive": true,
+    "pins": [
+      {
+        "number": "1",
+        "name": "1",
+        "x": -100,
+        "y": 0
+      },
+      {
+        "number": "2",
+        "name": "2",
+        "x": 100,
+        "y": 0
+      }
+    ],
+    "parameters": {
+      "LCSC": "",
+      "Datasheet": "",
+      "Category": "resistors"
+    },
+    "body": {
+      "type": "rectangle",
+      "x": -50,
+      "y": -25,
+      "w": 100,
+      "h": 50
+    }
+  },
+  {
+    "name": "RC0402FR-07220RL",
+    "description": "220 Ohm 0402 Resistor",
+    "manufacturer": "Yageo",
+    "package": "0402",
+    "is_passive": true,
+    "pins": [
+      {
+        "number": "1",
+        "name": "1",
+        "x": -100,
+        "y": 0
+      },
+      {
+        "number": "2",
+        "name": "2",
+        "x": 100,
+        "y": 0
+      }
+    ],
+    "parameters": {
+      "LCSC": "",
+      "Datasheet": "",
+      "Category": "resistors"
+    },
+    "body": {
+      "type": "rectangle",
+      "x": -50,
+      "y": -25,
+      "w": 100,
+      "h": 50
+    }
+  },
+  {
+    "name": "RC0402FR-0747RL",
+    "description": "47 Ohm 0402 Resistor",
+    "manufacturer": "Yageo",
+    "package": "0402",
+    "is_passive": true,
+    "pins": [
+      {
+        "number": "1",
+        "name": "1",
+        "x": -100,
+        "y": 0
+      },
+      {
+        "number": "2",
+        "name": "2",
+        "x": 100,
+        "y": 0
+      }
+    ],
+    "parameters": {
+      "LCSC": "",
+      "Datasheet": "",
+      "Category": "resistors"
+    },
+    "body": {
+      "type": "rectangle",
+      "x": -50,
+      "y": -25,
+      "w": 100,
+      "h": 50
+    }
+  }
+]

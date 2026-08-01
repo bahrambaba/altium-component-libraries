@@ -1,0 +1,147 @@
+[
+  {
+    "name": "150060GS75000",
+    "package": "0603",
+    "description": "Green LED 0603",
+    "dimensions": {
+      "width": 1.6,
+      "height": 0.8,
+      "pad_w": 0.8,
+      "pad_h": 0.8
+    },
+    "pads": [
+      {
+        "number": 1,
+        "x": -0.8,
+        "y": 0,
+        "w": 0.8,
+        "h": 0.8
+      },
+      {
+        "number": 2,
+        "x": 0.8,
+        "y": 0,
+        "w": 0.8,
+        "h": 0.8
+      }
+    ],
+    "silkscreen": [],
+    "courtyard": []
+  },
+  {
+    "name": "150060RS75000",
+    "package": "0603",
+    "description": "Red LED 0603",
+    "dimensions": {
+      "width": 1.6,
+      "height": 0.8,
+      "pad_w": 0.8,
+      "pad_h": 0.8
+    },
+    "pads": [
+      {
+        "number": 1,
+        "x": -0.8,
+        "y": 0,
+        "w": 0.8,
+        "h": 0.8
+      },
+      {
+        "number": 2,
+        "x": 0.8,
+        "y": 0,
+        "w": 0.8,
+        "h": 0.8
+      }
+    ],
+    "silkscreen": [],
+    "courtyard": []
+  },
+  {
+    "name": "150060YS75000",
+    "package": "0603",
+    "description": "Yellow LED 0603",
+    "dimensions": {
+      "width": 1.6,
+      "height": 0.8,
+      "pad_w": 0.8,
+      "pad_h": 0.8
+    },
+    "pads": [
+      {
+        "number": 1,
+        "x": -0.8,
+        "y": 0,
+        "w": 0.8,
+        "h": 0.8
+      },
+      {
+        "number": 2,
+        "x": 0.8,
+        "y": 0,
+        "w": 0.8,
+        "h": 0.8
+      }
+    ],
+    "silkscreen": [],
+    "courtyard": []
+  },
+  {
+    "name": "150060BS75000",
+    "package": "0603",
+    "description": "Blue LED 0603",
+    "dimensions": {
+      "width": 1.6,
+      "height": 0.8,
+      "pad_w": 0.8,
+      "pad_h": 0.8
+    },
+    "pads": [
+      {
+        "number": 1,
+        "x": -0.8,
+        "y": 0,
+        "w": 0.8,
+        "h": 0.8
+      },
+      {
+        "number": 2,
+        "x": 0.8,
+        "y": 0,
+        "w": 0.8,
+        "h": 0.8
+      }
+    ],
+    "silkscreen": [],
+    "courtyard": []
+  },
+  {
+    "name": "WL-SMCW-0603-White",
+    "package": "0603",
+    "description": "White LED 0603",
+    "dimensions": {
+      "width": 1.6,
+      "height": 0.8,
+      "pad_w": 0.8,
+      "pad_h": 0.8
+    },
+    "pads": [
+      {
+        "number": 1,
+        "x": -0.8,
+        "y": 0,
+        "w": 0.8,
+        "h": 0.8
+      },
+      {
+        "number": 2,
+        "x": 0.8,
+        "y": 0,
+        "w": 0.8,
+        "h": 0.8
+      }
+    ],
+    "silkscreen": [],
+    "courtyard": []
+  }
+]

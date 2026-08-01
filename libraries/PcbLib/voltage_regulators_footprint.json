@@ -1,0 +1,145 @@
+[
+  {
+    "name": "AMS1117-3.3",
+    "package": "SOT-223",
+    "description": "3.3V LDO Voltage Regulator",
+    "dimensions": {
+      "width": 6.5,
+      "height": 3.5,
+      "pad_w": 1.5,
+      "pad_h": 1.5
+    },
+    "pads": [],
+    "silkscreen": [],
+    "courtyard": []
+  },
+  {
+    "name": "RT9013-33GB",
+    "package": "SOT-23",
+    "description": "3.3V 500mA LDO SOT-23",
+    "dimensions": {
+      "width": 2.9,
+      "height": 1.6,
+      "pad_w": 0.9,
+      "pad_h": 1.0
+    },
+    "pads": [
+      {
+        "number": 1,
+        "x": -1.0,
+        "y": -1.0,
+        "w": 0.6,
+        "h": 1.0
+      },
+      {
+        "number": 2,
+        "x": 0,
+        "y": -1.0,
+        "w": 0.6,
+        "h": 1.0
+      },
+      {
+        "number": 3,
+        "x": 1.0,
+        "y": -1.0,
+        "w": 0.6,
+        "h": 1.0
+      },
+      {
+        "number": 4,
+        "x": 0,
+        "y": 1.0,
+        "w": 0.6,
+        "h": 1.0
+      }
+    ],
+    "silkscreen": [],
+    "courtyard": []
+  },
+  {
+    "name": "ME6211C33M5G",
+    "package": "SOT-23-5",
+    "description": "3.3V 500mA LDO SOT-23-5",
+    "dimensions": {
+      "width": 2.0,
+      "height": 2.0,
+      "pad_w": 0.5,
+      "pad_h": 0.5
+    },
+    "pads": [
+      {
+        "number": 1,
+        "x": -1.0,
+        "y": -1.0,
+        "w": 0.6,
+        "h": 1.0
+      },
+      {
+        "number": 2,
+        "x": 0,
+        "y": -1.0,
+        "w": 0.6,
+        "h": 1.0
+      },
+      {
+        "number": 3,
+        "x": 1.0,
+        "y": -1.0,
+        "w": 0.6,
+        "h": 1.0
+      },
+      {
+        "number": 4,
+        "x": 0,
+        "y": 1.0,
+        "w": 0.6,
+        "h": 1.0
+      }
+    ],
+    "silkscreen": [],
+    "courtyard": []
+  },
+  {
+    "name": "XC6206P332MR",
+    "package": "SOT-23",
+    "description": "3.3V 250mA LDO SOT-23",
+    "dimensions": {
+      "width": 2.9,
+      "height": 1.6,
+      "pad_w": 0.9,
+      "pad_h": 1.0
+    },
+    "pads": [
+      {
+        "number": 1,
+        "x": -1.0,
+        "y": -1.0,
+        "w": 0.6,
+        "h": 1.0
+      },
+      {
+        "number": 2,
+        "x": 0,
+        "y": -1.0,
+        "w": 0.6,
+        "h": 1.0
+      },
+      {
+        "number": 3,
+        "x": 1.0,
+        "y": -1.0,
+        "w": 0.6,
+        "h": 1.0
+      },
+      {
+        "number": 4,
+        "x": 0,
+        "y": 1.0,
+        "w": 0.6,
+        "h": 1.0
+      }
+    ],
+    "silkscreen": [],
+    "courtyard": []
+  }
+]
