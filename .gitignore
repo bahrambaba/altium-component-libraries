@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.env
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (keep structure, ignore generated files)
+data/categories/*.json
+data/*_components.json
+data/*_stats.json
+data/update.log
+
+# Libraries (keep structure, ignore generated files)
+libraries/SchLib/*.SchLib
+libraries/PcbLib/*.PcbLib
+libraries/IntLib/*.IntLib
+
+# Models
+models/STEP/*.step
+models/STEP/*.stp
