@@ -1,8 +1,721 @@
 {
-  "scan_time": "2026-08-01T19:27:45.908430",
-  "repos_found": 75,
-  "repos_scanned": 0,
-  "repos_with_altium_files": 0,
-  "total_altium_files": 0,
-  "repos": []
+  "scan_time": "2026-08-01T19:51:20.933694",
+  "repos_found": 77,
+  "repos_scanned": 20,
+  "repos_with_altium_files": 4,
+  "total_altium_files": 10195,
+  "total_downloaded": 122,
+  "repos": [
+    {
+      "repo": "issus/altium-library",
+      "url": "https://github.com/issus/altium-library",
+      "stars": 2418,
+      "desc": "200K+ components with 3D models",
+      "altium_file_count": 10074,
+      "files": [
+        {
+          "path": "Altium Database Library V2.DbLib",
+          "type": ".DbLib",
+          "size_kb": 477.26
+        },
+        {
+          "path": "Templates/Footprint Defaults.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 106.0
+        },
+        {
+          "path": "footprints/Antenna/PCB - ANTENNA - ABRACON AMCA31-2R450G-S1F-T3.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 119.5
+        },
+        {
+          "path": "footprints/Antenna/PCB - ANTENNA - ANTENOVA SR42W001.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 313.5
+        },
+        {
+          "path": "footprints/Antenna/PCB - ANTENNA - ANTENOVA SR4L002.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 401.0
+        },
+        {
+          "path": "footprints/Antenna/PCB - ANTENNA - Fractus Antennas FR01-S4-224.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 199.5
+        },
+        {
+          "path": "footprints/Antenna/PCB - ANTENNA - LINX ANT-LTE-CER-T.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 178.0
+        },
+        {
+          "path": "footprints/Antenna/PCB - ANTENNA - MOLEX 2042860001.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 248.0
+        },
+        {
+          "path": "footprints/Audio/PCB - AUDIO - CUI CMS-15113-078SP.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1214.0
+        },
+        {
+          "path": "footprints/Audio/PCB - AUDIO - CUI CMS-16093-078SP.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1768.5
+        },
+        {
+          "path": "footprints/Audio/PCB - AUDIO - Soberton SP-1208.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1172.5
+        },
+        {
+          "path": "footprints/Battery Holder/PCB - BATTERY HOLDER - KEYSTONE 1043.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 587.5
+        },
+        {
+          "path": "footprints/Battery Holder/PCB - BATTERY HOLDER - KEYSTONE 2462.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 623.0
+        },
+        {
+          "path": "footprints/Battery Holder/PCB - BATTERY HOLDER - KEYSTONE 254.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 142.5
+        },
+        {
+          "path": "footprints/Battery Holder/PCB - BATTERY HOLDER - KEYSTONE 3034TR.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 141.0
+        },
+        {
+          "path": "footprints/Battery Holder/PCB - BATTERY HOLDER - KEYSTONE 54.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 137.0
+        },
+        {
+          "path": "footprints/Battery Holder/PCB - BATTERY HOLDER - MPD BC2AAPC.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 368.5
+        },
+        {
+          "path": "footprints/Battery Holder/PCB - BATTERY HOLDER - MPD BH9VPC.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 290.5
+        },
+        {
+          "path": "footprints/Bridge Rectifier/PCB - BRIDGE RECTIFIER - Bourns CD-MBL1xxS.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 134.5
+        },
+        {
+          "path": "footprints/Buttons/PCB - BUTTONS - C&K ELUMOASAQ2C12.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 661.5
+        },
+        {
+          "path": "footprints/Buttons/PCB - BUTTONS - C&K KSC9.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 188.0
+        },
+        {
+          "path": "footprints/Buttons/PCB - BUTTONS - C&K KXT3.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 263.0
+        },
+        {
+          "path": "footprints/Buttons/PCB - BUTTONS - ESWITCH TL3750.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 121.0
+        },
+        {
+          "path": "footprints/Buttons/PCB - BUTTONS - NKK AB11AH-HA.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 173.5
+        },
+        {
+          "path": "footprints/Buttons/PCB - BUTTONS - NKK AB11AH-HC.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 173.5
+        },
+        {
+          "path": "footprints/Buttons/PCB - BUTTONS - PANASONIC EVPAW.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 121.0
+        },
+        {
+          "path": "footprints/Buttons/PCB - BUTTONS - TE FSM1LPATR.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 139.0
+        },
+        {
+          "path": "footprints/Buttons/PCB - BUTTONS - TE FSM4JSMA.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 138.0
+        },
+        {
+          "path": "footprints/Buttons/PCB - BUTTONS - TE FSM6JSMA.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 137.0
+        },
+        {
+          "path": "footprints/Buttons/PCB - BUTTONS - TE FSMSMTR.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 135.0
+        },
+        {
+          "path": "footprints/Buttons/PCB - BUTTONS - WURTH WS-TATL 440__67082622.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 300.0
+        },
+        {
+          "path": "footprints/Buzzer/PCB - BUZZER - CUI CSS-0575A-SMT-TR.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 104.5
+        },
+        {
+          "path": "footprints/Buzzer/PCB - BUZZER - CUI CT-1205H-SMT-TR.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 121.5
+        },
+        {
+          "path": "footprints/Buzzer/PCB - BUZZER - PUI Audio SMI-1027-TW-5V-R.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 118.0
+        },
+        {
+          "path": "footprints/Buzzer/PCB - BUZZER - PUI Audio SMT-0827-S-2-R.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 215.0
+        },
+        {
+          "path": "footprints/Capacitor - Aluminium/PCB - CAPACITOR - ALUMINIUM - CAP AL 10.3MM.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 224.0
+        },
+        {
+          "path": "footprints/Capacitor - Aluminium/PCB - CAPACITOR - ALUMINIUM - CAP AL TH D10 L5 H12.5.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 661.5
+        },
+        {
+          "path": "footprints/Capacitor - Aluminium/PCB - CAPACITOR - ALUMINIUM - CAP AL TH D10 L5 H14.5.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 671.5
+        },
+        {
+          "path": "footprints/Capacitor - Aluminium/PCB - CAPACITOR - ALUMINIUM - CAP AL TH D10 L5 H17.5.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 663.5
+        },
+        {
+          "path": "footprints/Capacitor - Aluminium/PCB - CAPACITOR - ALUMINIUM - CAP AL TH D10 L5 H22.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 666.5
+        },
+        {
+          "path": "footprints/Capacitor - Aluminium/PCB - CAPACITOR - ALUMINIUM - CAP AL TH D10 L5 H30.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 669.5
+        },
+        {
+          "path": "footprints/Capacitor - Aluminium/PCB - CAPACITOR - ALUMINIUM - CAP AL TH D12.5 L5 H14.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 658.5
+        },
+        {
+          "path": "footprints/Capacitor - Aluminium/PCB - CAPACITOR - ALUMINIUM - CAP AL TH D12.5 L5 H15.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 658.0
+        },
+        {
+          "path": "footprints/Capacitor - Aluminium/PCB - CAPACITOR - ALUMINIUM - CAP AL TH D12.5 L5 H16.5.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 659.5
+        },
+        {
+          "path": "footprints/Capacitor - Aluminium/PCB - CAPACITOR - ALUMINIUM - CAP AL TH D12.5 L5 H17.5.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 658.5
+        },
+        {
+          "path": "footprints/Capacitor - Aluminium/PCB - CAPACITOR - ALUMINIUM - CAP AL TH D12.5 L5 H20.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 660.5
+        },
+        {
+          "path": "footprints/Capacitor - Aluminium/PCB - CAPACITOR - ALUMINIUM - CAP AL TH D12.5 L5 H21.5.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 661.0
+        },
+        {
+          "path": "footprints/Capacitor - Aluminium/PCB - CAPACITOR - ALUMINIUM - CAP AL TH D12.5 L5 H22.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 661.0
+        },
+        {
+          "path": "footprints/Capacitor - Aluminium/PCB - CAPACITOR - ALUMINIUM - CAP AL TH D12.5 L5 H25.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 664.0
+        },
+        {
+          "path": "footprints/Capacitor - Aluminium/PCB - CAPACITOR - ALUMINIUM - CAP AL TH D12.5 L5 H26.5.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 663.0
+        }
+      ]
+    },
+    {
+      "repo": "luxonis/oak-hardware",
+      "url": "https://github.com/luxonis/oak-hardware",
+      "stars": 543,
+      "desc": "Open Source OAK Hardware designs in Altium",
+      "altium_file_count": 86,
+      "files": [
+        {
+          "path": "BG0249_DepthAI_RGB_Camera/PCB/BG0249_R1M1E1.SchLib",
+          "type": ".SchLib",
+          "size_kb": 17.0
+        },
+        {
+          "path": "BG0250TG_DepthAI_Mono_Camera/PCB/BG0250TG.IntLib",
+          "type": ".IntLib",
+          "size_kb": 1152.5
+        },
+        {
+          "path": "BG0250TG_DepthAI_Mono_Camera/PCB/BG0250TG.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1317.0
+        },
+        {
+          "path": "BG0250TG_DepthAI_Mono_Camera/PCB/BG0250TG.SCHLIB",
+          "type": ".SchLib",
+          "size_kb": 68.0
+        },
+        {
+          "path": "BK1096_OAK-1_Modular/PCB/BK1096.IntLib",
+          "type": ".IntLib",
+          "size_kb": 31189.5
+        },
+        {
+          "path": "BW0253_R0M0E0_RPIHQ_ADAPTER/PCB/BW0253_R0M0E0.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 100.5
+        },
+        {
+          "path": "BW0253_R0M0E0_RPIHQ_ADAPTER/PCB/BW0253_R0M0E0.SchLib",
+          "type": ".SchLib",
+          "size_kb": 9.5
+        },
+        {
+          "path": "BW1094_DepthAI_HAT/PCB/BG1094.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1130.5
+        },
+        {
+          "path": "BW1094_DepthAI_HAT/PCB/BG1094.SchLib",
+          "type": ".SchLib",
+          "size_kb": 23.5
+        },
+        {
+          "path": "BW1097_DepthAI_Compute_Module/PCB/BW1097_R2M2E3.SCHLIB",
+          "type": ".SchLib",
+          "size_kb": 790.5
+        },
+        {
+          "path": "BW1097_DepthAI_Compute_Module/PCB/PcbLib1.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1092.5
+        },
+        {
+          "path": "BW1098FFC_DepthAI_USB3/PCB/BW1098FFC.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1116.0
+        },
+        {
+          "path": "BW1098FFC_DepthAI_USB3/PCB/BW1098FFC.SchLib",
+          "type": ".SchLib",
+          "size_kb": 23.5
+        },
+        {
+          "path": "BW1098OAK_USB3C/PCB/BW1091.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 0.0
+        },
+        {
+          "path": "BW1098OAK_USB3C/PCB/BW1092_R0M0E0.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 2234.5
+        },
+        {
+          "path": "BW1098OAK_USB3C/PCB/BW1092_R0M0E0.SchLib",
+          "type": ".SchLib",
+          "size_kb": 194.5
+        },
+        {
+          "path": "BW1098OAK_USB3C/PCB/BW1098OAK_R0M0E0.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 927.0
+        },
+        {
+          "path": "BW1098OAK_USB3C/PCB/BW1098OAK_R0M0E0.SchLib",
+          "type": ".SchLib",
+          "size_kb": 41.0
+        },
+        {
+          "path": "BW1098OAK_USB3C/PCB/BW1098OBC.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 808.5
+        },
+        {
+          "path": "BW1098OAK_USB3C/PCB/BW1098OBC.SchLib",
+          "type": ".SchLib",
+          "size_kb": 13.0
+        },
+        {
+          "path": "BW1098OAK_USB3C/PCB/BW1098OBC_R2M0E2.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 697.0
+        },
+        {
+          "path": "BW1098OAK_USB3C/PCB/BW1098OBC_R2M0E2.SchLib",
+          "type": ".SchLib",
+          "size_kb": 8.5
+        },
+        {
+          "path": "DD2088_PoE_DaisyChain/PCB/DD2088PoE_Daisy_Chain.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 4837.5
+        },
+        {
+          "path": "DM0249_DepthAI_RGB_Camera/R0M0E0/PCB/BG0249_R1M1E1.SchLib",
+          "type": ".SchLib",
+          "size_kb": 17.0
+        },
+        {
+          "path": "DM0249_DepthAI_RGB_Camera/R0M0E0/PCB/DM1098FFC.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1825.0
+        },
+        {
+          "path": "DM0249_DepthAI_RGB_Camera/R0M0E0/PCB/DM1098FFC.SchLib",
+          "type": ".SchLib",
+          "size_kb": 37.5
+        },
+        {
+          "path": "DM0250TG_DepthAI_Mono_Camera/R0M0E0/PCB/BG0250.IntLib",
+          "type": ".IntLib",
+          "size_kb": 1152.5
+        },
+        {
+          "path": "DM0250TG_DepthAI_Mono_Camera/R0M0E0/PCB/BG0250.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1317.0
+        },
+        {
+          "path": "DM0250TG_DepthAI_Mono_Camera/R0M0E0/PCB/BG0250.SCHLIB",
+          "type": ".SchLib",
+          "size_kb": 68.0
+        },
+        {
+          "path": "DM0250TG_DepthAI_Mono_Camera/R0M0E0/PCB/DM1098FFC.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1825.0
+        },
+        {
+          "path": "DM0250TG_DepthAI_Mono_Camera/R0M0E0/PCB/DM1098FFC.SchLib",
+          "type": ".SchLib",
+          "size_kb": 37.0
+        },
+        {
+          "path": "DM0255_DepthAI_pTOF_Camera/PCB/BG0249_R1M1E1.SchLib",
+          "type": ".SchLib",
+          "size_kb": 17.0
+        },
+        {
+          "path": "DM0255_DepthAI_pTOF_Camera/PCB/DM0255.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 2816.5
+        },
+        {
+          "path": "DM0255_DepthAI_pTOF_Camera/PCB/DM0255.SCHLIB",
+          "type": ".SchLib",
+          "size_kb": 61.0
+        },
+        {
+          "path": "DM0255_DepthAI_pTOF_Camera/PCB/DM1098FFC.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1825.0
+        },
+        {
+          "path": "DM0255_DepthAI_pTOF_Camera/PCB/DM1098FFC.SchLib",
+          "type": ".SchLib",
+          "size_kb": 37.0
+        },
+        {
+          "path": "DM1090FFC_DepthAI_USB3/PCB/DM1090FFC.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 3133.5
+        },
+        {
+          "path": "DM1090FFC_DepthAI_USB3/PCB/DM1090FFC.SchLib",
+          "type": ".SchLib",
+          "size_kb": 94.0
+        },
+        {
+          "path": "DM1090FFC_DepthAI_USB3/PCB/DM1092_R0M0E0.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 2432.5
+        },
+        {
+          "path": "DM1090FFC_DepthAI_USB3/PCB/DM1092_R0M0E0.SchLib",
+          "type": ".SchLib",
+          "size_kb": 214.0
+        },
+        {
+          "path": "DM1092_ESP32_Embedded_WIFI_BT_IMU/PCB/BW1098EMB_R0M0E0.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 630.5
+        },
+        {
+          "path": "DM1092_ESP32_Embedded_WIFI_BT_IMU/PCB/BW1098EMB_R0M0E0.SchLib",
+          "type": ".SchLib",
+          "size_kb": 15.0
+        },
+        {
+          "path": "DM1092_ESP32_Embedded_WIFI_BT_IMU/PCB/BW1098OBC.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 808.5
+        },
+        {
+          "path": "DM1092_ESP32_Embedded_WIFI_BT_IMU/PCB/BW1098OBC.SchLib",
+          "type": ".SchLib",
+          "size_kb": 13.0
+        },
+        {
+          "path": "DM1092_ESP32_Embedded_WIFI_BT_IMU/PCB/BW1098OBC_R2M0E2.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 697.0
+        },
+        {
+          "path": "DM1092_ESP32_Embedded_WIFI_BT_IMU/PCB/BW1098OBC_R2M0E2.SchLib",
+          "type": ".SchLib",
+          "size_kb": 8.5
+        },
+        {
+          "path": "DM1092_ESP32_Embedded_WIFI_BT_IMU/PCB/DM1092_R0M0E0.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 2432.5
+        },
+        {
+          "path": "DM1092_ESP32_Embedded_WIFI_BT_IMU/PCB/DM1092_R0M0E0.SchLib",
+          "type": ".SchLib",
+          "size_kb": 214.0
+        },
+        {
+          "path": "DM1095_OAK-D-LITE-DEV_DepthAI_USB3C/PCB/DM1095.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 3036.5
+        },
+        {
+          "path": "DM1095_OAK-D-LITE-DEV_DepthAI_USB3C/PCB/DM1095.SchLib",
+          "type": ".SchLib",
+          "size_kb": 31.5
+        }
+      ]
+    },
+    {
+      "repo": "KitSprout/AltiumDesigner_PcbLibrary",
+      "url": "https://github.com/KitSprout/AltiumDesigner_PcbLibrary",
+      "stars": 664,
+      "desc": "AD 元件庫，AltiumDesigner PCB Library",
+      "altium_file_count": 33,
+      "files": [
+        {
+          "path": "PCB_ActiveDIO.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1000.0
+        },
+        {
+          "path": "PCB_ActiveLED.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1890.5
+        },
+        {
+          "path": "PCB_Antenna.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 893.0
+        },
+        {
+          "path": "PCB_Battery.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 646.5
+        },
+        {
+          "path": "PCB_Connector.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 2966.5
+        },
+        {
+          "path": "PCB_ConnectorFFC.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 4232.0
+        },
+        {
+          "path": "PCB_ConnectorHDR.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 24387.0
+        },
+        {
+          "path": "PCB_IntegratedCircuit.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 5743.0
+        },
+        {
+          "path": "PCB_Mechanical.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 853.0
+        },
+        {
+          "path": "PCB_Module.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 9396.5
+        },
+        {
+          "path": "PCB_Oscillator.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1436.5
+        },
+        {
+          "path": "PCB_PassiveCap.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1077.0
+        },
+        {
+          "path": "PCB_PassiveInd.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1477.5
+        },
+        {
+          "path": "PCB_PassiveRes.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 936.0
+        },
+        {
+          "path": "PCB_SDCard.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 530.5
+        },
+        {
+          "path": "PCB_Switch.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 2220.0
+        },
+        {
+          "path": "PCB_USB.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 2098.5
+        },
+        {
+          "path": "SCH_Active.SchLib",
+          "type": ".SchLib",
+          "size_kb": 94.0
+        },
+        {
+          "path": "SCH_Battery.SchLib",
+          "type": ".SchLib",
+          "size_kb": 5.0
+        },
+        {
+          "path": "SCH_Connector.SchLib",
+          "type": ".SchLib",
+          "size_kb": 68.5
+        },
+        {
+          "path": "SCH_ConnectorHDR.SchLib",
+          "type": ".SchLib",
+          "size_kb": 430.0
+        },
+        {
+          "path": "SCH_IntegratedCircuit.SchLib",
+          "type": ".SchLib",
+          "size_kb": 62.5
+        },
+        {
+          "path": "SCH_Mechanical.SchLib",
+          "type": ".SchLib",
+          "size_kb": 18.0
+        },
+        {
+          "path": "SCH_Microcontroller.SchLib",
+          "type": ".SchLib",
+          "size_kb": 136.5
+        },
+        {
+          "path": "SCH_Module.SchLib",
+          "type": ".SchLib",
+          "size_kb": 105.0
+        },
+        {
+          "path": "SCH_Oscillator.SchLib",
+          "type": ".SchLib",
+          "size_kb": 35.0
+        },
+        {
+          "path": "SCH_Passive.SchLib",
+          "type": ".SchLib",
+          "size_kb": 109.5
+        },
+        {
+          "path": "SCH_Power.SchLib",
+          "type": ".SchLib",
+          "size_kb": 60.5
+        },
+        {
+          "path": "SCH_Radio.SchLib",
+          "type": ".SchLib",
+          "size_kb": 41.5
+        },
+        {
+          "path": "SCH_SDCard.SchLib",
+          "type": ".SchLib",
+          "size_kb": 10.5
+        },
+        {
+          "path": "SCH_Sensor.SchLib",
+          "type": ".SchLib",
+          "size_kb": 73.5
+        },
+        {
+          "path": "SCH_Switch.SchLib",
+          "type": ".SchLib",
+          "size_kb": 50.5
+        },
+        {
+          "path": "SCH_USB.SchLib",
+          "type": ".SchLib",
+          "size_kb": 21.0
+        }
+      ]
+    },
+    {
+      "repo": "adamtheone/canDrive",
+      "url": "https://github.com/adamtheone/canDrive",
+      "stars": 675,
+      "desc": "Tools for hacking your car",
+      "altium_file_count": 2,
+      "files": [
+        {
+          "path": "03_canSniffer_hw/common/canDrive_comp_pcb_lib.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 2260.5
+        },
+        {
+          "path": "03_canSniffer_hw/common/canDrive_comp_sch_lib.SchLib",
+          "type": ".SchLib",
+          "size_kb": 122.0
+        }
+      ]
+    }
+  ]
 }
