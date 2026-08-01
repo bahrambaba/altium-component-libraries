@@ -23,8 +23,11 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Create data directory
-        run: mkdir -p data/categories libraries/SchLib libraries/PcbLib
+      - name: Create directories
+        run: mkdir -p data/categories data/external_catalog/external libraries/SchLib libraries/PcbLib
+
+      - name: Clean old JSON files
+        run: rm -f libraries/SchLib/*.json libraries/PcbLib/*.json
 
       - name: Run update
         env:
@@ -32,18 +35,6 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python scripts/update_all.py
-
-      - name: Rename JSON files to proper extensions
-        run: |
-          cd libraries/SchLib
-          for f in *_symbol.json; do
-            mv "$f" "${f/_symbol.json/.SchLib}"
-          done
-          
-          cd ../PcbLib
-          for f in *_footprint.json; do
-            mv "$f" "${f/_footprint.json/.PcbLib}"
-          done
 
       - name: Commit and push changes
         run: |
