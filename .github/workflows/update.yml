@@ -33,6 +33,18 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python scripts/update_all.py
 
+      - name: Rename JSON files to proper extensions
+        run: |
+          cd libraries/SchLib
+          for f in *_symbol.json; do
+            mv "$f" "${f/_symbol.json/.SchLib}"
+          done
+          
+          cd ../PcbLib
+          for f in *_footprint.json; do
+            mv "$f" "${f/_footprint.json/.PcbLib}"
+          done
+
       - name: Commit and push changes
         run: |
           git config --global user.name "GitHub Actions"
