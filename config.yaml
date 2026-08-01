@@ -1,0 +1,130 @@
+# Altium Component Libraries - Configuration
+# کتابخانه قطعات الکترونیکی آلتیوم - تنظیمات
+
+# ==============================
+# JLCPCB / LCSC Sources
+# ==============================
+jlpcb:
+  enabled: true
+  categories:
+    - name: "resistors"
+      keyword: "0402"
+      keyword_fa: "مقاومت 0402"
+      max_pages: 5
+      page_size: 100
+    - name: "capacitors"
+      keyword: "0402 MLCC"
+      keyword_fa: "خازن 0402"
+      max_pages: 5
+      page_size: 100
+    - name: "inductors"
+      keyword: "0402 inductor"
+      keyword_fa: "سلف 0402"
+      max_pages: 3
+      page_size: 100
+    - name: "leds"
+      keyword: "LED 0603"
+      keyword_fa: "LED 0603"
+      max_pages: 2
+      page_size: 100
+    - name: "mcus_stm32"
+      keyword: "STM32"
+      keyword_fa: "میکروکنترلر STM32"
+      max_pages: 3
+      page_size: 100
+    - name: "mcus_esp32"
+      keyword: "ESP32"
+      keyword_fa: "میکروکنترلر ESP32"
+      max_pages: 2
+      page_size: 100
+    - name: "connectors"
+      keyword: "USB Type-C"
+      keyword_fa: "کانکتور USB-C"
+      max_pages: 2
+      page_size: 100
+    - name: "voltage_regulators"
+      keyword: "LDO 3.3V"
+      keyword_fa: "رگولاتور LDO"
+      max_pages: 2
+      page_size: 100
+
+# ==============================
+# Ultra Librarian Sources
+# ==============================
+ultra_librarian:
+  enabled: true
+  api_key: ""  # Fill with your Ultra Librarian API key
+  categories:
+    - name: "opamps"
+      keyword: "operational amplifier"
+      keyword_fa: "تقویت‌کننده عملیاتی"
+    - name: "dacs"
+      keyword: "digital to analog converter"
+      keyword_fa: "مبدل DAC"
+    - name: "adcs"
+      keyword: "analog to digital converter"
+      keyword_fa: "مبدل ADC"
+    - name: "memory"
+      keyword: "flash memory"
+      keyword_fa: "حافظه Flash"
+
+# ==============================
+# Manufacturer Libraries
+# ==============================
+manufacturers:
+  - name: "Texas Instruments"
+    short: "TI"
+    enabled: true
+    url: "https://www.ti.com/tool/CAD/EDA-CAD-DESIGN-TOOLS"
+    categories: ["opamps", "voltage_regulators", "dacs", "adcs"]
+  - name: "STMicroelectronics"
+    short: "ST"
+    enabled: true
+    url: "https://altiumlibrary.st.com"
+    categories: ["mcus_stm32"]
+  - name: "NXP"
+    enabled: false
+    categories: ["mcus"]
+  - name: "Microchip"
+    enabled: false
+    categories: ["mcus"]
+  - name: "Analog Devices"
+    enabled: false
+    categories: ["opamps", "adcs"]
+
+# ==============================
+# Output Settings
+# ==============================
+output:
+  # Library format: "schlib_pcblib" or "intlib"
+  format: "schlib_pcblib"
+  
+  # Use Git LFS for binary files
+  use_git_lfs: true
+  
+  # Max components per library file
+  max_components_per_lib: 500
+  
+  # Generate 3D STEP models when available
+  generate_3d_models: true
+
+# ==============================
+# Update Schedule
+# ==============================
+schedule:
+  # How often to update (used by GitHub Actions)
+  frequency: "weekly"  # daily, weekly, monthly
+  
+  # Categories to update each run
+  update_all: true
+  
+  # Keep history of changes
+  keep_history: true
+  max_history_days: 90
+
+# ==============================
+# Logging
+# ==============================
+logging:
+  level: "INFO"
+  file: "data/update.log"
