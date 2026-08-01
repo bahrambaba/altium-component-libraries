@@ -94,7 +94,7 @@ def main():
     else:
         logger.info("Step 1: JLCPCB disabled, skipping")
 
-    # Step 2: Aggregate from GitHub repos
+    # Step 2: Aggregate from GitHub repos  
     if config.get("aggregator", {}).get("enabled", True):
         logger.info("\n📡 Step 2: Aggregating from GitHub repos...")
         try:
