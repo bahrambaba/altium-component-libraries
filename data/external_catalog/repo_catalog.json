@@ -1,10 +1,10 @@
 {
-  "scan_time": "2026-08-01T19:51:20.933694",
+  "scan_time": "2026-08-01T19:58:20.975715",
   "repos_found": 77,
   "repos_scanned": 20,
   "repos_with_altium_files": 4,
   "total_altium_files": 10195,
-  "total_downloaded": 122,
+  "total_downloaded": 0,
   "repos": [
     {
       "repo": "issus/altium-library",
