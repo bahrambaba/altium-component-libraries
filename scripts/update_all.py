@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Altium Component Libraries - Master Update Script
-Runs all fetchers and generates Altium libraries.
+Runs all fetchers, aggregators, generates Altium libraries, and sends report.
 """
 
 import os
@@ -11,14 +11,13 @@ import json
 import logging
 from datetime import datetime
 
-# Add scripts directory to path
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from fetch_jlcpcb import run as fetch_jlcpcb
-from fetch_ultra_librarian import run as fetch_ultra_librarian
+from fetch_github_repos import run as fetch_github
 from generate_altium_libs import run as generate_libs
+from send_report import run as send_report
 
-# Setup logging
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
@@ -31,46 +30,59 @@ logger = logging.getLogger(__name__)
 
 
 def load_config():
-    """Load configuration file."""
     config_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "config.yaml")
     with open(config_path, "r", encoding="utf-8") as f:
         return yaml.safe_load(f)
 
 
 def create_summary(stats_list, output_path):
-    """Create a summary report of the update."""
     summary = {
         "update_time": datetime.utcnow().isoformat(),
-        "sources": stats_list,
-        "total_fetched": sum(s.get("total", 0) for s in stats_list),
-        "total_generated": sum(s.get("generated", 0) for s in stats_list),
+        "sources": [],
+        "total_fetched": 0,
+        "total_generated": 0,
     }
-    
+
+    for s in stats_list:
+        source = s.get("source", "Unknown")
+        if "error" in s:
+            summary["sources"].append({"source": source, "error": s["error"]})
+        else:
+            total = s.get("total", 0)
+            generated = s.get("generated", 0)
+            summary["sources"].append({
+                "source": source,
+                "total": total,
+                "generated": generated,
+                "details": {k: v for k, v in s.items()
+                           if k not in ("source", "total", "generated", "error")}
+            })
+            summary["total_fetched"] += total
+            summary["total_generated"] += generated
+
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(summary, f, ensure_ascii=False, indent=2)
-    
+
     return summary
 
 
 def main():
-    """Main update function."""
     logger.info("=" * 60)
     logger.info("ALTium COMPONENT LIBRARIES - UPDATE STARTED")
     logger.info(f"Time: {datetime.utcnow().isoformat()}")
     logger.info("=" * 60)
-    
-    # Load config
+
     config = load_config()
-    
-    # Ensure data directory exists
-    data_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data")
-    lib_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "libraries")
+
+    base_dir = os.path.dirname(os.path.dirname(__file__))
+    data_dir = os.path.join(base_dir, "data")
+    lib_dir = os.path.join(base_dir, "libraries")
     os.makedirs(data_dir, exist_ok=True)
     os.makedirs(os.path.join(data_dir, "categories"), exist_ok=True)
-    
+
     stats_list = []
-    
-    # Step 1: Fetch from JLCPCB/LCSC
+
+    # Step 1: Fetch from JLCPCB/LCSC (curated database)
     if config.get("jlpcb", {}).get("enabled", False):
         logger.info("\n📡 Step 1: Fetching from JLCPCB/LCSC...")
         try:
@@ -80,20 +92,20 @@ def main():
             logger.error(f"JLCPCB fetch failed: {e}")
             stats_list.append({"source": "JLCPCB/LCSC", "error": str(e)})
     else:
-        logger.info("⏭️  JLCPCB disabled in config, skipping")
-    
-    # Step 2: Fetch from Ultra Librarian
-    if config.get("ultra_librarian", {}).get("enabled", False):
-        logger.info("\n📡 Step 2: Fetching from Ultra Librarian...")
+        logger.info("Step 1: JLCPCB disabled, skipping")
+
+    # Step 2: Aggregate from GitHub repos
+    if config.get("aggregator", {}).get("enabled", True):
+        logger.info("\n📡 Step 2: Aggregating from GitHub repos...")
         try:
-            stats = fetch_ultra_librarian(config, data_dir)
-            stats_list.append({"source": "Ultra Librarian", **stats})
+            stats = fetch_github(config, data_dir)
+            stats_list.append({"source": "GitHub Aggregator", **stats})
         except Exception as e:
-            logger.error(f"Ultra Librarian fetch failed: {e}")
-            stats_list.append({"source": "Ultra Librarian", "error": str(e)})
+            logger.error(f"GitHub aggregation failed: {e}")
+            stats_list.append({"source": "GitHub Aggregator", "error": str(e)})
     else:
-        logger.info("⏭️  Ultra Librarian disabled or no API key, skipping")
-    
+        logger.info("Step 2: GitHub aggregator disabled, skipping")
+
     # Step 3: Generate Altium libraries
     logger.info("\n🔧 Step 3: Generating Altium libraries...")
     try:
@@ -102,16 +114,23 @@ def main():
     except Exception as e:
         logger.error(f"Library generation failed: {e}")
         stats_list.append({"source": "Altium Generator", "error": str(e)})
-    
+
     # Step 4: Create summary
     summary = create_summary(stats_list, os.path.join(data_dir, "update_summary.json"))
-    
+
+    # Step 5: Send daily report to Telegram
+    logger.info("\n📤 Step 5: Sending daily report to Telegram...")
+    try:
+        send_report(config, data_dir)
+    except Exception as e:
+        logger.error(f"Report sending failed: {e}")
+
     logger.info("\n" + "=" * 60)
     logger.info("UPDATE COMPLETED")
     logger.info(f"Total components fetched: {summary['total_fetched']}")
     logger.info(f"Total libraries generated: {summary['total_generated']}")
     logger.info("=" * 60)
-    
+
     return summary
 
 
