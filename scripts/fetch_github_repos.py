@@ -189,12 +189,13 @@ def aggregate_repos(output_dir, token=None, max_repos=50):
 
     logger.info(f"\n  Total unique repos found: {len(all_repos)}")
 
-    # Step 2: Scan repos for Altium files
+    # Step 2: Scan repos for Altium files  
     logger.info("\n📂 Step 2: Scanning repos for Altium files...")
 
     repo_catalog = []
     total_altium_files = 0
     repos_scanned = 0
+    total_downloaded = 0
 
     for key, repo_info in sorted(all_repos.items(),
                                   key=lambda x: x[1]["stars"], reverse=True):
@@ -219,7 +220,7 @@ def aggregate_repos(output_dir, token=None, max_repos=50):
                 "stars": repo_info["stars"],
                 "desc": repo_info["desc"],
                 "altium_file_count": len(altium_files),
-                "files": altium_files,
+                "files": [{"path": f["path"], "type": f["type"], "size_kb": f["size_kb"]} for f in altium_files],
             }
             repo_catalog.append(repo_entry)
 
@@ -228,7 +229,7 @@ def aggregate_repos(output_dir, token=None, max_repos=50):
             repo_dir = os.path.join(output_dir, "external", safe_name)
             os.makedirs(repo_dir, exist_ok=True)
 
-            for af in altium_files:
+            for af in altium_files[:20]:  # Limit to 20 files per repo
                 content = download_file(
                     repo_info["owner"], repo_info["repo"],
                     af["path"], token
@@ -236,11 +237,13 @@ def aggregate_repos(output_dir, token=None, max_repos=50):
                 if content:
                     filename = os.path.basename(af["path"])
                     filepath = os.path.join(repo_dir, filename)
-                    with open(filepath, "wb") as f:
-                        f.write(content)
-                    logger.info(f"    Downloaded: {filename} ({len(content)} bytes)")
+                    if not os.path.exists(filepath):
+                        with open(filepath, "wb") as f:
+                            f.write(content)
+                        total_downloaded += 1
+                        logger.info(f"    Downloaded: {filename} ({len(content)} bytes)")
 
-            time.sleep(1)
+            time.sleep(0.5)
         else:
             logger.info(f"    No Altium files found")
 
