@@ -30,15 +30,8 @@ ALTium_FILE_TYPES = [".SchLib", ".PcbLib", ".IntLib", ".DbLib", ".SchPrj", ".Pcb
 # GitHub search query for finding repos
 SEARCH_QUERIES = [
     "altium+library",
-    "altium+components",
     "altium+SchLib",
     "altium+PcbLib",
-    "jlcpcb+altium",
-    "altium+footprint",
-    "altium+symbol",
-    "altium+IntLib",
-    "altium+component+library",
-    "altium+designer+library",
 ]
 
 
