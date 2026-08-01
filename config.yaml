@@ -1,43 +1,35 @@
-# Altium Component Libraries Configuration
-
-jlpcb:
-  enabled: true
-  max_per_category: 50
-  categories:
-    - name: resistors
-      keyword: "0402"
-    - name: capacitors
-      keyword: "0402 MLCC"
-    - name: inductors
-      keyword: "0402 inductor"
-    - name: leds
-      keyword: "LED 0603"
-    - name: mcus_stm32
-      keyword: "STM32"
-    - name: mcus_esp32
-      keyword: "ESP32"
-    - name: connectors
-      keyword: "USB Type-C"
-    - name: voltage_regulators
-      keyword: "LDO 3.3V"
-
-ultra_librarian:
-  enabled: false
-  api_key: ""
-
 aggregator:
-  enabled: true
-  max_repos: 100
   download_files: true
-
+  enabled: true
+  max_repos: 20
 altium_generator:
   enabled: true
+  output_format: json
   use_altium_monkey: false
-  output_format: "json"
-
+github:
+  token_env: GITHUB_TOKEN
+jlpcb:
+  categories:
+  - keyword: '0402'
+    name: resistors
+  - keyword: 0402 MLCC
+    name: capacitors
+  - keyword: 0402 inductor
+    name: inductors
+  - keyword: LED 0603
+    name: leds
+  - keyword: STM32
+    name: mcus_stm32
+  - keyword: ESP32
+    name: mcus_esp32
+  - keyword: USB Type-C
+    name: connectors
+  - keyword: LDO 3.3V
+    name: voltage_regulators
+  enabled: true
+  max_per_category: 50
 telegram:
   enabled: true
-  # Secrets: TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID
-
-github:
-  token_env: "GITHUB_TOKEN"
+ultra_librarian:
+  api_key: ''
+  enabled: false
