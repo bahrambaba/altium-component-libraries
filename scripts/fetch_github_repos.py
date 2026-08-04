@@ -169,7 +169,7 @@ def find_altium_files(file_tree):
 
 
 def download_file(owner, repo, path, token=None):
-    """Download a single file from GitHub raw API."""
+    """Download a single file from GitHub raw API. Try HEAD, main, master."""
     headers = {
         "Accept": "application/vnd.github.v3.raw",
         "User-Agent": "altium-library-aggregator",
@@ -177,15 +177,16 @@ def download_file(owner, repo, path, token=None):
     if token:
         headers["Authorization"] = f"token {token}"
 
-    try:
-        resp = requests.get(
-            f"https://raw.githubusercontent.com/{owner}/{repo}/HEAD/{path}",
-            headers=headers, timeout=60
-        )
-        if resp.status_code == 200:
-            return resp.content
-    except Exception:
-        pass
+    for branch in ["HEAD", "main", "master"]:
+        try:
+            resp = requests.get(
+                f"https://raw.githubusercontent.com/{owner}/{repo}/{branch}/{path}",
+                headers=headers, timeout=60
+            )
+            if resp.status_code == 200 and len(resp.content) > 0:
+                return resp.content
+        except Exception:
+            continue
     return None
 
 
