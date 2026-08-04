@@ -1,10 +1,10 @@
 {
-  "scan_time": "2026-08-04T10:37:41.408561",
+  "scan_time": "2026-08-04T10:45:03.644661",
   "repos_found": 77,
-  "repos_scanned": 20,
-  "repos_with_altium_files": 4,
-  "total_altium_files": 10195,
-  "total_downloaded": 0,
+  "repos_scanned": 77,
+  "repos_with_altium_files": 30,
+  "total_altium_files": 22197,
+  "total_downloaded": 738,
   "repos": [
     {
       "repo": "issus/altium-library",
@@ -262,6 +262,2337 @@
           "path": "footprints/Capacitor - Aluminium/PCB - CAPACITOR - ALUMINIUM - CAP AL TH D12.5 L5 H26.5.PCBLIB",
           "type": ".PcbLib",
           "size_kb": 663.0
+        }
+      ]
+    },
+    {
+      "repo": "ximtech/altium-library",
+      "url": "https://github.com/ximtech/altium-library",
+      "stars": 48,
+      "desc": "Large database component library",
+      "altium_file_count": 9064,
+      "files": [
+        {
+          "path": "Postgres Altium Library - altium_library.DbLib",
+          "type": ".DbLib",
+          "size_kb": 441.92
+        },
+        {
+          "path": "footprints/Antenna/PCB - ANTENNA - ABRACON AMCA31-2R450G-S1F-T3.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 119.5
+        },
+        {
+          "path": "footprints/Antenna/PCB - ANTENNA - ANTENOVA SR42W001.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 313.5
+        },
+        {
+          "path": "footprints/Antenna/PCB - ANTENNA - ANTENOVA SR4L002.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 401.0
+        },
+        {
+          "path": "footprints/Antenna/PCB - ANTENNA - Fractus Antennas FR01-S4-224.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 199.5
+        },
+        {
+          "path": "footprints/Antenna/PCB - ANTENNA - LINX ANT-LTE-CER-T.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 178.0
+        },
+        {
+          "path": "footprints/Antenna/PCB - ANTENNA - MOLEX 2042860001.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 248.0
+        },
+        {
+          "path": "footprints/Audio/PCB - AUDIO - CUI CMS-15113-078SP.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1214.0
+        },
+        {
+          "path": "footprints/Audio/PCB - AUDIO - CUI CMS-16093-078SP.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1768.5
+        },
+        {
+          "path": "footprints/Audio/PCB - AUDIO - Soberton SP-1208.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1172.5
+        },
+        {
+          "path": "footprints/Battery Holder/PCB - BATTERY HOLDER - KEYSTONE 1043.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 587.5
+        },
+        {
+          "path": "footprints/Battery Holder/PCB - BATTERY HOLDER - KEYSTONE 2462.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 623.0
+        },
+        {
+          "path": "footprints/Battery Holder/PCB - BATTERY HOLDER - KEYSTONE 254.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 142.5
+        },
+        {
+          "path": "footprints/Battery Holder/PCB - BATTERY HOLDER - KEYSTONE 3034TR.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 141.0
+        },
+        {
+          "path": "footprints/Battery Holder/PCB - BATTERY HOLDER - KEYSTONE 54.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 137.0
+        },
+        {
+          "path": "footprints/Battery Holder/PCB - BATTERY HOLDER - MPD BC2AAPC.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 368.5
+        },
+        {
+          "path": "footprints/Battery Holder/PCB - BATTERY HOLDER - MPD BH9VPC.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 290.5
+        },
+        {
+          "path": "footprints/Bridge Rectifier/PCB - BRIDGE RECTIFIER - Bourns CD-MBL1xxS.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 134.5
+        },
+        {
+          "path": "footprints/Buttons/PCB - BUTTONS - C&K ELUMOASAQ2C12.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 661.5
+        },
+        {
+          "path": "footprints/Buttons/PCB - BUTTONS - C&K KSC9.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 188.0
+        },
+        {
+          "path": "footprints/Buttons/PCB - BUTTONS - C&K KXT3.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 263.0
+        },
+        {
+          "path": "footprints/Buttons/PCB - BUTTONS - ESWITCH TL3750.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 121.0
+        },
+        {
+          "path": "footprints/Buttons/PCB - BUTTONS - NKK AB11AH-HA.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 173.5
+        },
+        {
+          "path": "footprints/Buttons/PCB - BUTTONS - NKK AB11AH-HC.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 173.5
+        },
+        {
+          "path": "footprints/Buttons/PCB - BUTTONS - PANASONIC EVPAW.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 121.0
+        },
+        {
+          "path": "footprints/Buttons/PCB - BUTTONS - TE FSM1LPATR.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 139.0
+        },
+        {
+          "path": "footprints/Buttons/PCB - BUTTONS - TE FSM4JSMA.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 138.0
+        },
+        {
+          "path": "footprints/Buttons/PCB - BUTTONS - TE FSM6JSMA.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 137.0
+        },
+        {
+          "path": "footprints/Buttons/PCB - BUTTONS - TE FSMSMTR.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 143.5
+        },
+        {
+          "path": "footprints/Buttons/PCB - BUTTONS - WURTH WS-TATL 440__67082622.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 300.0
+        },
+        {
+          "path": "footprints/Buzzer/PCB - BUZZER - CUI CSS-0575A-SMT-TR.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 104.5
+        },
+        {
+          "path": "footprints/Buzzer/PCB - BUZZER - CUI CT-1205H-SMT-TR.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 121.5
+        },
+        {
+          "path": "footprints/Buzzer/PCB - BUZZER - PUI Audio SMI-1027-TW-5V-R.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 118.0
+        },
+        {
+          "path": "footprints/Buzzer/PCB - BUZZER - PUI Audio SMT-0827-S-2-R.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 215.0
+        },
+        {
+          "path": "footprints/Capacitor - Aluminium/PCB - CAPACITOR - ALUMINIUM - CAP AL 10.3MM.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 224.0
+        },
+        {
+          "path": "footprints/Capacitor - Aluminium/PCB - CAPACITOR - ALUMINIUM - CAP AL TH D10 L5 H12.5.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 661.5
+        },
+        {
+          "path": "footprints/Capacitor - Aluminium/PCB - CAPACITOR - ALUMINIUM - CAP AL TH D10 L5 H14.5.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 671.5
+        },
+        {
+          "path": "footprints/Capacitor - Aluminium/PCB - CAPACITOR - ALUMINIUM - CAP AL TH D10 L5 H17.5.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 663.5
+        },
+        {
+          "path": "footprints/Capacitor - Aluminium/PCB - CAPACITOR - ALUMINIUM - CAP AL TH D10 L5 H22.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 666.5
+        },
+        {
+          "path": "footprints/Capacitor - Aluminium/PCB - CAPACITOR - ALUMINIUM - CAP AL TH D10 L5 H30.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 669.5
+        },
+        {
+          "path": "footprints/Capacitor - Aluminium/PCB - CAPACITOR - ALUMINIUM - CAP AL TH D12.5 L5 H14.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 658.5
+        },
+        {
+          "path": "footprints/Capacitor - Aluminium/PCB - CAPACITOR - ALUMINIUM - CAP AL TH D12.5 L5 H15.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 658.0
+        },
+        {
+          "path": "footprints/Capacitor - Aluminium/PCB - CAPACITOR - ALUMINIUM - CAP AL TH D12.5 L5 H16.5.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 659.5
+        },
+        {
+          "path": "footprints/Capacitor - Aluminium/PCB - CAPACITOR - ALUMINIUM - CAP AL TH D12.5 L5 H17.5.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 658.5
+        },
+        {
+          "path": "footprints/Capacitor - Aluminium/PCB - CAPACITOR - ALUMINIUM - CAP AL TH D12.5 L5 H20.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 660.5
+        },
+        {
+          "path": "footprints/Capacitor - Aluminium/PCB - CAPACITOR - ALUMINIUM - CAP AL TH D12.5 L5 H21.5.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 661.0
+        },
+        {
+          "path": "footprints/Capacitor - Aluminium/PCB - CAPACITOR - ALUMINIUM - CAP AL TH D12.5 L5 H22.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 661.0
+        },
+        {
+          "path": "footprints/Capacitor - Aluminium/PCB - CAPACITOR - ALUMINIUM - CAP AL TH D12.5 L5 H25.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 664.0
+        },
+        {
+          "path": "footprints/Capacitor - Aluminium/PCB - CAPACITOR - ALUMINIUM - CAP AL TH D12.5 L5 H26.5.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 663.0
+        },
+        {
+          "path": "footprints/Capacitor - Aluminium/PCB - CAPACITOR - ALUMINIUM - CAP AL TH D12.5 L5 H27.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 665.0
+        }
+      ]
+    },
+    {
+      "repo": "WurthElektronik/Altium-Library",
+      "url": "https://github.com/WurthElektronik/Altium-Library",
+      "stars": 70,
+      "desc": "Wurth Elektronik official library",
+      "altium_file_count": 1303,
+      "files": [
+        {
+          "path": "Database Libraries/Footprints/WA-BCMC.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 896.0
+        },
+        {
+          "path": "Database Libraries/Footprints/WA-BCPH.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 905.0
+        },
+        {
+          "path": "Database Libraries/Footprints/WA-MTAB.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 147.0
+        },
+        {
+          "path": "Database Libraries/Footprints/WA-SMCH.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 130.0
+        },
+        {
+          "path": "Database Libraries/Footprints/WA-SMSA.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 814.5
+        },
+        {
+          "path": "Database Libraries/Footprints/WA-SMSE.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 223.5
+        },
+        {
+          "path": "Database Libraries/Footprints/WA-SMSI.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1118.5
+        },
+        {
+          "path": "Database Libraries/Footprints/WA-SMSR.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 423.0
+        },
+        {
+          "path": "Database Libraries/Footprints/WA-SMSSR.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 269.0
+        },
+        {
+          "path": "Database Libraries/Footprints/WA-SMST.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 718.0
+        },
+        {
+          "path": "Database Libraries/Footprints/WCAP-AI3H.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 9583.5
+        },
+        {
+          "path": "Database Libraries/Footprints/WCAP-AIE8.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 8584.0
+        },
+        {
+          "path": "Database Libraries/Footprints/WCAP-AIG5.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 11215.5
+        },
+        {
+          "path": "Database Libraries/Footprints/WCAP-AIG8.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 11324.0
+        },
+        {
+          "path": "Database Libraries/Footprints/WCAP-AS5H.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 828.5
+        },
+        {
+          "path": "Database Libraries/Footprints/WCAP-ASLI.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1182.0
+        },
+        {
+          "path": "Database Libraries/Footprints/WCAP-ASLL.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1591.0
+        },
+        {
+          "path": "Database Libraries/Footprints/WCAP-ASLU.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 843.0
+        },
+        {
+          "path": "Database Libraries/Footprints/WCAP-ASNP.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 768.5
+        },
+        {
+          "path": "Database Libraries/Footprints/WCAP-AT1H.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 8110.0
+        },
+        {
+          "path": "Database Libraries/Footprints/WCAP-ATET.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 4476.5
+        },
+        {
+          "path": "Database Libraries/Footprints/WCAP-ATG5.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 10404.5
+        },
+        {
+          "path": "Database Libraries/Footprints/WCAP-ATG8.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 8417.0
+        },
+        {
+          "path": "Database Libraries/Footprints/WCAP-ATLI.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 9042.5
+        },
+        {
+          "path": "Database Libraries/Footprints/WCAP-ATLL.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 9579.5
+        },
+        {
+          "path": "Database Libraries/Footprints/WCAP-ATUL.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 12371.0
+        },
+        {
+          "path": "Database Libraries/Footprints/WCAP-AWG5.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 564.5
+        },
+        {
+          "path": "Database Libraries/Footprints/WCAP-AWG8.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 497.5
+        },
+        {
+          "path": "Database Libraries/Footprints/WCAP-CSGP.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 553.5
+        },
+        {
+          "path": "Database Libraries/Footprints/WCAP-CSMH.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 523.0
+        },
+        {
+          "path": "Database Libraries/Footprints/WCAP-CSRF.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 138.5
+        },
+        {
+          "path": "Database Libraries/Footprints/WCAP-CSSA.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 383.5
+        },
+        {
+          "path": "Database Libraries/Footprints/WCAP-CSST.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 311.0
+        },
+        {
+          "path": "Database Libraries/Footprints/WCAP-FTBE.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 2564.0
+        },
+        {
+          "path": "Database Libraries/Footprints/WCAP-FTBP.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 2848.5
+        },
+        {
+          "path": "Database Libraries/Footprints/WCAP-FTDB.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 4164.5
+        },
+        {
+          "path": "Database Libraries/Footprints/WCAP-FTX2.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 2664.5
+        },
+        {
+          "path": "Database Libraries/Footprints/WCAP-FTXH.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 2563.5
+        },
+        {
+          "path": "Database Libraries/Footprints/WCAP-FTXX.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 10691.0
+        },
+        {
+          "path": "Database Libraries/Footprints/WCAP-FTY2.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 2492.5
+        },
+        {
+          "path": "Database Libraries/Footprints/WCAP-HSAH.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 604.0
+        },
+        {
+          "path": "Database Libraries/Footprints/WCAP-HSG5.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 607.0
+        },
+        {
+          "path": "Database Libraries/Footprints/WCAP-HTAH.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 450.0
+        },
+        {
+          "path": "Database Libraries/Footprints/WCAP-HTG5.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 450.0
+        },
+        {
+          "path": "Database Libraries/Footprints/WCAP-PHGP.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 164.5
+        },
+        {
+          "path": "Database Libraries/Footprints/WCAP-PHLE.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 164.5
+        },
+        {
+          "path": "Database Libraries/Footprints/WCAP-PHSE.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 164.5
+        },
+        {
+          "path": "Database Libraries/Footprints/WCAP-PSHP.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 836.0
+        },
+        {
+          "path": "Database Libraries/Footprints/WCAP-PSLC.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 316.0
+        },
+        {
+          "path": "Database Libraries/Footprints/WCAP-PSLP.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 649.0
+        }
+      ]
+    },
+    {
+      "repo": "chilaboard/Altium-Library",
+      "url": "https://github.com/chilaboard/Altium-Library",
+      "stars": 126,
+      "desc": "4000+ IPC compliant components",
+      "altium_file_count": 301,
+      "files": [
+        {
+          "path": "AltiumPCBLIB/7SEG.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 8002.0
+        },
+        {
+          "path": "AltiumPCBLIB/ANTENNA.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 676.0
+        },
+        {
+          "path": "AltiumPCBLIB/AUDIO_MIC_SPK.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1288.0
+        },
+        {
+          "path": "AltiumPCBLIB/BATTERY.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 4925.0
+        },
+        {
+          "path": "AltiumPCBLIB/CONN_B2B.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 10250.0
+        },
+        {
+          "path": "AltiumPCBLIB/CONN_B2B_FMC.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 24320.0
+        },
+        {
+          "path": "AltiumPCBLIB/CONN_B2B_QSTRIP.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 10166.5
+        },
+        {
+          "path": "AltiumPCBLIB/CONN_B2B_SEARAY.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 14447.0
+        },
+        {
+          "path": "AltiumPCBLIB/CONN_DIN.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 2924.5
+        },
+        {
+          "path": "AltiumPCBLIB/CONN_DISP_HDMI.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 6705.0
+        },
+        {
+          "path": "AltiumPCBLIB/CONN_DSUB.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 6507.0
+        },
+        {
+          "path": "AltiumPCBLIB/CONN_FPC.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 9284.0
+        },
+        {
+          "path": "AltiumPCBLIB/CONN_HDR_1.00MM_ST.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 713.0
+        },
+        {
+          "path": "AltiumPCBLIB/CONN_HDR_1.00MM_ST_SMD.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 4655.0
+        },
+        {
+          "path": "AltiumPCBLIB/CONN_HDR_1.00MM_ST_SMDE.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 138.0
+        },
+        {
+          "path": "AltiumPCBLIB/CONN_HDR_1.27MM_BOX_IDC.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1763.0
+        },
+        {
+          "path": "AltiumPCBLIB/CONN_HDR_1.27MM_ST.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 13730.0
+        },
+        {
+          "path": "AltiumPCBLIB/CONN_HDR_1.27MM_ST_SMD.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 10900.5
+        },
+        {
+          "path": "AltiumPCBLIB/CONN_HDR_1.27MM_ST_SMDE.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1166.5
+        },
+        {
+          "path": "AltiumPCBLIB/CONN_HDR_2.00MM_BOX_IDC.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1506.5
+        },
+        {
+          "path": "AltiumPCBLIB/CONN_HDR_2.00MM_ST.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 2749.0
+        },
+        {
+          "path": "AltiumPCBLIB/CONN_HDR_2.00MM_ST_SMD.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 2238.5
+        },
+        {
+          "path": "AltiumPCBLIB/CONN_HDR_2.54MM_BOX_IDC.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 5699.0
+        },
+        {
+          "path": "AltiumPCBLIB/CONN_HDR_2.54MM_LP.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 331.0
+        },
+        {
+          "path": "AltiumPCBLIB/CONN_HDR_2.54MM_RA.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 5048.5
+        },
+        {
+          "path": "AltiumPCBLIB/CONN_HDR_2.54MM_RA_SMD.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 2504.5
+        },
+        {
+          "path": "AltiumPCBLIB/CONN_HDR_2.54MM_ST.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 8234.0
+        },
+        {
+          "path": "AltiumPCBLIB/CONN_HDR_2.54MM_ST_SMD.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 2304.0
+        },
+        {
+          "path": "AltiumPCBLIB/CONN_HDR_2.54MM_ST_SMDE.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1926.5
+        },
+        {
+          "path": "AltiumPCBLIB/CONN_JACKAV.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 2284.0
+        },
+        {
+          "path": "AltiumPCBLIB/CONN_OPTIC.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 3873.5
+        },
+        {
+          "path": "AltiumPCBLIB/CONN_PCIE_PCI.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 12025.5
+        },
+        {
+          "path": "AltiumPCBLIB/CONN_POWERJACK.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 4871.0
+        },
+        {
+          "path": "AltiumPCBLIB/CONN_PWR.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 2139.0
+        },
+        {
+          "path": "AltiumPCBLIB/CONN_RF.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 2481.0
+        },
+        {
+          "path": "AltiumPCBLIB/CONN_RJ.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 12784.5
+        },
+        {
+          "path": "AltiumPCBLIB/CONN_SATA.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 623.0
+        },
+        {
+          "path": "AltiumPCBLIB/CONN_TBLOCK.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 12397.0
+        },
+        {
+          "path": "AltiumPCBLIB/CONN_USB.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 9040.0
+        },
+        {
+          "path": "AltiumPCBLIB/CONN_USB_C.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 18670.5
+        },
+        {
+          "path": "AltiumPCBLIB/CONN_W2B.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 15019.0
+        },
+        {
+          "path": "AltiumPCBLIB/CONN_W2B_H.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 2665.5
+        },
+        {
+          "path": "AltiumPCBLIB/CONN_W2B_JST.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 17201.5
+        },
+        {
+          "path": "AltiumPCBLIB/CRYSTAL_OSC.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 5255.5
+        },
+        {
+          "path": "AltiumPCBLIB/DIODE.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 4387.5
+        },
+        {
+          "path": "AltiumPCBLIB/DPAK_SMD.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 4128.5
+        },
+        {
+          "path": "AltiumPCBLIB/EMI_FILTER.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 2994.5
+        },
+        {
+          "path": "AltiumPCBLIB/GPS.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 2320.0
+        },
+        {
+          "path": "AltiumPCBLIB/GRAPHICAL_SIGN.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1567.5
+        },
+        {
+          "path": "AltiumPCBLIB/GSM.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 7923.5
+        }
+      ]
+    },
+    {
+      "repo": "issus/AltiumSharp",
+      "url": "https://github.com/issus/AltiumSharp",
+      "stars": 101,
+      "desc": "C# .NET Standard library to read Altium library files and render them",
+      "altium_file_count": 198,
+      "files": [
+        {
+          "path": "TestData/Generated/Individual/PCB/ARCS_TEST.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 103.5
+        },
+        {
+          "path": "TestData/Generated/Individual/PCB/ARC_ANGLES.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 103.5
+        },
+        {
+          "path": "TestData/Generated/Individual/PCB/ARC_FULL_CIRCLES.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 103.5
+        },
+        {
+          "path": "TestData/Generated/Individual/PCB/ARC_WIDTHS.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 103.5
+        },
+        {
+          "path": "TestData/Generated/Individual/PCB/BODY_3D.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 104.0
+        },
+        {
+          "path": "TestData/Generated/Individual/PCB/BODY_3D_EXTENDED.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 104.0
+        },
+        {
+          "path": "TestData/Generated/Individual/PCB/BODY_3D_STEP.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 115.0
+        },
+        {
+          "path": "TestData/Generated/Individual/PCB/BODY_3D_STEP_CHECKSUM0.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 115.5
+        },
+        {
+          "path": "TestData/Generated/Individual/PCB/COMPLEX_EXTENDED.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 105.5
+        },
+        {
+          "path": "TestData/Generated/Individual/PCB/COORDINATE.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 103.0
+        },
+        {
+          "path": "TestData/Generated/Individual/PCB/DIMENSION_ANGULAR.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 103.0
+        },
+        {
+          "path": "TestData/Generated/Individual/PCB/DIMENSION_BASELINE.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 103.0
+        },
+        {
+          "path": "TestData/Generated/Individual/PCB/DIMENSION_CENTER.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 103.0
+        },
+        {
+          "path": "TestData/Generated/Individual/PCB/DIMENSION_DATUM.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 103.0
+        },
+        {
+          "path": "TestData/Generated/Individual/PCB/DIMENSION_EXTENDED.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 103.5
+        },
+        {
+          "path": "TestData/Generated/Individual/PCB/DIMENSION_LINEAR.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 103.0
+        },
+        {
+          "path": "TestData/Generated/Individual/PCB/DIMENSION_RADIAL.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 103.0
+        },
+        {
+          "path": "TestData/Generated/Individual/PCB/FILLS_TEST.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 103.5
+        },
+        {
+          "path": "TestData/Generated/Individual/PCB/KEEPOUT_REGION.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 103.5
+        },
+        {
+          "path": "TestData/Generated/Individual/PCB/MULTIPIN_BGA.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 116.0
+        },
+        {
+          "path": "TestData/Generated/Individual/PCB/MULTIPIN_QFP.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 118.0
+        },
+        {
+          "path": "TestData/Generated/Individual/PCB/MULTIPIN_SOIC.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 109.5
+        },
+        {
+          "path": "TestData/Generated/Individual/PCB/MULTIPIN_SOP.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 106.5
+        },
+        {
+          "path": "TestData/Generated/Individual/PCB/PAD_BACK_DRILL.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 104.0
+        },
+        {
+          "path": "TestData/Generated/Individual/PCB/PAD_COUNTER_HOLE.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 104.0
+        },
+        {
+          "path": "TestData/Generated/Individual/PCB/PAD_CUSTOM_SHAPE.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 104.0
+        },
+        {
+          "path": "TestData/Generated/Individual/PCB/PAD_EXTENDED.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 104.0
+        },
+        {
+          "path": "TestData/Generated/Individual/PCB/PAD_HOLE_TYPES.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 106.0
+        },
+        {
+          "path": "TestData/Generated/Individual/PCB/PAD_ROTATED.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 104.0
+        },
+        {
+          "path": "TestData/Generated/Individual/PCB/PAD_SMD_OBLONG.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 104.5
+        },
+        {
+          "path": "TestData/Generated/Individual/PCB/PAD_SMD_RECTANGULAR.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 104.0
+        },
+        {
+          "path": "TestData/Generated/Individual/PCB/PAD_SMD_ROUND.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 104.0
+        },
+        {
+          "path": "TestData/Generated/Individual/PCB/PAD_SMD_ROUNDED.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 104.5
+        },
+        {
+          "path": "TestData/Generated/Individual/PCB/PAD_STACKED_MODES.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 104.5
+        },
+        {
+          "path": "TestData/Generated/Individual/PCB/PAD_THERMAL_RELIEF.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 104.5
+        },
+        {
+          "path": "TestData/Generated/Individual/PCB/PAD_TH_OBLONG.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 104.5
+        },
+        {
+          "path": "TestData/Generated/Individual/PCB/PAD_TH_OCTAGONAL.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 104.0
+        },
+        {
+          "path": "TestData/Generated/Individual/PCB/PAD_TH_RECTANGULAR.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 104.0
+        },
+        {
+          "path": "TestData/Generated/Individual/PCB/PAD_TH_ROUND.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 104.0
+        },
+        {
+          "path": "TestData/Generated/Individual/PCB/PAD_TH_SLOT.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 104.5
+        },
+        {
+          "path": "TestData/Generated/Individual/PCB/POLYGON_DIRECT_CONNECT.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 103.0
+        },
+        {
+          "path": "TestData/Generated/Individual/PCB/POLYGON_EXTENDED.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 103.0
+        },
+        {
+          "path": "TestData/Generated/Individual/PCB/POLYGON_HATCHED_45.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 103.0
+        },
+        {
+          "path": "TestData/Generated/Individual/PCB/POLYGON_HATCHED_90.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 103.0
+        },
+        {
+          "path": "TestData/Generated/Individual/PCB/POLYGON_ISLANDS.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 103.0
+        },
+        {
+          "path": "TestData/Generated/Individual/PCB/POLYGON_OUTLINE.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 103.0
+        },
+        {
+          "path": "TestData/Generated/Individual/PCB/POLYGON_SOLID.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 103.0
+        },
+        {
+          "path": "TestData/Generated/Individual/PCB/POLYGON_THERMAL.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 103.0
+        },
+        {
+          "path": "TestData/Generated/Individual/PCB/REGIONS_TEST.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 103.5
+        },
+        {
+          "path": "TestData/Generated/Individual/PCB/REGION_BOARD_OUTLINE.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 103.0
+        }
+      ]
+    },
+    {
+      "repo": "SergeyLadanov/AltiumComponentsDB",
+      "url": "https://github.com/SergeyLadanov/AltiumComponentsDB",
+      "stars": 5,
+      "desc": "Библиотека электронных компонентов в виде базы данных для Altium Designer",
+      "altium_file_count": 196,
+      "files": [
+        {
+          "path": "Database_Libs1.DbLib",
+          "type": ".DbLib",
+          "size_kb": 39.76
+        },
+        {
+          "path": "PcbLib/Connectors/10033526N3212LF.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 239.5
+        },
+        {
+          "path": "PcbLib/Connectors/15EDGRC-3.5-02.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 146.5
+        },
+        {
+          "path": "PcbLib/Connectors/15EDGRC-3.5-03.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 164.5
+        },
+        {
+          "path": "PcbLib/Connectors/15EDGRC-3.81-02P.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 104.0
+        },
+        {
+          "path": "PcbLib/Connectors/15EDGRC-3.81-03P.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 103.5
+        },
+        {
+          "path": "PcbLib/Connectors/15EDGRC-3.81-04P.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 103.5
+        },
+        {
+          "path": "PcbLib/Connectors/15EDGVC-3.5-02.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1003.0
+        },
+        {
+          "path": "PcbLib/Connectors/15EDGVC-3.5-03.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1022.0
+        },
+        {
+          "path": "PcbLib/Connectors/15EDGVC-3.5-08.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 105.0
+        },
+        {
+          "path": "PcbLib/Connectors/47346-0001.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 335.0
+        },
+        {
+          "path": "PcbLib/Connectors/BH-14.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 186.5
+        },
+        {
+          "path": "PcbLib/Connectors/CWF-10.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 221.0
+        },
+        {
+          "path": "PcbLib/Connectors/DG500-5.08-03P.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 774.5
+        },
+        {
+          "path": "PcbLib/Connectors/DS1031-06-2X3P8BV41-3A.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 710.0
+        },
+        {
+          "path": "PcbLib/Connectors/FC1-5211.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 174.5
+        },
+        {
+          "path": "PcbLib/Connectors/HR911105A.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 522.5
+        },
+        {
+          "path": "PcbLib/Connectors/KLS5-CR2032-03.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 134.0
+        },
+        {
+          "path": "PcbLib/Connectors/MC32603.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 169.5
+        },
+        {
+          "path": "PcbLib/Connectors/MJ-0-4.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 103.5
+        },
+        {
+          "path": "PcbLib/Connectors/PLS-10.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 189.0
+        },
+        {
+          "path": "PcbLib/Connectors/PLS-3.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 137.5
+        },
+        {
+          "path": "PcbLib/Connectors/PLS-4.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 151.5
+        },
+        {
+          "path": "PcbLib/Connectors/PLS-5.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 161.0
+        },
+        {
+          "path": "PcbLib/Connectors/PLS-6.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 204.0
+        },
+        {
+          "path": "PcbLib/Connectors/PLS-8.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 201.5
+        },
+        {
+          "path": "PcbLib/Connectors/WF-2.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 126.0
+        },
+        {
+          "path": "PcbLib/Connectors/WF-2R.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 130.0
+        },
+        {
+          "path": "PcbLib/Connectors/WF-3.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 133.5
+        },
+        {
+          "path": "PcbLib/Connectors/WF-3R.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 138.0
+        },
+        {
+          "path": "PcbLib/Connectors/WF-4.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 140.5
+        },
+        {
+          "path": "PcbLib/Connectors/WF-4R.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 146.0
+        },
+        {
+          "path": "PcbLib/Crystals/HC49S.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 353.5
+        },
+        {
+          "path": "PcbLib/Crystals/KX-327S.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 116.5
+        },
+        {
+          "path": "PcbLib/Crystals/KX-7.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 308.5
+        },
+        {
+          "path": "PcbLib/Crystals/KX-8T.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 295.0
+        },
+        {
+          "path": "PcbLib/Crystals/KX-9A.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 288.0
+        },
+        {
+          "path": "PcbLib/Microchips/D2-PAK.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 126.5
+        },
+        {
+          "path": "PcbLib/Microchips/LQFP64.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 158.5
+        },
+        {
+          "path": "PcbLib/Microchips/QFN14.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 120.5
+        },
+        {
+          "path": "PcbLib/Microchips/SO8.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 106.5
+        },
+        {
+          "path": "PcbLib/Microchips/SOIC8.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 182.0
+        },
+        {
+          "path": "PcbLib/Microchips/SOT223.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 128.5
+        },
+        {
+          "path": "PcbLib/Microchips/SOT23.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 123.5
+        },
+        {
+          "path": "PcbLib/Microchips/TSOP54.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 190.0
+        },
+        {
+          "path": "PcbLib/Microchips/TSSOP16.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 176.0
+        },
+        {
+          "path": "PcbLib/Modules/4.3inch 480x272 Touch LCD [A].PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 342.5
+        },
+        {
+          "path": "PcbLib/Modules/AM1S.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 105.0
+        },
+        {
+          "path": "PcbLib/Modules/DWM3001C.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 882.5
+        },
+        {
+          "path": "PcbLib/Modules/ESP8266-12F.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 392.5
+        }
+      ]
+    },
+    {
+      "repo": "amiryeg/Altium-Libraries",
+      "url": "https://github.com/amiryeg/Altium-Libraries",
+      "stars": 79,
+      "desc": "Open source Altium libraries including symbols, footprints, and 3D models for thousands of part",
+      "altium_file_count": 181,
+      "files": [
+        {
+          "path": "Footprints/Audio MIC and SPKR.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1021.0
+        },
+        {
+          "path": "Footprints/Battery.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 2734.0
+        },
+        {
+          "path": "Footprints/Connector B2B.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 17328.0
+        },
+        {
+          "path": "Footprints/Connector DIN.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1800.5
+        },
+        {
+          "path": "Footprints/Connector DSUB.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 5582.5
+        },
+        {
+          "path": "Footprints/Connector Display.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 2142.0
+        },
+        {
+          "path": "Footprints/Connector FPC.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 8229.0
+        },
+        {
+          "path": "Footprints/Connector Header 127.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 691.0
+        },
+        {
+          "path": "Footprints/Connector Header 200.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 4106.5
+        },
+        {
+          "path": "Footprints/Connector Header 254 Right Angel.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 4840.5
+        },
+        {
+          "path": "Footprints/Connector Header 254.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 8534.5
+        },
+        {
+          "path": "Footprints/Connector Header IDC.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 4613.5
+        },
+        {
+          "path": "Footprints/Connector Jack Audio Video.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 2298.5
+        },
+        {
+          "path": "Footprints/Connector Micro SD.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1448.0
+        },
+        {
+          "path": "Footprints/Connector PCIE PCI.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1944.0
+        },
+        {
+          "path": "Footprints/Connector Power.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 5350.0
+        },
+        {
+          "path": "Footprints/Connector RF.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 2439.0
+        },
+        {
+          "path": "Footprints/Connector RJ.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 11748.5
+        },
+        {
+          "path": "Footprints/Connector SIM Card.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1364.0
+        },
+        {
+          "path": "Footprints/Connector USB.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 5779.5
+        },
+        {
+          "path": "Footprints/Connector Wire to Board.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 2527.0
+        },
+        {
+          "path": "Footprints/Crystal Oscillator.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 4168.5
+        },
+        {
+          "path": "Footprints/DPAK SMD.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 3229.0
+        },
+        {
+          "path": "Footprints/Diode.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 3426.0
+        },
+        {
+          "path": "Footprints/EMI Filter.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 2013.5
+        },
+        {
+          "path": "Footprints/GPS.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 2987.5
+        },
+        {
+          "path": "Footprints/GSM.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 10508.5
+        },
+        {
+          "path": "Footprints/Graphical Sign.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1575.0
+        },
+        {
+          "path": "Footprints/IC DIP.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 2502.5
+        },
+        {
+          "path": "Footprints/IC SMD BGA.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 7063.5
+        },
+        {
+          "path": "Footprints/IC SMD DUAL.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 8397.5
+        },
+        {
+          "path": "Footprints/IC SMD QUAD.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 9190.5
+        },
+        {
+          "path": "Footprints/IC_SMD_PLCC.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 597.0
+        },
+        {
+          "path": "Footprints/LCD.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 7685.5
+        },
+        {
+          "path": "Footprints/LED.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 2375.0
+        },
+        {
+          "path": "Footprints/Mechanical.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 932.0
+        },
+        {
+          "path": "Footprints/Module DC To DC.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 3019.0
+        },
+        {
+          "path": "Footprints/Module MISC.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 18939.0
+        },
+        {
+          "path": "Footprints/Module RF Wireless.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 3219.5
+        },
+        {
+          "path": "Footprints/Module WIFI ESP8266.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 13548.0
+        },
+        {
+          "path": "Footprints/POT.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 3903.5
+        },
+        {
+          "path": "Footprints/Passive SMD.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 12783.5
+        },
+        {
+          "path": "Footprints/Passive THD.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 9448.5
+        },
+        {
+          "path": "Footprints/Relay TRB.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 525.5
+        },
+        {
+          "path": "Footprints/Relay.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 5225.5
+        },
+        {
+          "path": "Footprints/SOT SMD.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1657.0
+        },
+        {
+          "path": "Footprints/Sensor.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 6865.5
+        },
+        {
+          "path": "Footprints/Seven Segment.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 3945.5
+        },
+        {
+          "path": "Footprints/Socket Card.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 14989.5
+        },
+        {
+          "path": "Footprints/Socket DIP SMD.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 8740.0
+        }
+      ]
+    },
+    {
+      "repo": "francescosacco/HardwareLibrary",
+      "url": "https://github.com/francescosacco/HardwareLibrary",
+      "stars": 24,
+      "desc": "It's an open source Altium database Libraries for Altium Designer.",
+      "altium_file_count": 167,
+      "files": [
+        {
+          "path": "3M.IntLib",
+          "type": ".IntLib",
+          "size_kb": 38.0
+        },
+        {
+          "path": "3M/Zip.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 273.5
+        },
+        {
+          "path": "3M/Zip.SchLib",
+          "type": ".SchLib",
+          "size_kb": 73.5
+        },
+        {
+          "path": "Abracon.IntLib",
+          "type": ".IntLib",
+          "size_kb": 555.5
+        },
+        {
+          "path": "Abracon/ASV.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 640.5
+        },
+        {
+          "path": "Abracon/ASV.SchLib",
+          "type": ".SchLib",
+          "size_kb": 4.5
+        },
+        {
+          "path": "Alpha Electronic.IntLib",
+          "type": ".IntLib",
+          "size_kb": 555.5
+        },
+        {
+          "path": "Alpha Electronic/RV16A.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 656.5
+        },
+        {
+          "path": "Alpha Electronic/RV16A.SchLib",
+          "type": ".SchLib",
+          "size_kb": 6.5
+        },
+        {
+          "path": "Basic.IntLib",
+          "type": ".IntLib",
+          "size_kb": 1801.5
+        },
+        {
+          "path": "Basic/0402.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 107.5
+        },
+        {
+          "path": "Basic/0603.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 107.5
+        },
+        {
+          "path": "Basic/0805.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 107.5
+        },
+        {
+          "path": "Basic/1206.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 107.5
+        },
+        {
+          "path": "Basic/1808.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 100.0
+        },
+        {
+          "path": "Basic/1812.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 100.0
+        },
+        {
+          "path": "Basic/2917.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 601.5
+        },
+        {
+          "path": "Basic/Basic.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 173.5
+        },
+        {
+          "path": "Basic/Basic.SchLib",
+          "type": ".SchLib",
+          "size_kb": 65.5
+        },
+        {
+          "path": "Basic/DO.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 633.5
+        },
+        {
+          "path": "Basic/DiskCapacitor.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 628.0
+        },
+        {
+          "path": "Basic/Resistor.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 107.5
+        },
+        {
+          "path": "Basic/Test Point.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 101.5
+        },
+        {
+          "path": "Bourns.IntLib",
+          "type": ".IntLib",
+          "size_kb": 62.0
+        },
+        {
+          "path": "Bourns/PTV09.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 378.0
+        },
+        {
+          "path": "Bourns/PTV09.SchLib",
+          "type": ".SchLib",
+          "size_kb": 11.0
+        },
+        {
+          "path": "Bourns/PV36.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 137.0
+        },
+        {
+          "path": "Bourns/PV36.SchLib",
+          "type": ".SchLib",
+          "size_kb": 6.5
+        },
+        {
+          "path": "Chyao Shiunn Electronics.IntLib",
+          "type": ".IntLib",
+          "size_kb": 19.5
+        },
+        {
+          "path": "Chyao Shiunn Electronics/JS-1150.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 97.0
+        },
+        {
+          "path": "Chyao Shiunn Electronics/JS-1150.SchLib",
+          "type": ".SchLib",
+          "size_kb": 5.0
+        },
+        {
+          "path": "Coilcraft.IntLib",
+          "type": ".IntLib",
+          "size_kb": 642.5
+        },
+        {
+          "path": "Coilcraft/XAL50.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 745.5
+        },
+        {
+          "path": "Coilcraft/XAL50.SchLib",
+          "type": ".SchLib",
+          "size_kb": 23.5
+        },
+        {
+          "path": "Cypress.IntLib",
+          "type": ".IntLib",
+          "size_kb": 27.0
+        },
+        {
+          "path": "Cypress/Memory.SchLib",
+          "type": ".SchLib",
+          "size_kb": 7.5
+        },
+        {
+          "path": "Cypress/Packaging.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 201.5
+        },
+        {
+          "path": "Dinkle.IntLib",
+          "type": ".IntLib",
+          "size_kb": 35.0
+        },
+        {
+          "path": "Dinkle/EHK2V.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 221.5
+        },
+        {
+          "path": "Dinkle/EHK2V.SchLib",
+          "type": ".SchLib",
+          "size_kb": 70.0
+        },
+        {
+          "path": "Everlight.IntLib",
+          "type": ".IntLib",
+          "size_kb": 21.0
+        },
+        {
+          "path": "Everlight/Photocoupler.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 103.5
+        },
+        {
+          "path": "Everlight/Photocoupler.SchLib",
+          "type": ".SchLib",
+          "size_kb": 6.5
+        },
+        {
+          "path": "GTC.IntLib",
+          "type": ".IntLib",
+          "size_kb": 223.0
+        },
+        {
+          "path": "GTC/SP-140520.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 4342.0
+        },
+        {
+          "path": "GTC/SP-140520.SchLib",
+          "type": ".SchLib",
+          "size_kb": 154.0
+        },
+        {
+          "path": "HS Dissipadores/HS.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 98.0
+        },
+        {
+          "path": "HS Dissipadores/HS.SchLib",
+          "type": ".SchLib",
+          "size_kb": 4.5
+        },
+        {
+          "path": "HS.IntLib",
+          "type": ".IntLib",
+          "size_kb": 20.0
+        },
+        {
+          "path": "ISSI.IntLib",
+          "type": ".IntLib",
+          "size_kb": 556.0
+        }
+      ]
+    },
+    {
+      "repo": "IMA-Hardware/IMA-Altium-Designer-Library",
+      "url": "https://github.com/IMA-Hardware/IMA-Altium-Designer-Library",
+      "stars": 57,
+      "desc": "广东工业大学IMA蛋协AD封装库",
+      "altium_file_count": 113,
+      "files": [
+        {
+          "path": "1.Base/Miscellaneous Base.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 15664.0
+        },
+        {
+          "path": "1.Base/Miscellaneous Base.SchLib",
+          "type": ".SchLib",
+          "size_kb": 84.0
+        },
+        {
+          "path": "1.Base/Project Outputs for Miscellaneous Base/Miscellaneous Base.IntLib",
+          "type": ".IntLib",
+          "size_kb": 15125.5
+        },
+        {
+          "path": "10.Model/Miscellaneous Model.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 2032.0
+        },
+        {
+          "path": "10.Model/Miscellaneous Model.SchLib",
+          "type": ".SchLib",
+          "size_kb": 30.0
+        },
+        {
+          "path": "10.Model/Project Outputs for Miscellaneous Model/Miscellaneous Model.IntLib",
+          "type": ".IntLib",
+          "size_kb": 1897.0
+        },
+        {
+          "path": "11.Display/Miscellaneous LCD.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 2843.0
+        },
+        {
+          "path": "11.Display/Miscellaneous LCD.SchLib",
+          "type": ".SchLib",
+          "size_kb": 19.5
+        },
+        {
+          "path": "11.Display/Miscellaneous LED Segment Displays.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 2408.5
+        },
+        {
+          "path": "11.Display/Miscellaneous LED Segment Displays.SchLib",
+          "type": ".SchLib",
+          "size_kb": 273.0
+        },
+        {
+          "path": "11.Display/Project Outputs for Miscellaneous LCD/Miscellaneous LCD.IntLib",
+          "type": ".IntLib",
+          "size_kb": 2756.5
+        },
+        {
+          "path": "11.Display/Project Outputs for Miscellaneous LED Segment Displays/Miscellaneous LED Segment Displays.IntLib",
+          "type": ".IntLib",
+          "size_kb": 2167.0
+        },
+        {
+          "path": "12.Others/Miscellaneous Others.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 98.0
+        },
+        {
+          "path": "12.Others/Miscellaneous Others.SchLib",
+          "type": ".SchLib",
+          "size_kb": 5.0
+        },
+        {
+          "path": "12.Others/Project Outputs for Miscellaneous Others/Miscellaneous Others.IntLib",
+          "type": ".IntLib",
+          "size_kb": 20.5
+        },
+        {
+          "path": "2.Connector/Miscellaneous Connectors/10.FPC/FPC.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 23575.5
+        },
+        {
+          "path": "2.Connector/Miscellaneous Connectors/10.FPC/FPC.SchLib",
+          "type": ".SchLib",
+          "size_kb": 523.0
+        },
+        {
+          "path": "2.Connector/Miscellaneous Connectors/11.HT3.96/HT3.96.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1078.0
+        },
+        {
+          "path": "2.Connector/Miscellaneous Connectors/11.HT3.96/HT3.96.SchLib",
+          "type": ".SchLib",
+          "size_kb": 57.5
+        },
+        {
+          "path": "2.Connector/Miscellaneous Connectors/12.KF2EDGK/KF2EDGK.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 8962.5
+        },
+        {
+          "path": "2.Connector/Miscellaneous Connectors/12.KF2EDGK/KF2EDGK.SchLib",
+          "type": ".SchLib",
+          "size_kb": 67.5
+        },
+        {
+          "path": "2.Connector/Miscellaneous Connectors/13.KF128/KF128.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 568.5
+        },
+        {
+          "path": "2.Connector/Miscellaneous Connectors/13.KF128/KF128.SchLib",
+          "type": ".SchLib",
+          "size_kb": 77.5
+        },
+        {
+          "path": "2.Connector/Miscellaneous Connectors/14.KF301/KF301.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 909.0
+        },
+        {
+          "path": "2.Connector/Miscellaneous Connectors/14.KF301/KF301.SchLib",
+          "type": ".SchLib",
+          "size_kb": 47.5
+        },
+        {
+          "path": "2.Connector/Miscellaneous Connectors/15.KF350/KF350.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 932.0
+        },
+        {
+          "path": "2.Connector/Miscellaneous Connectors/15.KF350/KF350.SchLib",
+          "type": ".SchLib",
+          "size_kb": 47.5
+        },
+        {
+          "path": "2.Connector/Miscellaneous Connectors/16.KF2510/KF2510.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 282.5
+        },
+        {
+          "path": "2.Connector/Miscellaneous Connectors/16.KF2510/KF2510.SchLib",
+          "type": ".SchLib",
+          "size_kb": 47.0
+        },
+        {
+          "path": "2.Connector/Miscellaneous Connectors/17.KF7620/KF7620.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 770.5
+        },
+        {
+          "path": "2.Connector/Miscellaneous Connectors/17.KF7620/KF7620.SchLib",
+          "type": ".SchLib",
+          "size_kb": 85.5
+        },
+        {
+          "path": "2.Connector/Miscellaneous Connectors/18.KFHB9500/KFHB9500.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 996.5
+        },
+        {
+          "path": "2.Connector/Miscellaneous Connectors/18.KFHB9500/KFHB9500.SchLib",
+          "type": ".SchLib",
+          "size_kb": 59.5
+        },
+        {
+          "path": "2.Connector/Miscellaneous Connectors/3.简易牛角座/简易牛角座.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 3683.0
+        },
+        {
+          "path": "2.Connector/Miscellaneous Connectors/3.简易牛角座/简易牛角座.SchLib",
+          "type": ".SchLib",
+          "size_kb": 70.0
+        },
+        {
+          "path": "2.Connector/Miscellaneous Connectors/4.串口/串口.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 818.0
+        },
+        {
+          "path": "2.Connector/Miscellaneous Connectors/4.串口/串口.SchLib",
+          "type": ".SchLib",
+          "size_kb": 26.5
+        },
+        {
+          "path": "2.Connector/Miscellaneous Connectors/5.XH，VH/Project Outputs for XH，VH/XH，VH.IntLib",
+          "type": ".IntLib",
+          "size_kb": 5835.0
+        },
+        {
+          "path": "2.Connector/Miscellaneous Connectors/5.XH，VH/XH，VH.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 6298.5
+        },
+        {
+          "path": "2.Connector/Miscellaneous Connectors/5.XH，VH/XH，VH.SchLib",
+          "type": ".SchLib",
+          "size_kb": 90.0
+        },
+        {
+          "path": "2.Connector/Miscellaneous Connectors/6.PHD/PHD.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 2215.5
+        },
+        {
+          "path": "2.Connector/Miscellaneous Connectors/6.PHD/PHD.SchLib",
+          "type": ".SchLib",
+          "size_kb": 107.0
+        },
+        {
+          "path": "2.Connector/Miscellaneous Connectors/7.PHB/PHB.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1320.5
+        },
+        {
+          "path": "2.Connector/Miscellaneous Connectors/7.PHB/PHB.SchLib",
+          "type": ".SchLib",
+          "size_kb": 66.0
+        },
+        {
+          "path": "2.Connector/Miscellaneous Connectors/8.PH/PH.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 3419.0
+        },
+        {
+          "path": "2.Connector/Miscellaneous Connectors/8.PH/PH.SchLib",
+          "type": ".SchLib",
+          "size_kb": 78.5
+        },
+        {
+          "path": "2.Connector/Miscellaneous Connectors/8.PH/Project Outputs for PH/PH.IntLib",
+          "type": ".IntLib",
+          "size_kb": 3025.0
+        },
+        {
+          "path": "2.Connector/Miscellaneous Connectors/9.MX/MX.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 10613.0
+        },
+        {
+          "path": "2.Connector/Miscellaneous Connectors/9.MX/MX.SchLib",
+          "type": ".SchLib",
+          "size_kb": 69.5
+        },
+        {
+          "path": "2.Connector/Miscellaneous Header.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 61298.0
+        }
+      ]
+    },
+    {
+      "repo": "raphaelchang/altium-libraries",
+      "url": "https://github.com/raphaelchang/altium-libraries",
+      "stars": 18,
+      "desc": "Altium libraries for my projects",
+      "altium_file_count": 95,
+      "files": [
+        {
+          "path": "Capacitors/Capacitors-0201.SchLib",
+          "type": ".SchLib",
+          "size_kb": 10.0
+        },
+        {
+          "path": "Capacitors/Capacitors-0402.SchLib",
+          "type": ".SchLib",
+          "size_kb": 128.0
+        },
+        {
+          "path": "Capacitors/Capacitors-0603.SchLib",
+          "type": ".SchLib",
+          "size_kb": 26.0
+        },
+        {
+          "path": "Capacitors/Capacitors-0805.SchLib",
+          "type": ".SchLib",
+          "size_kb": 9.0
+        },
+        {
+          "path": "Capacitors/Capacitors-1206.SchLib",
+          "type": ".SchLib",
+          "size_kb": 13.0
+        },
+        {
+          "path": "Capacitors/Capacitors-1210.SchLib",
+          "type": ".SchLib",
+          "size_kb": 19.5
+        },
+        {
+          "path": "Capacitors/Capacitors-2220.SchLib",
+          "type": ".SchLib",
+          "size_kb": 13.0
+        },
+        {
+          "path": "Capacitors/Capacitors-Electrolytic.SchLib",
+          "type": ".SchLib",
+          "size_kb": 20.0
+        },
+        {
+          "path": "Capacitors/Capacitors-Film.SchLib",
+          "type": ".SchLib",
+          "size_kb": 5.5
+        },
+        {
+          "path": "Capacitors/Capacitors.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1258.0
+        },
+        {
+          "path": "Capacitors/Project Outputs for Capacitors/Capacitors.IntLib",
+          "type": ".IntLib",
+          "size_kb": 1114.0
+        },
+        {
+          "path": "Connectors/Connectors-Hirose.SchLib",
+          "type": ".SchLib",
+          "size_kb": 34.0
+        },
+        {
+          "path": "Connectors/Connectors-JST.SchLib",
+          "type": ".SchLib",
+          "size_kb": 131.0
+        },
+        {
+          "path": "Connectors/Connectors-Molex.SchLib",
+          "type": ".SchLib",
+          "size_kb": 85.0
+        },
+        {
+          "path": "Connectors/Connectors-Other.SchLib",
+          "type": ".SchLib",
+          "size_kb": 15.0
+        },
+        {
+          "path": "Connectors/Connectors-Power.SchLib",
+          "type": ".SchLib",
+          "size_kb": 10.5
+        },
+        {
+          "path": "Connectors/Connectors-RF.SchLib",
+          "type": ".SchLib",
+          "size_kb": 6.0
+        },
+        {
+          "path": "Connectors/Connectors-Samtec.SchLib",
+          "type": ".SchLib",
+          "size_kb": 38.0
+        },
+        {
+          "path": "Connectors/Connectors-USB.SchLib",
+          "type": ".SchLib",
+          "size_kb": 18.0
+        },
+        {
+          "path": "Connectors/Connectors.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 7905.0
+        },
+        {
+          "path": "Connectors/Project Outputs for Connectors/Connectors.IntLib",
+          "type": ".IntLib",
+          "size_kb": 7312.0
+        },
+        {
+          "path": "Diodes/Diodes-Schottky.SchLib",
+          "type": ".SchLib",
+          "size_kb": 32.0
+        },
+        {
+          "path": "Diodes/Diodes-TVS.SchLib",
+          "type": ".SchLib",
+          "size_kb": 30.0
+        },
+        {
+          "path": "Diodes/Diodes-Zener.SchLib",
+          "type": ".SchLib",
+          "size_kb": 9.0
+        },
+        {
+          "path": "Diodes/Diodes.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1087.5
+        },
+        {
+          "path": "Diodes/Project Outputs for Diodes/Diodes.IntLib",
+          "type": ".IntLib",
+          "size_kb": 998.5
+        },
+        {
+          "path": "ICs/ICs-AnalogDigitalConverters.SchLib",
+          "type": ".SchLib",
+          "size_kb": 14.0
+        },
+        {
+          "path": "ICs/ICs-AnalogSwitches.SchLib",
+          "type": ".SchLib",
+          "size_kb": 11.0
+        },
+        {
+          "path": "ICs/ICs-BatteryStackMonitors.SchLib",
+          "type": ".SchLib",
+          "size_kb": 38.0
+        },
+        {
+          "path": "ICs/ICs-CANTransceivers.SchLib",
+          "type": ".SchLib",
+          "size_kb": 6.5
+        },
+        {
+          "path": "ICs/ICs-CameraInterfaces.SchLib",
+          "type": ".SchLib",
+          "size_kb": 37.0
+        },
+        {
+          "path": "ICs/ICs-Chargers.SchLib",
+          "type": ".SchLib",
+          "size_kb": 22.0
+        },
+        {
+          "path": "ICs/ICs-CurrentSenseAmplifiers.SchLib",
+          "type": ".SchLib",
+          "size_kb": 17.5
+        },
+        {
+          "path": "ICs/ICs-DigitalAnalogConverters.SchLib",
+          "type": ".SchLib",
+          "size_kb": 10.0
+        },
+        {
+          "path": "ICs/ICs-DigitalPotentiometers.SchLib",
+          "type": ".SchLib",
+          "size_kb": 8.5
+        },
+        {
+          "path": "ICs/ICs-FlashMemory.SchLib",
+          "type": ".SchLib",
+          "size_kb": 18.0
+        },
+        {
+          "path": "ICs/ICs-GasGauges.SchLib",
+          "type": ".SchLib",
+          "size_kb": 7.0
+        },
+        {
+          "path": "ICs/ICs-ImageSensors.SchLib",
+          "type": ".SchLib",
+          "size_kb": 13.0
+        },
+        {
+          "path": "ICs/ICs-KeyControllers.SchLib",
+          "type": ".SchLib",
+          "size_kb": 6.5
+        },
+        {
+          "path": "ICs/ICs-LEDDrivers.SchLib",
+          "type": ".SchLib",
+          "size_kb": 41.0
+        },
+        {
+          "path": "ICs/ICs-LevelShifters.SchLib",
+          "type": ".SchLib",
+          "size_kb": 5.5
+        },
+        {
+          "path": "ICs/ICs-LinearRegulators.SchLib",
+          "type": ".SchLib",
+          "size_kb": 9.5
+        },
+        {
+          "path": "ICs/ICs-MOSFETDrivers.SchLib",
+          "type": ".SchLib",
+          "size_kb": 20.5
+        },
+        {
+          "path": "ICs/ICs-Memory.SchLib",
+          "type": ".SchLib",
+          "size_kb": 27.5
+        },
+        {
+          "path": "ICs/ICs-Microcontrollers.SchLib",
+          "type": ".SchLib",
+          "size_kb": 24.5
+        },
+        {
+          "path": "ICs/ICs-Microprocessors.SchLib",
+          "type": ".SchLib",
+          "size_kb": 96.7
+        },
+        {
+          "path": "ICs/ICs-MotorDrivers.SchLib",
+          "type": ".SchLib",
+          "size_kb": 24.5
+        },
+        {
+          "path": "ICs/ICs-OpAmps.SchLib",
+          "type": ".SchLib",
+          "size_kb": 26.0
+        },
+        {
+          "path": "ICs/ICs-Optocouplers.SchLib",
+          "type": ".SchLib",
+          "size_kb": 8.5
+        },
+        {
+          "path": "ICs/ICs-PowerMonitors.SchLib",
+          "type": ".SchLib",
+          "size_kb": 20.0
         }
       ]
     },
@@ -525,6 +2856,1042 @@
       ]
     },
     {
+      "repo": "vpodlesnyi/AltiumLibrary",
+      "url": "https://github.com/vpodlesnyi/AltiumLibrary",
+      "stars": 17,
+      "desc": "A component library for projects in Altium Designer.",
+      "altium_file_count": 83,
+      "files": [
+        {
+          "path": "MOP44.DbLib",
+          "type": ".DbLib",
+          "size_kb": 74.36
+        },
+        {
+          "path": "pcb/Amplifier.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 784.0
+        },
+        {
+          "path": "pcb/Button.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1554.5
+        },
+        {
+          "path": "pcb/Buzzer.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 160.5
+        },
+        {
+          "path": "pcb/Capacitor.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 8278.5
+        },
+        {
+          "path": "pcb/Connector.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 29846.0
+        },
+        {
+          "path": "pcb/Diode.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 3151.5
+        },
+        {
+          "path": "pcb/Driver.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 2036.5
+        },
+        {
+          "path": "pcb/Fuse.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1544.5
+        },
+        {
+          "path": "pcb/GOSTAmplifier.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1234.0
+        },
+        {
+          "path": "pcb/GOSTCapacitor.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1246.5
+        },
+        {
+          "path": "pcb/GOSTConnector.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 973.0
+        },
+        {
+          "path": "pcb/GOSTCrystal.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1324.0
+        },
+        {
+          "path": "pcb/GOSTDiode.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 3284.5
+        },
+        {
+          "path": "pcb/GOSTInductor.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 781.5
+        },
+        {
+          "path": "pcb/GOSTInterface.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 636.0
+        },
+        {
+          "path": "pcb/GOSTMicrocontroller.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 818.0
+        },
+        {
+          "path": "pcb/GOSTOpto.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1452.0
+        },
+        {
+          "path": "pcb/GOSTPowerTransducer.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 256.0
+        },
+        {
+          "path": "pcb/GOSTResistor.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 2616.5
+        },
+        {
+          "path": "pcb/GOSTTransistor.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 2598.5
+        },
+        {
+          "path": "pcb/GOSTVoltageReference.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 292.5
+        },
+        {
+          "path": "pcb/GasDischargeTube.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 286.0
+        },
+        {
+          "path": "pcb/Inductor.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 8607.5
+        },
+        {
+          "path": "pcb/Interface.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 3847.0
+        },
+        {
+          "path": "pcb/Logic.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1155.5
+        },
+        {
+          "path": "pcb/Memory.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 221.0
+        },
+        {
+          "path": "pcb/Microcontroller.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 7911.0
+        },
+        {
+          "path": "pcb/Module.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 14203.5
+        },
+        {
+          "path": "pcb/Opto.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1326.0
+        },
+        {
+          "path": "pcb/PWMController.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 5703.5
+        },
+        {
+          "path": "pcb/PowerTransducer.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 5758.5
+        },
+        {
+          "path": "pcb/Relay.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 586.0
+        },
+        {
+          "path": "pcb/Resistor.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 2805.0
+        },
+        {
+          "path": "pcb/Sensor.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1844.0
+        },
+        {
+          "path": "pcb/SwitchPower.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1296.0
+        },
+        {
+          "path": "pcb/Termistor.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 798.5
+        },
+        {
+          "path": "pcb/Transistor.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 2533.5
+        },
+        {
+          "path": "pcb/Varistor.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 339.5
+        },
+        {
+          "path": "pcb/VoltageReference.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 335.0
+        },
+        {
+          "path": "sch/Amplifier.SchLib",
+          "type": ".SchLib",
+          "size_kb": 99.5
+        },
+        {
+          "path": "sch/Button.SchLib",
+          "type": ".SchLib",
+          "size_kb": 44.0
+        },
+        {
+          "path": "sch/Buzzer.SchLib",
+          "type": ".SchLib",
+          "size_kb": 9.0
+        },
+        {
+          "path": "sch/Capacitor.SchLib",
+          "type": ".SchLib",
+          "size_kb": 10.5
+        },
+        {
+          "path": "sch/Connector.SchLib",
+          "type": ".SchLib",
+          "size_kb": 811.5
+        },
+        {
+          "path": "sch/Crystal.SchLib",
+          "type": ".SchLib",
+          "size_kb": 19.0
+        },
+        {
+          "path": "sch/Diode.SchLib",
+          "type": ".SchLib",
+          "size_kb": 154.0
+        },
+        {
+          "path": "sch/Driver.SchLib",
+          "type": ".SchLib",
+          "size_kb": 84.5
+        },
+        {
+          "path": "sch/Fuse.SchLib",
+          "type": ".SchLib",
+          "size_kb": 5.0
+        },
+        {
+          "path": "sch/GOSTAmplifier.SchLib",
+          "type": ".SchLib",
+          "size_kb": 92.5
+        }
+      ]
+    },
+    {
+      "repo": "wavenumber-eng/altium_monkey",
+      "url": "https://github.com/wavenumber-eng/altium_monkey",
+      "stars": 165,
+      "desc": "Altium file generation tool",
+      "altium_file_count": 78,
+      "files": [
+        {
+          "path": "examples/assets/pcblib/03R-JWPF-VSLE-S.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1453.0
+        },
+        {
+          "path": "examples/assets/pcblib/0474910001.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1836.0
+        },
+        {
+          "path": "examples/assets/pcblib/06R-JWPF-VSLE-D.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1562.5
+        },
+        {
+          "path": "examples/assets/pcblib/10 MSOP.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1231.0
+        },
+        {
+          "path": "examples/assets/pcblib/1959-1-00-15-00-00-03-0.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 119.5
+        },
+        {
+          "path": "examples/assets/pcblib/1984617.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 196.0
+        },
+        {
+          "path": "examples/assets/pcblib/1984675.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 386.0
+        },
+        {
+          "path": "examples/assets/pcblib/1984714.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 500.5
+        },
+        {
+          "path": "examples/assets/pcblib/R0402_0.40MM_HD.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 119.0
+        },
+        {
+          "path": "examples/assets/pcblib/R0603_0.55MM_MD.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 118.0
+        },
+        {
+          "path": "examples/assets/pcblib/RT_SUPER_C1.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1280.0
+        },
+        {
+          "path": "examples/assets/pcblib/SB0037A.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 5936.0
+        },
+        {
+          "path": "examples/assets/projects/bunny_brain/bunny_brain_D.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1574.5
+        },
+        {
+          "path": "examples/assets/projects/hydroscope/Hydroscope.SCHLIB",
+          "type": ".SchLib",
+          "size_kb": 1816.0
+        },
+        {
+          "path": "examples/assets/projects/loz-old-man/loz-old-man.IntLib",
+          "type": ".IntLib",
+          "size_kb": 6918.5
+        },
+        {
+          "path": "examples/assets/projects/rt_super_c1/RT_SUPER_C1.IntLib",
+          "type": ".IntLib",
+          "size_kb": 1064.0
+        },
+        {
+          "path": "examples/assets/projects/simple_hierchical/test.SchLib",
+          "type": ".SchLib",
+          "size_kb": 4.0
+        },
+        {
+          "path": "examples/assets/schlib/100_1_14.Schlib",
+          "type": ".SchLib",
+          "size_kb": 6.0
+        },
+        {
+          "path": "examples/assets/schlib/1984633.Schlib",
+          "type": ".SchLib",
+          "size_kb": 6.5
+        },
+        {
+          "path": "examples/assets/schlib/204-211ST.Schlib",
+          "type": ".SchLib",
+          "size_kb": 5.0
+        },
+        {
+          "path": "examples/assets/schlib/20912-215110C.SchLib",
+          "type": ".SchLib",
+          "size_kb": 27.0
+        },
+        {
+          "path": "examples/assets/schlib/24LC32AT.SchLib",
+          "type": ".SchLib",
+          "size_kb": 4.5
+        },
+        {
+          "path": "examples/assets/schlib/2601-1109.SchLib",
+          "type": ".SchLib",
+          "size_kb": 7.0
+        },
+        {
+          "path": "examples/assets/schlib/2N7002-7-F.Schlib",
+          "type": ".SchLib",
+          "size_kb": 6.5
+        },
+        {
+          "path": "examples/assets/schlib/3FSH9.Schlib",
+          "type": ".SchLib",
+          "size_kb": 5.0
+        },
+        {
+          "path": "examples/assets/schlib/47346-0001.Schlib",
+          "type": ".SchLib",
+          "size_kb": 4.5
+        },
+        {
+          "path": "examples/assets/schlib/502.Schlib",
+          "type": ".SchLib",
+          "size_kb": 5.0
+        },
+        {
+          "path": "examples/assets/schlib/74LVC1G157GV,125.SchLib",
+          "type": ".SchLib",
+          "size_kb": 8.5
+        },
+        {
+          "path": "examples/assets/schlib/BJT-NPN.SchLib",
+          "type": ".SchLib",
+          "size_kb": 5.0
+        },
+        {
+          "path": "examples/assets/schlib/Bugsly.SchLib",
+          "type": ".SchLib",
+          "size_kb": 249.0
+        },
+        {
+          "path": "examples/assets/schlib/CHS-01TA.Schlib",
+          "type": ".SchLib",
+          "size_kb": 4.5
+        },
+        {
+          "path": "examples/assets/schlib/DMP3130L-7.Schlib",
+          "type": ".SchLib",
+          "size_kb": 6.5
+        },
+        {
+          "path": "examples/assets/schlib/DPDT-relay.Schlib",
+          "type": ".SchLib",
+          "size_kb": 8.5
+        },
+        {
+          "path": "examples/assets/schlib/DP_1A_3C.Schlib",
+          "type": ".SchLib",
+          "size_kb": 4.5
+        },
+        {
+          "path": "examples/assets/schlib/ERJ-2GE0R00X.Schlib",
+          "type": ".SchLib",
+          "size_kb": 9.5
+        },
+        {
+          "path": "examples/assets/schlib/FDV305.Schlib",
+          "type": ".SchLib",
+          "size_kb": 6.5
+        },
+        {
+          "path": "examples/assets/schlib/FQD20N06TM.Schlib",
+          "type": ".SchLib",
+          "size_kb": 5.5
+        },
+        {
+          "path": "examples/assets/schlib/FSM4JSMATR.Schlib",
+          "type": ".SchLib",
+          "size_kb": 4.5
+        },
+        {
+          "path": "examples/assets/schlib/GT-USB-7010C.Schlib",
+          "type": ".SchLib",
+          "size_kb": 10.5
+        },
+        {
+          "path": "examples/assets/schlib/ICE40UP5K-SG48I.Schlib",
+          "type": ".SchLib",
+          "size_kb": 13.5
+        },
+        {
+          "path": "examples/assets/schlib/IFX007TAUMA1.Schlib",
+          "type": ".SchLib",
+          "size_kb": 5.0
+        },
+        {
+          "path": "examples/assets/schlib/IIM-42352.SchLib",
+          "type": ".SchLib",
+          "size_kb": 5.0
+        },
+        {
+          "path": "examples/assets/schlib/LED-AMBER.Schlib",
+          "type": ".SchLib",
+          "size_kb": 5.0
+        },
+        {
+          "path": "examples/assets/schlib/LED.SchLib",
+          "type": ".SchLib",
+          "size_kb": 5.0
+        },
+        {
+          "path": "examples/assets/schlib/LMG5200.SchLib",
+          "type": ".SchLib",
+          "size_kb": 5.0
+        },
+        {
+          "path": "examples/assets/schlib/LPC865M201JBD64.SchLib",
+          "type": ".SchLib",
+          "size_kb": 9.0
+        },
+        {
+          "path": "examples/assets/schlib/LT3570EFE#PBF.Schlib",
+          "type": ".SchLib",
+          "size_kb": 5.5
+        },
+        {
+          "path": "examples/assets/schlib/LT7101IUHE#PBF.Schlib",
+          "type": ".SchLib",
+          "size_kb": 5.5
+        },
+        {
+          "path": "examples/assets/schlib/LTM4620AIY#PBF.Schlib",
+          "type": ".SchLib",
+          "size_kb": 14.5
+        },
+        {
+          "path": "examples/assets/schlib/LTM4650IY#PBF.Schlib",
+          "type": ".SchLib",
+          "size_kb": 14.5
+        }
+      ]
+    },
+    {
+      "repo": "lucashudson-eng/altium-lib",
+      "url": "https://github.com/lucashudson-eng/altium-lib",
+      "stars": 26,
+      "desc": "Component's library that I use in Altium Designer.",
+      "altium_file_count": 69,
+      "files": [
+        {
+          "path": "Aluminum Capacitor/Aluminum Capacitor.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 172.5
+        },
+        {
+          "path": "Aluminum Capacitor/Aluminum Capacitor.SchLib",
+          "type": ".SchLib",
+          "size_kb": 50.0
+        },
+        {
+          "path": "Arduino/Arduino.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 8562.5
+        },
+        {
+          "path": "Arduino/Arduino.SchLib",
+          "type": ".SchLib",
+          "size_kb": 21.0
+        },
+        {
+          "path": "Battery Holder/Battery Holder.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 4413.0
+        },
+        {
+          "path": "Battery Holder/Battery Holder.SchLib",
+          "type": ".SchLib",
+          "size_kb": 9.5
+        },
+        {
+          "path": "Buttons & Switches/Buttons & Switches.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 2509.5
+        },
+        {
+          "path": "Buttons & Switches/Buttons & Switches.SchLib",
+          "type": ".SchLib",
+          "size_kb": 50.0
+        },
+        {
+          "path": "Ceramic Capacitor/Ceramic Capacitor.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 539.0
+        },
+        {
+          "path": "Ceramic Capacitor/Ceramic Capacitor.SchLib",
+          "type": ".SchLib",
+          "size_kb": 14.5
+        },
+        {
+          "path": "Communication/Communication.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 18198.5
+        },
+        {
+          "path": "Communication/Communication.SchLib",
+          "type": ".SchLib",
+          "size_kb": 27.5
+        },
+        {
+          "path": "Connectors/Connectors.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 15005.5
+        },
+        {
+          "path": "Connectors/Connectors.SchLib",
+          "type": ".SchLib",
+          "size_kb": 127.5
+        },
+        {
+          "path": "Diode/Diode.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1262.5
+        },
+        {
+          "path": "Diode/Diode.SchLib",
+          "type": ".SchLib",
+          "size_kb": 92.0
+        },
+        {
+          "path": "Displays/Displays.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1834.5
+        },
+        {
+          "path": "Displays/Displays.SchLib",
+          "type": ".SchLib",
+          "size_kb": 18.5
+        },
+        {
+          "path": "Electrolytic Capacitor/Electrolytic Capacitor.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 970.0
+        },
+        {
+          "path": "Electrolytic Capacitor/Electrolytic Capacitor.SchLib",
+          "type": ".SchLib",
+          "size_kb": 36.0
+        },
+        {
+          "path": "Espressif Microcontrollers/Espressif Microcontrollers.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 32170.0
+        },
+        {
+          "path": "Espressif Microcontrollers/Espressif Microcontrollers.SchLib",
+          "type": ".SchLib",
+          "size_kb": 54.0
+        },
+        {
+          "path": "Inductor/Inductor.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 886.0
+        },
+        {
+          "path": "Inductor/Inductor.SchLib",
+          "type": ".SchLib",
+          "size_kb": 9.0
+        },
+        {
+          "path": "LED/LED.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 465.0
+        },
+        {
+          "path": "LED/LED.SchLib",
+          "type": ".SchLib",
+          "size_kb": 32.5
+        },
+        {
+          "path": "Motor Drivers/Motor Drivers.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 4496.0
+        },
+        {
+          "path": "Motor Drivers/Motor Drivers.SchLib",
+          "type": ".SchLib",
+          "size_kb": 27.5
+        },
+        {
+          "path": "Other Microcontrollers/Other Microcontrollers.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 3095.0
+        },
+        {
+          "path": "Other Microcontrollers/Other Microcontrollers.SchLib",
+          "type": ".SchLib",
+          "size_kb": 8.5
+        },
+        {
+          "path": "Potenciometers/Potenciometers.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1760.0
+        },
+        {
+          "path": "Potenciometers/Potenciometers.SchLib",
+          "type": ".SchLib",
+          "size_kb": 11.0
+        },
+        {
+          "path": "Random/Random.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 7694.0
+        },
+        {
+          "path": "Random/Random.SchLib",
+          "type": ".SchLib",
+          "size_kb": 58.5
+        },
+        {
+          "path": "Rectifier Bridge/Rectifier Bridge.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 159.5
+        },
+        {
+          "path": "Rectifier Bridge/Rectifier Bridge.SchLib",
+          "type": ".SchLib",
+          "size_kb": 4.5
+        },
+        {
+          "path": "Resistors/Resistors.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 442.0
+        },
+        {
+          "path": "Resistors/Resistors.SchLib",
+          "type": ".SchLib",
+          "size_kb": 16.0
+        },
+        {
+          "path": "Sensors/Sensors.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 6585.5
+        },
+        {
+          "path": "Sensors/Sensors.SchLib",
+          "type": ".SchLib",
+          "size_kb": 38.0
+        },
+        {
+          "path": "Tantalum Capacitor/Tantalum Capacitor.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 961.5
+        },
+        {
+          "path": "Tantalum Capacitor/Tantalum Capacitor.SchLib",
+          "type": ".SchLib",
+          "size_kb": 16.0
+        },
+        {
+          "path": "Transistors/Transistors.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 561.5
+        },
+        {
+          "path": "Transistors/Transistors.SchLib",
+          "type": ".SchLib",
+          "size_kb": 41.0
+        },
+        {
+          "path": "Voltage Regulators/Voltage Regulators.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 8272.5
+        },
+        {
+          "path": "Voltage Regulators/Voltage Regulators.SchLib",
+          "type": ".SchLib",
+          "size_kb": 54.5
+        },
+        {
+          "path": "libraries/Aluminum Capacitor.IntLib",
+          "type": ".IntLib",
+          "size_kb": 87.5
+        },
+        {
+          "path": "libraries/Arduino.IntLib",
+          "type": ".IntLib",
+          "size_kb": 8138.5
+        },
+        {
+          "path": "libraries/Battery Holder.IntLib",
+          "type": ".IntLib",
+          "size_kb": 4334.5
+        },
+        {
+          "path": "libraries/Buttons & Switches.IntLib",
+          "type": ".IntLib",
+          "size_kb": 2160.5
+        }
+      ]
+    },
+    {
+      "repo": "wavenumber-eng/altium_cruncher",
+      "url": "https://github.com/wavenumber-eng/altium_cruncher",
+      "stars": 16,
+      "desc": "an altium cli toolkit based upon the altium_monkey library",
+      "altium_file_count": 61,
+      "files": [
+        {
+          "path": "examples/mate/cricket-node/cricket-node-hw__B.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1871.0
+        },
+        {
+          "path": "examples/mate/cricket-node/mating_parts/pcblib/9774080360R-YIYUAN.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 108.5
+        },
+        {
+          "path": "examples/mate/cricket-node/mating_parts/pcblib/H2184-05.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 109.5
+        },
+        {
+          "path": "examples/mate/cricket-node/mating_parts/pcblib/YZ209315103P-01.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 121.0
+        },
+        {
+          "path": "examples/mate/cricket-node/mating_parts/schlib/9774080360R.SchLib",
+          "type": ".SchLib",
+          "size_kb": 4.0
+        },
+        {
+          "path": "examples/mate/cricket-node/mating_parts/schlib/H2184-05.SchLib",
+          "type": ".SchLib",
+          "size_kb": 5.0
+        },
+        {
+          "path": "examples/mate/cricket-node/mating_parts/schlib/YZ209315103P-01.SchLib",
+          "type": ".SchLib",
+          "size_kb": 5.0
+        },
+        {
+          "path": "tests/assets/intlib/rt_super_c1/input/RT_SUPER_C1.IntLib",
+          "type": ".IntLib",
+          "size_kb": 1064.0
+        },
+        {
+          "path": "tests/assets/projects/bunny_brain/input/bunny_brain_D.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1574.5
+        },
+        {
+          "path": "tests/assets/projects/cricket-node/reference_output/cricket-node-hw__B.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1855.5
+        },
+        {
+          "path": "tests/assets/projects/cricket-node/reference_output/split/AQFN50P700X700X85_HS-74N.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 172.0
+        },
+        {
+          "path": "tests/assets/projects/cricket-node/reference_output/split/C0402_0.55MM_HD.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 132.0
+        },
+        {
+          "path": "tests/assets/projects/cricket-node/reference_output/split/C0402_0.55MM_MD.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 132.0
+        },
+        {
+          "path": "tests/assets/projects/cricket-node/reference_output/split/C0603_0.90MM_HD.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 132.0
+        },
+        {
+          "path": "tests/assets/projects/cricket-node/reference_output/split/C0603_0.90MM_MD.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 132.0
+        },
+        {
+          "path": "tests/assets/projects/cricket-node/reference_output/split/C0603_0.90MM_MD_2.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 113.0
+        },
+        {
+          "path": "tests/assets/projects/cricket-node/reference_output/split/C0805_1.40MM_MD.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 132.0
+        },
+        {
+          "path": "tests/assets/projects/cricket-node/reference_output/split/C0805_1.40MM_MD_2.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 131.5
+        },
+        {
+          "path": "tests/assets/projects/cricket-node/reference_output/split/C1210_2.80MM_MD.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 113.0
+        },
+        {
+          "path": "tests/assets/projects/cricket-node/reference_output/split/C_ALU_D.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 134.0
+        },
+        {
+          "path": "tests/assets/projects/cricket-node/reference_output/split/C_ALU_F.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 135.0
+        },
+        {
+          "path": "tests/assets/projects/cricket-node/reference_output/split/D_SOD-323_P.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 120.5
+        },
+        {
+          "path": "tests/assets/projects/cricket-node/reference_output/split/D_SOT-23-3_P.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 126.5
+        },
+        {
+          "path": "tests/assets/projects/cricket-node/reference_output/split/FTSH-105-05-F-DV.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 208.0
+        },
+        {
+          "path": "tests/assets/projects/cricket-node/reference_output/split/L0805_1.45MM_MD.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 113.0
+        },
+        {
+          "path": "tests/assets/projects/cricket-node/reference_output/split/LED-0805-GREEN.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 109.5
+        },
+        {
+          "path": "tests/assets/projects/cricket-node/reference_output/split/LED-0805-RED.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 109.5
+        },
+        {
+          "path": "tests/assets/projects/cricket-node/reference_output/split/L_MSS1038.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 150.0
+        },
+        {
+          "path": "tests/assets/projects/cricket-node/reference_output/split/M2.5.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 107.0
+        },
+        {
+          "path": "tests/assets/projects/cricket-node/reference_output/split/QFN50P300X300X80_HS-17N-2.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 130.5
+        },
+        {
+          "path": "tests/assets/projects/cricket-node/reference_output/split/R0603_0.55MM_HD.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 119.5
+        },
+        {
+          "path": "tests/assets/projects/cricket-node/reference_output/split/R0603_0.55MM_MD.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 119.5
+        },
+        {
+          "path": "tests/assets/projects/cricket-node/reference_output/split/R0603_0.55MM_MD_2.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 119.0
+        },
+        {
+          "path": "tests/assets/projects/cricket-node/reference_output/split/R0603_0.55MM_MD_3.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 119.0
+        },
+        {
+          "path": "tests/assets/projects/cricket-node/reference_output/split/R0603_0.55MM_MD_4.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 119.0
+        },
+        {
+          "path": "tests/assets/projects/cricket-node/reference_output/split/R0805_0.70MM_HD.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 119.5
+        },
+        {
+          "path": "tests/assets/projects/cricket-node/reference_output/split/R0805_0.70MM_HD_2.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 119.0
+        },
+        {
+          "path": "tests/assets/projects/cricket-node/reference_output/split/SMT_TP-1MM.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 104.5
+        },
+        {
+          "path": "tests/assets/projects/cricket-node/reference_output/split/SO8-EP.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 176.5
+        },
+        {
+          "path": "tests/assets/projects/cricket-node/reference_output/split/SOIC 8.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 178.0
+        },
+        {
+          "path": "tests/assets/projects/cricket-node/reference_output/split/SOIC127P600X175-8N.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 189.0
+        },
+        {
+          "path": "tests/assets/projects/cricket-node/reference_output/split/SON127P600X80_HS-9N.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 128.0
+        },
+        {
+          "path": "tests/assets/projects/cricket-node/reference_output/split/SOT-23.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 125.0
+        },
+        {
+          "path": "tests/assets/projects/cricket-node/reference_output/split/SOT143B.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 139.0
+        },
+        {
+          "path": "tests/assets/projects/cricket-node/reference_output/split/SOT223.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 124.5
+        },
+        {
+          "path": "tests/assets/projects/cricket-node/reference_output/split/SOT23-5.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 128.5
+        },
+        {
+          "path": "tests/assets/projects/cricket-node/reference_output/split/SOT23-5_2.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 128.0
+        },
+        {
+          "path": "tests/assets/projects/cricket-node/reference_output/split/TC2030.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 109.5
+        },
+        {
+          "path": "tests/assets/projects/cricket-node/reference_output/split/USB4145-03-0230-C.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 440.0
+        },
+        {
+          "path": "tests/assets/projects/cricket-node/reference_output/split/WIREPAD-18AWG-4X-3.5MM.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 107.0
+        }
+      ]
+    },
+    {
       "repo": "KitSprout/AltiumDesigner_PcbLibrary",
       "url": "https://github.com/KitSprout/AltiumDesigner_PcbLibrary",
       "stars": 664,
@@ -699,6 +4066,422 @@
       ]
     },
     {
+      "repo": "matthiasbock/Altium-Libraries",
+      "url": "https://github.com/matthiasbock/Altium-Libraries",
+      "stars": 58,
+      "desc": "Symbols, footprints and 3d models for use with Altium Designer",
+      "altium_file_count": 25,
+      "files": [
+        {
+          "path": "Arduino.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 4144.0
+        },
+        {
+          "path": "Arduino.SchLib",
+          "type": ".SchLib",
+          "size_kb": 24.5
+        },
+        {
+          "path": "Capacitors.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 515.0
+        },
+        {
+          "path": "Connectors.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 3821.0
+        },
+        {
+          "path": "Connectors.SchLib",
+          "type": ".SchLib",
+          "size_kb": 34.5
+        },
+        {
+          "path": "DCDC.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 731.0
+        },
+        {
+          "path": "DCDC.SchLib",
+          "type": ".SchLib",
+          "size_kb": 16.5
+        },
+        {
+          "path": "Diodes.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 418.5
+        },
+        {
+          "path": "Headers.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1289.0
+        },
+        {
+          "path": "Headers.SchLib",
+          "type": ".SchLib",
+          "size_kb": 89.5
+        },
+        {
+          "path": "ICs.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1558.5
+        },
+        {
+          "path": "ICs.SchLib",
+          "type": ".SchLib",
+          "size_kb": 128.5
+        },
+        {
+          "path": "Inductors.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 111.5
+        },
+        {
+          "path": "Interactive.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 174.5
+        },
+        {
+          "path": "Interactive.SchLib",
+          "type": ".SchLib",
+          "size_kb": 19.0
+        },
+        {
+          "path": "LEDs.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 236.5
+        },
+        {
+          "path": "LEDs.SchLib",
+          "type": ".SchLib",
+          "size_kb": 81.0
+        },
+        {
+          "path": "Mechanical.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 99.5
+        },
+        {
+          "path": "Mechanical.SchLib",
+          "type": ".SchLib",
+          "size_kb": 7.0
+        },
+        {
+          "path": "MicroSD_Connector.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 2087.5
+        },
+        {
+          "path": "MicroSD_Connector.SchLib",
+          "type": ".SchLib",
+          "size_kb": 5.0
+        },
+        {
+          "path": "Modules.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 467.5
+        },
+        {
+          "path": "Modules.SchLib",
+          "type": ".SchLib",
+          "size_kb": 36.0
+        },
+        {
+          "path": "Resistors.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 778.0
+        },
+        {
+          "path": "Standard.SchLib",
+          "type": ".SchLib",
+          "size_kb": 14.0
+        }
+      ]
+    },
+    {
+      "repo": "aKaReZa75/Altium-Library",
+      "url": "https://github.com/aKaReZa75/Altium-Library",
+      "stars": 68,
+      "desc": "Altium component library",
+      "altium_file_count": 23,
+      "files": [
+        {
+          "path": "BoxHeader.SchLib",
+          "type": ".SchLib",
+          "size_kb": 860.5
+        },
+        {
+          "path": "Capacitor.SchLib",
+          "type": ".SchLib",
+          "size_kb": 283.5
+        },
+        {
+          "path": "Connector.SchLib",
+          "type": ".SchLib",
+          "size_kb": 1875.0
+        },
+        {
+          "path": "FootPrintLib_0.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 48060.5
+        },
+        {
+          "path": "FootPrintLib_1.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 23770.0
+        },
+        {
+          "path": "FootPrintLib_10.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 33770.0
+        },
+        {
+          "path": "FootPrintLib_11.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 33614.5
+        },
+        {
+          "path": "FootPrintLib_12.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 29133.5
+        },
+        {
+          "path": "FootPrintLib_2.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 16324.5
+        },
+        {
+          "path": "FootPrintLib_3.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 36478.0
+        },
+        {
+          "path": "FootPrintLib_4.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 14190.0
+        },
+        {
+          "path": "FootPrintLib_5.PCBLIB",
+          "type": ".PcbLib",
+          "size_kb": 17423.5
+        },
+        {
+          "path": "FootPrintLib_6.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 14599.0
+        },
+        {
+          "path": "FootPrintLib_7.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 25004.5
+        },
+        {
+          "path": "FootPrintLib_8.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 43821.5
+        },
+        {
+          "path": "FootPrintLib_9.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 26830.5
+        },
+        {
+          "path": "IC.SchLib",
+          "type": ".SchLib",
+          "size_kb": 1379.5
+        },
+        {
+          "path": "Inductor.SchLib",
+          "type": ".SchLib",
+          "size_kb": 235.5
+        },
+        {
+          "path": "ModSen.SchLib",
+          "type": ".SchLib",
+          "size_kb": 2430.0
+        },
+        {
+          "path": "Other.SchLib",
+          "type": ".SchLib",
+          "size_kb": 2418.0
+        },
+        {
+          "path": "Resistor.SchLib",
+          "type": ".SchLib",
+          "size_kb": 211.5
+        },
+        {
+          "path": "SemiConductor.SchLib",
+          "type": ".SchLib",
+          "size_kb": 568.5
+        },
+        {
+          "path": "Switch.SchLib",
+          "type": ".SchLib",
+          "size_kb": 306.5
+        }
+      ]
+    },
+    {
+      "repo": "vowstar/vowstar_altium_library",
+      "url": "https://github.com/vowstar/vowstar_altium_library",
+      "stars": 33,
+      "desc": "Vowstar Library for PCB design",
+      "altium_file_count": 18,
+      "files": [
+        {
+          "path": "Vowstar_Antenna.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1325.0
+        },
+        {
+          "path": "Vowstar_Antenna.SchLib",
+          "type": ".SchLib",
+          "size_kb": 16.0
+        },
+        {
+          "path": "Vowstar_Basic_Device.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 7337.0
+        },
+        {
+          "path": "Vowstar_Basic_Device.SchLib",
+          "type": ".SchLib",
+          "size_kb": 479.0
+        },
+        {
+          "path": "Vowstar_Connector.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 16570.5
+        },
+        {
+          "path": "Vowstar_Connector.SchLib",
+          "type": ".SchLib",
+          "size_kb": 457.0
+        },
+        {
+          "path": "Vowstar_IC_General.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 6844.5
+        },
+        {
+          "path": "Vowstar_IC_General.SchLib",
+          "type": ".SchLib",
+          "size_kb": 630.0
+        },
+        {
+          "path": "Vowstar_MCU.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 3575.5
+        },
+        {
+          "path": "Vowstar_MCU.SchLib",
+          "type": ".SchLib",
+          "size_kb": 394.5
+        },
+        {
+          "path": "Vowstar_Module.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 12370.0
+        },
+        {
+          "path": "Vowstar_Module.SchLib",
+          "type": ".SchLib",
+          "size_kb": 269.5
+        },
+        {
+          "path": "Vowstar_Switch.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1778.0
+        },
+        {
+          "path": "Vowstar_Switch.SchLib",
+          "type": ".SchLib",
+          "size_kb": 57.5
+        },
+        {
+          "path": "Vowstar_Touch_Pad.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 53.5
+        },
+        {
+          "path": "Vowstar_Touch_Pad.SchLib",
+          "type": ".SchLib",
+          "size_kb": 8.0
+        },
+        {
+          "path": "Vowstar_Transformer.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 556.5
+        },
+        {
+          "path": "Vowstar_Transformer.SchLib",
+          "type": ".SchLib",
+          "size_kb": 6.5
+        }
+      ]
+    },
+    {
+      "repo": "gsuberland/altium_jlcpcb_libraries",
+      "url": "https://github.com/gsuberland/altium_jlcpcb_libraries",
+      "stars": 68,
+      "desc": "JLCPCB parts for Altium",
+      "altium_file_count": 10,
+      "files": [
+        {
+          "path": "2022_12_04/jlcpcb_capacitors_basic.schlib",
+          "type": ".SchLib",
+          "size_kb": 744.0
+        },
+        {
+          "path": "2022_12_04/jlcpcb_inductors_basic.schlib",
+          "type": ".SchLib",
+          "size_kb": 85.0
+        },
+        {
+          "path": "2022_12_04/jlcpcb_resistors_basic.schlib",
+          "type": ".SchLib",
+          "size_kb": 1600.0
+        },
+        {
+          "path": "2024_10_27/jlcpcb_2024_10_capacitors_basic.schlib",
+          "type": ".SchLib",
+          "size_kb": 864.0
+        },
+        {
+          "path": "2024_10_27/jlcpcb_2024_10_inductors_basic.schlib",
+          "type": ".SchLib",
+          "size_kb": 15.5
+        },
+        {
+          "path": "2024_10_27/jlcpcb_2024_10_resistors_basic.schlib",
+          "type": ".SchLib",
+          "size_kb": 1050.5
+        },
+        {
+          "path": "2025_04_18/jlcpcb_2025_04_capacitors_basic.schlib",
+          "type": ".SchLib",
+          "size_kb": 866.0
+        },
+        {
+          "path": "2025_04_18/jlcpcb_2025_04_ferrites_basic.schlib",
+          "type": ".SchLib",
+          "size_kb": 20.5
+        },
+        {
+          "path": "2025_04_18/jlcpcb_2025_04_inductors_basic.schlib",
+          "type": ".SchLib",
+          "size_kb": 15.0
+        },
+        {
+          "path": "2025_04_18/jlcpcb_2025_04_resistors_basic.schlib",
+          "type": ".SchLib",
+          "size_kb": 1050.5
+        }
+      ]
+    },
+    {
       "repo": "adamtheone/canDrive",
       "url": "https://github.com/adamtheone/canDrive",
       "stars": 675,
@@ -714,6 +4497,172 @@
           "path": "03_canSniffer_hw/common/canDrive_comp_sch_lib.SchLib",
           "type": ".SchLib",
           "size_kb": 122.0
+        }
+      ]
+    },
+    {
+      "repo": "jairov4/mini-pcie-card-template",
+      "url": "https://github.com/jairov4/mini-pcie-card-template",
+      "stars": 69,
+      "desc": "Altium Designer 13 Board layout template containing an empty Mini PCI Express PCB. foot print library and schematic symbol.",
+      "altium_file_count": 2,
+      "files": [
+        {
+          "path": "PcbLib.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 71.0
+        },
+        {
+          "path": "schlib.SchLib",
+          "type": ".SchLib",
+          "size_kb": 7.0
+        }
+      ]
+    },
+    {
+      "repo": "FMCHUB/Lib_Altium",
+      "url": "https://github.com/FMCHUB/Lib_Altium",
+      "stars": 46,
+      "desc": "FMC hardware Altium library",
+      "altium_file_count": 2,
+      "files": [
+        {
+          "path": "VITA_57_FMC.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 7453.0
+        },
+        {
+          "path": "VITA_57_FMC.SchLib",
+          "type": ".SchLib",
+          "size_kb": 103.0
+        }
+      ]
+    },
+    {
+      "repo": "yasir-shahzad/Altium-Library",
+      "url": "https://github.com/yasir-shahzad/Altium-Library",
+      "stars": 39,
+      "desc": "🖥️ Altium Library with 4000+ components! 🛠️ It ensures design accuracy 📐 and includes 3D STEP models 📏✨—perfect for engineers! 🚀😊 Let me know if you need more! 👍",
+      "altium_file_count": 2,
+      "files": [
+        {
+          "path": "Mastermind Connectors.IntLib",
+          "type": ".IntLib",
+          "size_kb": 3461.5
+        },
+        {
+          "path": "Mastermind Devices.IntLib",
+          "type": ".IntLib",
+          "size_kb": 70483.5
+        }
+      ]
+    },
+    {
+      "repo": "embedded-society/altium-designer-mcp",
+      "url": "https://github.com/embedded-society/altium-designer-mcp",
+      "stars": 31,
+      "desc": "MCP server for AI-assisted management of Altium Designer component libraries",
+      "altium_file_count": 2,
+      "files": [
+        {
+          "path": "scripts/samples/footprints.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 142.5
+        },
+        {
+          "path": "scripts/samples/symbols.SchLib",
+          "type": ".SchLib",
+          "size_kb": 37.5
+        }
+      ]
+    },
+    {
+      "repo": "elk-audio/elk-pi-hardware",
+      "url": "https://github.com/elk-audio/elk-pi-hardware",
+      "stars": 28,
+      "desc": "Full Hardware project for Elk Raspberry Pi audio expansion hat",
+      "altium_file_count": 2,
+      "files": [
+        {
+          "path": "Altium_files/Sika_revb.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 0.13
+        },
+        {
+          "path": "Altium_files/Sika_revb.SchLib",
+          "type": ".SchLib",
+          "size_kb": 0.13
+        }
+      ]
+    },
+    {
+      "repo": "ddtdanilo/Personal-Altium-Library",
+      "url": "https://github.com/ddtdanilo/Personal-Altium-Library",
+      "stars": 21,
+      "desc": "Curated Altium Designer schematic symbols and PCB footprints with verified inventory, documentation, and integrity checks.",
+      "altium_file_count": 2,
+      "files": [
+        {
+          "path": "AltiumLibraryDDT.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 35442.0
+        },
+        {
+          "path": "AltiumLibraryDDT.SchLib",
+          "type": ".SchLib",
+          "size_kb": 387.5
+        }
+      ]
+    },
+    {
+      "repo": "yashodhalakshana/altium-library",
+      "url": "https://github.com/yashodhalakshana/altium-library",
+      "stars": 17,
+      "desc": "Optional footprints and schematics library for Altium Designer",
+      "altium_file_count": 2,
+      "files": [
+        {
+          "path": "Custom Library.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 802.0
+        },
+        {
+          "path": "Custom Library.SchLib",
+          "type": ".SchLib",
+          "size_kb": 184.5
+        }
+      ]
+    },
+    {
+      "repo": "ioelectro/altium-component-library",
+      "url": "https://github.com/ioelectro/altium-component-library",
+      "stars": 7,
+      "desc": "IOElectro Altium component library",
+      "altium_file_count": 2,
+      "files": [
+        {
+          "path": "PcbLib.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 15059.0
+        },
+        {
+          "path": "Schlib.SchLib",
+          "type": ".SchLib",
+          "size_kb": 1092.5
+        }
+      ]
+    },
+    {
+      "repo": "SergeyLadanov/Altium_Templates",
+      "url": "https://github.com/SergeyLadanov/Altium_Templates",
+      "stars": 42,
+      "desc": "Шаблоны для оформления документов в Altium Designer по ЕСКД",
+      "altium_file_count": 1,
+      "files": [
+        {
+          "path": "Pcb templates/Шаблон.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 72.0
         }
       ]
     }

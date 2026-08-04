@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-08-04T10:37:41.416559",
+  "update_time": "2026-08-04T10:45:03.656662",
   "sources": [
     {
       "source": "JLCPCB/LCSC",
@@ -20,11 +20,11 @@
     },
     {
       "source": "GitHub Aggregator",
-      "total": 10195,
+      "total": 22197,
       "generated": 0,
       "details": {
-        "downloaded": 0,
-        "repos": 4
+        "downloaded": 738,
+        "repos": 30
       }
     },
     {
@@ -82,10 +82,10 @@
             "pcblib": "/home/runner/work/altium-component-libraries/altium-component-libraries/libraries/PcbLib/inductors.PcbLib"
           }
         ],
-        "timestamp": "2026-08-04T10:37:41.416308"
+        "timestamp": "2026-08-04T10:45:03.656366"
       }
     }
   ],
-  "total_fetched": 10234,
+  "total_fetched": 22236,
   "total_generated": 8
 }
