@@ -1,7 +1,7 @@
 aggregator:
   download_files: true
   enabled: true
-  max_repos: 20
+  max_repos: 200
 altium_generator:
   enabled: true
   output_format: json
