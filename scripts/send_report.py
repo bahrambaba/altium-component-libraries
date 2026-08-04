@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Daily Report - Telegram
-Only shows what was added today after the GitHub Action ran.
+Shows what was added today after the GitHub Action ran.
 """
 
 import os
@@ -30,6 +30,15 @@ def send_telegram_message(bot_token, chat_id, text):
         return False
 
 
+def count_files_in_dir(directory):
+    """Recursively count files in a directory."""
+    count = 0
+    if os.path.exists(directory):
+        for _, _, files in os.walk(directory):
+            count += len(files)
+    return count
+
+
 def build_daily_report(data_dir):
     """Build a simple daily report: only what's new today."""
     now = datetime.utcnow()
@@ -40,60 +49,50 @@ def build_daily_report(data_dir):
     lines.append(f"📅 {today_str}")
     lines.append("")
 
-    # Load update summary
+    # Count actual files in libraries
+    schlib_dir = os.path.join(data_dir, "..", "libraries", "SchLib")
+    pcblib_dir = os.path.join(data_dir, "..", "libraries", "PcbLib")
+    schlib_count = count_files_in_dir(schlib_dir)
+    pcblib_count = count_files_in_dir(pcblib_dir)
+
+    if schlib_count > 0 or pcblib_count > 0:
+        lines.append("🔧 <b>کتابخانه‌های موجود:</b>")
+        lines.append(f"   • SchLib (نمادها): {schlib_count}")
+        lines.append(f"   • PcbLib (فوترپرینت): {pcblib_count}")
+        lines.append("")
+
+    # Count actual files in external
+    ext_dir = os.path.join(data_dir, "external_catalog", "external")
+    ext_count = count_files_in_dir(ext_dir)
+    if ext_count > 0:
+        lines.append("📦 <b>فایل‌های دانلود شده از GitHub:</b>")
+        lines.append(f"   • مجموع: {ext_count} فایل")
+
+        # Count by repo
+        if os.path.exists(ext_dir):
+            for repo_name in sorted(os.listdir(ext_dir)):
+                repo_path = os.path.join(ext_dir, repo_name)
+                if os.path.isdir(repo_path):
+                    repo_files = count_files_in_dir(repo_path)
+                    if repo_files > 0:
+                        lines.append(f"   • {repo_name}: {repo_files}")
+        lines.append("")
+
+    # Load update summary for new additions
     summary_path = os.path.join(data_dir, "update_summary.json")
     if os.path.exists(summary_path):
         with open(summary_path, "r") as f:
             summary = json.load(f)
         
-        # Sources
         sources = summary.get("sources", [])
+        new_count = 0
         for src in sources:
-            source_name = src.get("source", "?")
-            if source_name == "JLCPCB/LCSC":
-                cats = src.get("details", {}).get("categories", {})
-                if cats:
-                    lines.append("📦 <b>قطعات جدید:</b>")
-                    for cat, count in cats.items():
-                        lines.append(f"   • {cat}: {count}")
-                    lines.append(f"   <b>مجموع: {src.get('total', 0)}</b>")
-                    lines.append("")
-            
-            elif source_name == "GitHub Aggregator":
-                repos_count = src.get("details", {}).get("repos", 0)
-                downloaded = src.get("details", {}).get("downloaded", 0)
-                if repos_count > 0:
-                    lines.append("🔗 <b>GitHub:</b>")
-                    lines.append(f"   • ریپوها: {repos_count}")
-                    lines.append(f"   • فایل‌های دانلود شده: {downloaded}")
-                    lines.append("")
-            
-            elif source_name == "Altium Generator":
-                cats = src.get("details", {}).get("categories", [])
-                if cats:
-                    lines.append("🔧 <b>کتابخانه‌های جدید:</b>")
-                    for c in cats:
-                        name = c.get("name", "?")
-                        comp_count = c.get("components", 0)
-                        lines.append(f"   • {name}: {comp_count} قطعه")
-                    lines.append(f"   <b>مجموع: {src.get('generated', 0)} جفت کتابخانه</b>")
-                    lines.append("")
-
-    # Load repo catalog
-    catalog_path = os.path.join(data_dir, "external_catalog", "repo_catalog.json")
-    if os.path.exists(catalog_path):
-        with open(catalog_path, "r") as f:
-            catalog = json.load(f)
+            if src.get("source") == "Altium Generator":
+                new_count = src.get("generated", 0)
         
-        total_files = catalog.get("total_altium_files", 0)
-        downloaded = catalog.get("total_downloaded", 0)
-        repos_count = catalog.get("repos_with_altium_files", 0)
-        
-        lines.append("📦 <b>وضعیت کلی ریپوها:</b>")
-        lines.append(f"   • فایل‌های Altium شناسایی شده: {total_files:,}")
-        lines.append(f"   • فایل‌های دانلود شده: {downloaded}")
-        lines.append(f"   • ریپوها: {repos_count}")
-        lines.append("")
+        if new_count > 0:
+            lines.append(f"➕ <b>کتابخانه‌های جدید امروز:</b> {new_count}")
+            lines.append("")
 
     lines.append("🔗 <a href=\"https://github.com/bahrambaba/altium-component-libraries\">ریپو GitHub</a>")
 
