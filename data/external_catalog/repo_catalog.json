@@ -1,10 +1,10 @@
 {
-  "scan_time": "2026-08-04T10:45:03.644661",
-  "repos_found": 77,
-  "repos_scanned": 77,
+  "scan_time": "2026-08-05T10:14:09.498418",
+  "repos_found": 76,
+  "repos_scanned": 76,
   "repos_with_altium_files": 30,
   "total_altium_files": 22197,
-  "total_downloaded": 738,
+  "total_downloaded": 0,
   "repos": [
     {
       "repo": "issus/altium-library",
@@ -3635,7 +3635,7 @@
     {
       "repo": "wavenumber-eng/altium_cruncher",
       "url": "https://github.com/wavenumber-eng/altium_cruncher",
-      "stars": 16,
+      "stars": 19,
       "desc": "an altium cli toolkit based upon the altium_monkey library",
       "altium_file_count": 61,
       "files": [
@@ -4560,7 +4560,7 @@
     {
       "repo": "embedded-society/altium-designer-mcp",
       "url": "https://github.com/embedded-society/altium-designer-mcp",
-      "stars": 31,
+      "stars": 33,
       "desc": "MCP server for AI-assisted management of Altium Designer component libraries",
       "altium_file_count": 2,
       "files": [
