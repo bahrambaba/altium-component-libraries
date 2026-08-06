@@ -1,5 +1,5 @@
 {
-  "scan_time": "2026-08-05T10:14:09.498418",
+  "scan_time": "2026-08-06T10:17:32.092721",
   "repos_found": 76,
   "repos_scanned": 76,
   "repos_with_altium_files": 30,
@@ -4560,7 +4560,7 @@
     {
       "repo": "embedded-society/altium-designer-mcp",
       "url": "https://github.com/embedded-society/altium-designer-mcp",
-      "stars": 33,
+      "stars": 34,
       "desc": "MCP server for AI-assisted management of Altium Designer component libraries",
       "altium_file_count": 2,
       "files": [
