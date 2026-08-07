@@ -1,9 +1,9 @@
 {
-  "scan_time": "2026-08-06T10:17:32.092721",
-  "repos_found": 76,
+  "scan_time": "2026-08-07T05:56:27.487893",
+  "repos_found": 77,
   "repos_scanned": 76,
   "repos_with_altium_files": 30,
-  "total_altium_files": 22197,
+  "total_altium_files": 22198,
   "total_downloaded": 0,
   "repos": [
     {
@@ -11,7 +11,7 @@
       "url": "https://github.com/issus/altium-library",
       "stars": 2418,
       "desc": "200K+ components with 3D models",
-      "altium_file_count": 10074,
+      "altium_file_count": 10075,
       "files": [
         {
           "path": "Altium Database Library V2.DbLib",
@@ -4560,7 +4560,7 @@
     {
       "repo": "embedded-society/altium-designer-mcp",
       "url": "https://github.com/embedded-society/altium-designer-mcp",
-      "stars": 34,
+      "stars": 35,
       "desc": "MCP server for AI-assisted management of Altium Designer component libraries",
       "altium_file_count": 2,
       "files": [
