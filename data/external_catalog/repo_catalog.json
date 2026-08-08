@@ -1,7 +1,7 @@
 {
-  "scan_time": "2026-08-07T05:56:27.487893",
+  "scan_time": "2026-08-08T04:20:47.976249",
   "repos_found": 77,
-  "repos_scanned": 76,
+  "repos_scanned": 77,
   "repos_with_altium_files": 30,
   "total_altium_files": 22198,
   "total_downloaded": 0,
@@ -1045,7 +1045,7 @@
     {
       "repo": "issus/AltiumSharp",
       "url": "https://github.com/issus/AltiumSharp",
-      "stars": 101,
+      "stars": 102,
       "desc": "C# .NET Standard library to read Altium library files and render them",
       "altium_file_count": 198,
       "files": [
@@ -3376,7 +3376,7 @@
     {
       "repo": "lucashudson-eng/altium-lib",
       "url": "https://github.com/lucashudson-eng/altium-lib",
-      "stars": 26,
+      "stars": 27,
       "desc": "Component's library that I use in Altium Designer.",
       "altium_file_count": 69,
       "files": [
@@ -4560,7 +4560,7 @@
     {
       "repo": "embedded-society/altium-designer-mcp",
       "url": "https://github.com/embedded-society/altium-designer-mcp",
-      "stars": 35,
+      "stars": 36,
       "desc": "MCP server for AI-assisted management of Altium Designer component libraries",
       "altium_file_count": 2,
       "files": [
