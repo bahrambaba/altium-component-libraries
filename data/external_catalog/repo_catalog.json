@@ -1,10 +1,10 @@
 {
-  "scan_time": "2026-08-10T05:13:09.075570",
-  "repos_found": 78,
-  "repos_scanned": 78,
-  "repos_with_altium_files": 30,
-  "total_altium_files": 22198,
-  "total_downloaded": 0,
+  "scan_time": "2026-08-16T03:17:44.660107",
+  "repos_found": 77,
+  "repos_scanned": 77,
+  "repos_with_altium_files": 31,
+  "total_altium_files": 22204,
+  "total_downloaded": 5,
   "repos": [
     {
       "repo": "issus/altium-library",
@@ -529,7 +529,7 @@
       "url": "https://github.com/WurthElektronik/Altium-Library",
       "stars": 70,
       "desc": "Wurth Elektronik official library",
-      "altium_file_count": 1303,
+      "altium_file_count": 1304,
       "files": [
         {
           "path": "Database Libraries/Footprints/WA-BCMC.PcbLib",
@@ -594,7 +594,7 @@
         {
           "path": "Database Libraries/Footprints/WCAP-AIG5.PcbLib",
           "type": ".PcbLib",
-          "size_kb": 11215.5
+          "size_kb": 7754.5
         },
         {
           "path": "Database Libraries/Footprints/WCAP-AIG8.PcbLib",
@@ -1045,7 +1045,7 @@
     {
       "repo": "issus/AltiumSharp",
       "url": "https://github.com/issus/AltiumSharp",
-      "stars": 102,
+      "stars": 104,
       "desc": "C# .NET Standard library to read Altium library files and render them",
       "altium_file_count": 198,
       "files": [
@@ -2599,7 +2599,7 @@
     {
       "repo": "luxonis/oak-hardware",
       "url": "https://github.com/luxonis/oak-hardware",
-      "stars": 543,
+      "stars": 546,
       "desc": "Open Source OAK Hardware designs in Altium",
       "altium_file_count": 86,
       "files": [
@@ -2858,7 +2858,7 @@
     {
       "repo": "vpodlesnyi/AltiumLibrary",
       "url": "https://github.com/vpodlesnyi/AltiumLibrary",
-      "stars": 17,
+      "stars": 18,
       "desc": "A component library for projects in Altium Designer.",
       "altium_file_count": 83,
       "files": [
@@ -3894,7 +3894,7 @@
     {
       "repo": "KitSprout/AltiumDesigner_PcbLibrary",
       "url": "https://github.com/KitSprout/AltiumDesigner_PcbLibrary",
-      "stars": 665,
+      "stars": 664,
       "desc": "AD 元件庫，AltiumDesigner PCB Library",
       "altium_file_count": 33,
       "files": [
@@ -4482,9 +4482,62 @@
       ]
     },
     {
+      "repo": "XuanyouLiu/EITWatch_Hardware",
+      "url": "https://github.com/XuanyouLiu/EITWatch_Hardware",
+      "stars": 29,
+      "desc": "",
+      "altium_file_count": 4,
+      "files": [
+        {
+          "path": "altium/Headers.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1289.0
+        },
+        {
+          "path": "altium/Headers.SchLib",
+          "type": ".SchLib",
+          "size_kb": 60.0
+        },
+        {
+          "path": "altium/PcbLib_AC.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1238.5
+        },
+        {
+          "path": "altium/Schlib_AC.SchLib",
+          "type": ".SchLib",
+          "size_kb": 88.0
+        }
+      ]
+    },
+    {
+      "repo": "embedded-society/altium-designer-mcp",
+      "url": "https://github.com/embedded-society/altium-designer-mcp",
+      "stars": 36,
+      "desc": "MCP server for AI-assisted management of Altium Designer component libraries",
+      "altium_file_count": 3,
+      "files": [
+        {
+          "path": "scripts/samples/footprints.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 158.0
+        },
+        {
+          "path": "scripts/samples/manual/parameters.SchLib",
+          "type": ".SchLib",
+          "size_kb": 4.5
+        },
+        {
+          "path": "scripts/samples/symbols.SchLib",
+          "type": ".SchLib",
+          "size_kb": 39.0
+        }
+      ]
+    },
+    {
       "repo": "adamtheone/canDrive",
       "url": "https://github.com/adamtheone/canDrive",
-      "stars": 675,
+      "stars": 677,
       "desc": "Tools for hacking your car",
       "altium_file_count": 2,
       "files": [
@@ -4554,25 +4607,6 @@
           "path": "Mastermind Devices.IntLib",
           "type": ".IntLib",
           "size_kb": 70483.5
-        }
-      ]
-    },
-    {
-      "repo": "embedded-society/altium-designer-mcp",
-      "url": "https://github.com/embedded-society/altium-designer-mcp",
-      "stars": 36,
-      "desc": "MCP server for AI-assisted management of Altium Designer component libraries",
-      "altium_file_count": 2,
-      "files": [
-        {
-          "path": "scripts/samples/footprints.PcbLib",
-          "type": ".PcbLib",
-          "size_kb": 142.5
-        },
-        {
-          "path": "scripts/samples/symbols.SchLib",
-          "type": ".SchLib",
-          "size_kb": 37.5
         }
       ]
     },
