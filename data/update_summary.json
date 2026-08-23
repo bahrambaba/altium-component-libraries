@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-08-16T03:17:44.671867",
+  "update_time": "2026-08-23T03:31:35.177865",
   "sources": [
     {
       "source": "JLCPCB/LCSC",
@@ -20,10 +20,10 @@
     },
     {
       "source": "GitHub Aggregator",
-      "total": 22204,
+      "total": 22206,
       "generated": 0,
       "details": {
-        "downloaded": 5,
+        "downloaded": 2,
         "repos": 31
       }
     },
@@ -82,10 +82,10 @@
             "pcblib": "/home/runner/work/altium-component-libraries/altium-component-libraries/libraries/PcbLib/voltage_regulators.PcbLib"
           }
         ],
-        "timestamp": "2026-08-16T03:17:44.671618"
+        "timestamp": "2026-08-23T03:31:35.177632"
       }
     }
   ],
-  "total_fetched": 22243,
+  "total_fetched": 22245,
   "total_generated": 8
 }
