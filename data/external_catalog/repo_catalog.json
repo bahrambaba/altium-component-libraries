@@ -1,10 +1,10 @@
 {
-  "scan_time": "2026-08-23T03:31:35.166503",
+  "scan_time": "2026-08-30T00:04:05.165294",
   "repos_found": 75,
   "repos_scanned": 75,
   "repos_with_altium_files": 31,
   "total_altium_files": 22206,
-  "total_downloaded": 2,
+  "total_downloaded": 0,
   "repos": [
     {
       "repo": "issus/altium-library",
@@ -1045,7 +1045,7 @@
     {
       "repo": "issus/AltiumSharp",
       "url": "https://github.com/issus/AltiumSharp",
-      "stars": 105,
+      "stars": 107,
       "desc": "C# .NET Standard library to read Altium library files and render them",
       "altium_file_count": 198,
       "files": [
@@ -2081,7 +2081,7 @@
     {
       "repo": "IMA-Hardware/IMA-Altium-Designer-Library",
       "url": "https://github.com/IMA-Hardware/IMA-Altium-Designer-Library",
-      "stars": 57,
+      "stars": 58,
       "desc": "广东工业大学IMA蛋协AD封装库",
       "altium_file_count": 113,
       "files": [
@@ -2858,7 +2858,7 @@
     {
       "repo": "vpodlesnyi/AltiumLibrary",
       "url": "https://github.com/vpodlesnyi/AltiumLibrary",
-      "stars": 18,
+      "stars": 19,
       "desc": "A component library for projects in Altium Designer.",
       "altium_file_count": 83,
       "files": [
@@ -3894,7 +3894,7 @@
     {
       "repo": "KitSprout/AltiumDesigner_PcbLibrary",
       "url": "https://github.com/KitSprout/AltiumDesigner_PcbLibrary",
-      "stars": 664,
+      "stars": 667,
       "desc": "AD 元件庫，AltiumDesigner PCB Library",
       "altium_file_count": 33,
       "files": [
@@ -4484,14 +4484,14 @@
     {
       "repo": "embedded-society/altium-designer-mcp",
       "url": "https://github.com/embedded-society/altium-designer-mcp",
-      "stars": 42,
+      "stars": 49,
       "desc": "MCP server for AI-assisted management of Altium Designer component libraries",
       "altium_file_count": 5,
       "files": [
         {
           "path": "scripts/samples/footprints.PcbLib",
           "type": ".PcbLib",
-          "size_kb": 163.0
+          "size_kb": 171.5
         },
         {
           "path": "scripts/samples/manual/i18n5.SchLib",
@@ -4511,14 +4511,14 @@
         {
           "path": "scripts/samples/symbols.SchLib",
           "type": ".SchLib",
-          "size_kb": 145.5
+          "size_kb": 152.0
         }
       ]
     },
     {
       "repo": "XuanyouLiu/EITWatch_Hardware",
       "url": "https://github.com/XuanyouLiu/EITWatch_Hardware",
-      "stars": 63,
+      "stars": 75,
       "desc": "",
       "altium_file_count": 4,
       "files": [
@@ -4547,7 +4547,7 @@
     {
       "repo": "adamtheone/canDrive",
       "url": "https://github.com/adamtheone/canDrive",
-      "stars": 679,
+      "stars": 680,
       "desc": "Tools for hacking your car",
       "altium_file_count": 2,
       "files": [
