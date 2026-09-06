@@ -1,10 +1,10 @@
 {
-  "scan_time": "2026-08-30T00:04:05.165294",
-  "repos_found": 75,
-  "repos_scanned": 75,
+  "scan_time": "2026-09-06T01:55:08.138002",
+  "repos_found": 72,
+  "repos_scanned": 72,
   "repos_with_altium_files": 31,
-  "total_altium_files": 22206,
-  "total_downloaded": 0,
+  "total_altium_files": 22115,
+  "total_downloaded": 4,
   "repos": [
     {
       "repo": "issus/altium-library",
@@ -2338,268 +2338,9 @@
       ]
     },
     {
-      "repo": "raphaelchang/altium-libraries",
-      "url": "https://github.com/raphaelchang/altium-libraries",
-      "stars": 18,
-      "desc": "Altium libraries for my projects",
-      "altium_file_count": 95,
-      "files": [
-        {
-          "path": "Capacitors/Capacitors-0201.SchLib",
-          "type": ".SchLib",
-          "size_kb": 10.0
-        },
-        {
-          "path": "Capacitors/Capacitors-0402.SchLib",
-          "type": ".SchLib",
-          "size_kb": 128.0
-        },
-        {
-          "path": "Capacitors/Capacitors-0603.SchLib",
-          "type": ".SchLib",
-          "size_kb": 26.0
-        },
-        {
-          "path": "Capacitors/Capacitors-0805.SchLib",
-          "type": ".SchLib",
-          "size_kb": 9.0
-        },
-        {
-          "path": "Capacitors/Capacitors-1206.SchLib",
-          "type": ".SchLib",
-          "size_kb": 13.0
-        },
-        {
-          "path": "Capacitors/Capacitors-1210.SchLib",
-          "type": ".SchLib",
-          "size_kb": 19.5
-        },
-        {
-          "path": "Capacitors/Capacitors-2220.SchLib",
-          "type": ".SchLib",
-          "size_kb": 13.0
-        },
-        {
-          "path": "Capacitors/Capacitors-Electrolytic.SchLib",
-          "type": ".SchLib",
-          "size_kb": 20.0
-        },
-        {
-          "path": "Capacitors/Capacitors-Film.SchLib",
-          "type": ".SchLib",
-          "size_kb": 5.5
-        },
-        {
-          "path": "Capacitors/Capacitors.PcbLib",
-          "type": ".PcbLib",
-          "size_kb": 1258.0
-        },
-        {
-          "path": "Capacitors/Project Outputs for Capacitors/Capacitors.IntLib",
-          "type": ".IntLib",
-          "size_kb": 1114.0
-        },
-        {
-          "path": "Connectors/Connectors-Hirose.SchLib",
-          "type": ".SchLib",
-          "size_kb": 34.0
-        },
-        {
-          "path": "Connectors/Connectors-JST.SchLib",
-          "type": ".SchLib",
-          "size_kb": 131.0
-        },
-        {
-          "path": "Connectors/Connectors-Molex.SchLib",
-          "type": ".SchLib",
-          "size_kb": 85.0
-        },
-        {
-          "path": "Connectors/Connectors-Other.SchLib",
-          "type": ".SchLib",
-          "size_kb": 15.0
-        },
-        {
-          "path": "Connectors/Connectors-Power.SchLib",
-          "type": ".SchLib",
-          "size_kb": 10.5
-        },
-        {
-          "path": "Connectors/Connectors-RF.SchLib",
-          "type": ".SchLib",
-          "size_kb": 6.0
-        },
-        {
-          "path": "Connectors/Connectors-Samtec.SchLib",
-          "type": ".SchLib",
-          "size_kb": 38.0
-        },
-        {
-          "path": "Connectors/Connectors-USB.SchLib",
-          "type": ".SchLib",
-          "size_kb": 18.0
-        },
-        {
-          "path": "Connectors/Connectors.PcbLib",
-          "type": ".PcbLib",
-          "size_kb": 7905.0
-        },
-        {
-          "path": "Connectors/Project Outputs for Connectors/Connectors.IntLib",
-          "type": ".IntLib",
-          "size_kb": 7312.0
-        },
-        {
-          "path": "Diodes/Diodes-Schottky.SchLib",
-          "type": ".SchLib",
-          "size_kb": 32.0
-        },
-        {
-          "path": "Diodes/Diodes-TVS.SchLib",
-          "type": ".SchLib",
-          "size_kb": 30.0
-        },
-        {
-          "path": "Diodes/Diodes-Zener.SchLib",
-          "type": ".SchLib",
-          "size_kb": 9.0
-        },
-        {
-          "path": "Diodes/Diodes.PcbLib",
-          "type": ".PcbLib",
-          "size_kb": 1087.5
-        },
-        {
-          "path": "Diodes/Project Outputs for Diodes/Diodes.IntLib",
-          "type": ".IntLib",
-          "size_kb": 998.5
-        },
-        {
-          "path": "ICs/ICs-AnalogDigitalConverters.SchLib",
-          "type": ".SchLib",
-          "size_kb": 14.0
-        },
-        {
-          "path": "ICs/ICs-AnalogSwitches.SchLib",
-          "type": ".SchLib",
-          "size_kb": 11.0
-        },
-        {
-          "path": "ICs/ICs-BatteryStackMonitors.SchLib",
-          "type": ".SchLib",
-          "size_kb": 38.0
-        },
-        {
-          "path": "ICs/ICs-CANTransceivers.SchLib",
-          "type": ".SchLib",
-          "size_kb": 6.5
-        },
-        {
-          "path": "ICs/ICs-CameraInterfaces.SchLib",
-          "type": ".SchLib",
-          "size_kb": 37.0
-        },
-        {
-          "path": "ICs/ICs-Chargers.SchLib",
-          "type": ".SchLib",
-          "size_kb": 22.0
-        },
-        {
-          "path": "ICs/ICs-CurrentSenseAmplifiers.SchLib",
-          "type": ".SchLib",
-          "size_kb": 17.5
-        },
-        {
-          "path": "ICs/ICs-DigitalAnalogConverters.SchLib",
-          "type": ".SchLib",
-          "size_kb": 10.0
-        },
-        {
-          "path": "ICs/ICs-DigitalPotentiometers.SchLib",
-          "type": ".SchLib",
-          "size_kb": 8.5
-        },
-        {
-          "path": "ICs/ICs-FlashMemory.SchLib",
-          "type": ".SchLib",
-          "size_kb": 18.0
-        },
-        {
-          "path": "ICs/ICs-GasGauges.SchLib",
-          "type": ".SchLib",
-          "size_kb": 7.0
-        },
-        {
-          "path": "ICs/ICs-ImageSensors.SchLib",
-          "type": ".SchLib",
-          "size_kb": 13.0
-        },
-        {
-          "path": "ICs/ICs-KeyControllers.SchLib",
-          "type": ".SchLib",
-          "size_kb": 6.5
-        },
-        {
-          "path": "ICs/ICs-LEDDrivers.SchLib",
-          "type": ".SchLib",
-          "size_kb": 41.0
-        },
-        {
-          "path": "ICs/ICs-LevelShifters.SchLib",
-          "type": ".SchLib",
-          "size_kb": 5.5
-        },
-        {
-          "path": "ICs/ICs-LinearRegulators.SchLib",
-          "type": ".SchLib",
-          "size_kb": 9.5
-        },
-        {
-          "path": "ICs/ICs-MOSFETDrivers.SchLib",
-          "type": ".SchLib",
-          "size_kb": 20.5
-        },
-        {
-          "path": "ICs/ICs-Memory.SchLib",
-          "type": ".SchLib",
-          "size_kb": 27.5
-        },
-        {
-          "path": "ICs/ICs-Microcontrollers.SchLib",
-          "type": ".SchLib",
-          "size_kb": 24.5
-        },
-        {
-          "path": "ICs/ICs-Microprocessors.SchLib",
-          "type": ".SchLib",
-          "size_kb": 96.7
-        },
-        {
-          "path": "ICs/ICs-MotorDrivers.SchLib",
-          "type": ".SchLib",
-          "size_kb": 24.5
-        },
-        {
-          "path": "ICs/ICs-OpAmps.SchLib",
-          "type": ".SchLib",
-          "size_kb": 26.0
-        },
-        {
-          "path": "ICs/ICs-Optocouplers.SchLib",
-          "type": ".SchLib",
-          "size_kb": 8.5
-        },
-        {
-          "path": "ICs/ICs-PowerMonitors.SchLib",
-          "type": ".SchLib",
-          "size_kb": 20.0
-        }
-      ]
-    },
-    {
       "repo": "luxonis/oak-hardware",
       "url": "https://github.com/luxonis/oak-hardware",
-      "stars": 548,
+      "stars": 550,
       "desc": "Open Source OAK Hardware designs in Altium",
       "altium_file_count": 86,
       "files": [
@@ -2858,7 +2599,7 @@
     {
       "repo": "vpodlesnyi/AltiumLibrary",
       "url": "https://github.com/vpodlesnyi/AltiumLibrary",
-      "stars": 19,
+      "stars": 20,
       "desc": "A component library for projects in Altium Designer.",
       "altium_file_count": 83,
       "files": [
@@ -3635,7 +3376,7 @@
     {
       "repo": "wavenumber-eng/altium_cruncher",
       "url": "https://github.com/wavenumber-eng/altium_cruncher",
-      "stars": 19,
+      "stars": 22,
       "desc": "an altium cli toolkit based upon the altium_monkey library",
       "altium_file_count": 61,
       "files": [
@@ -3894,7 +3635,7 @@
     {
       "repo": "KitSprout/AltiumDesigner_PcbLibrary",
       "url": "https://github.com/KitSprout/AltiumDesigner_PcbLibrary",
-      "stars": 667,
+      "stars": 666,
       "desc": "AD 元件庫，AltiumDesigner PCB Library",
       "altium_file_count": 33,
       "files": [
@@ -4319,7 +4060,7 @@
         {
           "path": "Switch.SchLib",
           "type": ".SchLib",
-          "size_kb": 306.5
+          "size_kb": 310.5
         }
       ]
     },
@@ -4484,14 +4225,14 @@
     {
       "repo": "embedded-society/altium-designer-mcp",
       "url": "https://github.com/embedded-society/altium-designer-mcp",
-      "stars": 49,
+      "stars": 54,
       "desc": "MCP server for AI-assisted management of Altium Designer component libraries",
-      "altium_file_count": 5,
+      "altium_file_count": 7,
       "files": [
         {
           "path": "scripts/samples/footprints.PcbLib",
           "type": ".PcbLib",
-          "size_kb": 171.5
+          "size_kb": 173.5
         },
         {
           "path": "scripts/samples/manual/i18n5.SchLib",
@@ -4509,16 +4250,26 @@
           "size_kb": 4.5
         },
         {
+          "path": "scripts/samples/manual/pipe.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 103.5
+        },
+        {
+          "path": "scripts/samples/manual/pipe.SchLib",
+          "type": ".SchLib",
+          "size_kb": 4.0
+        },
+        {
           "path": "scripts/samples/symbols.SchLib",
           "type": ".SchLib",
-          "size_kb": 152.0
+          "size_kb": 153.0
         }
       ]
     },
     {
       "repo": "XuanyouLiu/EITWatch_Hardware",
       "url": "https://github.com/XuanyouLiu/EITWatch_Hardware",
-      "stars": 75,
+      "stars": 96,
       "desc": "",
       "altium_file_count": 4,
       "files": [
@@ -4598,6 +4349,25 @@
           "path": "VITA_57_FMC.SchLib",
           "type": ".SchLib",
           "size_kb": 103.0
+        }
+      ]
+    },
+    {
+      "repo": "anarthrous-eda/FYPA",
+      "url": "https://github.com/anarthrous-eda/FYPA",
+      "stars": 44,
+      "desc": "Altium/Gerber Power-Delivery-Network (PDN) Analyser",
+      "altium_file_count": 2,
+      "files": [
+        {
+          "path": "ExampleDesigns/Sandbox/Sandbox.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 104.5
+        },
+        {
+          "path": "ExampleDesigns/Sandbox/Sandbox.SCHLIB",
+          "type": ".SchLib",
+          "size_kb": 6.0
         }
       ]
     },
