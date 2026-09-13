@@ -1,10 +1,10 @@
 {
-  "scan_time": "2026-09-06T01:55:08.138002",
+  "scan_time": "2026-09-13T02:04:24.475435",
   "repos_found": 72,
   "repos_scanned": 72,
-  "repos_with_altium_files": 31,
-  "total_altium_files": 22115,
-  "total_downloaded": 4,
+  "repos_with_altium_files": 30,
+  "total_altium_files": 22024,
+  "total_downloaded": 13,
   "repos": [
     {
       "repo": "issus/altium-library",
@@ -788,7 +788,7 @@
       "url": "https://github.com/chilaboard/Altium-Library",
       "stars": 126,
       "desc": "4000+ IPC compliant components",
-      "altium_file_count": 301,
+      "altium_file_count": 271,
       "files": [
         {
           "path": "AltiumPCBLIB/7SEG.PCBLIB",
@@ -798,7 +798,7 @@
         {
           "path": "AltiumPCBLIB/ANTENNA.PcbLib",
           "type": ".PcbLib",
-          "size_kb": 676.0
+          "size_kb": 729.0
         },
         {
           "path": "AltiumPCBLIB/AUDIO_MIC_SPK.PcbLib",
@@ -808,17 +808,22 @@
         {
           "path": "AltiumPCBLIB/BATTERY.PcbLib",
           "type": ".PcbLib",
-          "size_kb": 4925.0
+          "size_kb": 4660.0
+        },
+        {
+          "path": "AltiumPCBLIB/CELLULAR.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 16414.0
         },
         {
           "path": "AltiumPCBLIB/CONN_B2B.PcbLib",
           "type": ".PcbLib",
-          "size_kb": 10250.0
+          "size_kb": 15739.5
         },
         {
           "path": "AltiumPCBLIB/CONN_B2B_FMC.PcbLib",
           "type": ".PcbLib",
-          "size_kb": 24320.0
+          "size_kb": 17133.0
         },
         {
           "path": "AltiumPCBLIB/CONN_B2B_QSTRIP.PcbLib",
@@ -848,7 +853,7 @@
         {
           "path": "AltiumPCBLIB/CONN_FPC.PcbLib",
           "type": ".PcbLib",
-          "size_kb": 9284.0
+          "size_kb": 11301.5
         },
         {
           "path": "AltiumPCBLIB/CONN_HDR_1.00MM_ST.PcbLib",
@@ -883,7 +888,7 @@
         {
           "path": "AltiumPCBLIB/CONN_HDR_1.27MM_ST_SMDE.PcbLib",
           "type": ".PcbLib",
-          "size_kb": 1166.5
+          "size_kb": 1189.5
         },
         {
           "path": "AltiumPCBLIB/CONN_HDR_2.00MM_BOX_IDC.PcbLib",
@@ -903,7 +908,7 @@
         {
           "path": "AltiumPCBLIB/CONN_HDR_2.54MM_BOX_IDC.PcbLib",
           "type": ".PcbLib",
-          "size_kb": 5699.0
+          "size_kb": 5682.5
         },
         {
           "path": "AltiumPCBLIB/CONN_HDR_2.54MM_LP.PcbLib",
@@ -923,12 +928,12 @@
         {
           "path": "AltiumPCBLIB/CONN_HDR_2.54MM_ST.PcbLib",
           "type": ".PcbLib",
-          "size_kb": 8234.0
+          "size_kb": 9084.0
         },
         {
           "path": "AltiumPCBLIB/CONN_HDR_2.54MM_ST_SMD.PcbLib",
           "type": ".PcbLib",
-          "size_kb": 2304.0
+          "size_kb": 3454.0
         },
         {
           "path": "AltiumPCBLIB/CONN_HDR_2.54MM_ST_SMDE.PcbLib",
@@ -953,12 +958,17 @@
         {
           "path": "AltiumPCBLIB/CONN_POWERJACK.PcbLib",
           "type": ".PcbLib",
-          "size_kb": 4871.0
+          "size_kb": 5427.5
+        },
+        {
+          "path": "AltiumPCBLIB/CONN_PROG.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 1935.5
         },
         {
           "path": "AltiumPCBLIB/CONN_PWR.PcbLib",
           "type": ".PcbLib",
-          "size_kb": 2139.0
+          "size_kb": 2273.5
         },
         {
           "path": "AltiumPCBLIB/CONN_RF.PcbLib",
@@ -976,76 +986,66 @@
           "size_kb": 623.0
         },
         {
-          "path": "AltiumPCBLIB/CONN_TBLOCK.PcbLib",
+          "path": "AltiumPCBLIB/CONN_TBLOCK_2P54.PcbLib",
           "type": ".PcbLib",
-          "size_kb": 12397.0
+          "size_kb": 3638.5
         },
         {
-          "path": "AltiumPCBLIB/CONN_USB.PcbLib",
+          "path": "AltiumPCBLIB/CONN_TBLOCK_3P0.PcbLib",
           "type": ".PcbLib",
-          "size_kb": 9040.0
+          "size_kb": 840.5
         },
         {
-          "path": "AltiumPCBLIB/CONN_USB_C.PcbLib",
+          "path": "AltiumPCBLIB/CONN_TBLOCK_3P5_A.PcbLib",
           "type": ".PcbLib",
-          "size_kb": 18670.5
+          "size_kb": 6796.0
         },
         {
-          "path": "AltiumPCBLIB/CONN_W2B.PcbLib",
+          "path": "AltiumPCBLIB/CONN_TBLOCK_3P5_B.PcbLib",
           "type": ".PcbLib",
-          "size_kb": 15019.0
+          "size_kb": 20737.5
         },
         {
-          "path": "AltiumPCBLIB/CONN_W2B_H.PcbLib",
+          "path": "AltiumPCBLIB/CONN_TBLOCK_3P81.PcbLib",
           "type": ".PcbLib",
-          "size_kb": 2665.5
+          "size_kb": 13656.5
         },
         {
-          "path": "AltiumPCBLIB/CONN_W2B_JST.PcbLib",
+          "path": "AltiumPCBLIB/CONN_TBLOCK_5P08.PcbLib",
           "type": ".PcbLib",
-          "size_kb": 17201.5
+          "size_kb": 9265.5
         },
         {
-          "path": "AltiumPCBLIB/CRYSTAL_OSC.PcbLib",
+          "path": "AltiumPCBLIB/CONN_TBLOCK_5P0_A.PcbLib",
           "type": ".PcbLib",
-          "size_kb": 5255.5
+          "size_kb": 11895.5
         },
         {
-          "path": "AltiumPCBLIB/DIODE.PCBLIB",
+          "path": "AltiumPCBLIB/CONN_TBLOCK_5P0_B.PcbLib",
           "type": ".PcbLib",
-          "size_kb": 4387.5
+          "size_kb": 19338.5
         },
         {
-          "path": "AltiumPCBLIB/DPAK_SMD.PcbLib",
+          "path": "AltiumPCBLIB/CONN_TBLOCK_6P35.PcbLib",
           "type": ".PcbLib",
-          "size_kb": 4128.5
+          "size_kb": 3852.5
         },
         {
-          "path": "AltiumPCBLIB/EMI_FILTER.PcbLib",
+          "path": "AltiumPCBLIB/CONN_TBLOCK_7P5.PcbLib",
           "type": ".PcbLib",
-          "size_kb": 2994.5
+          "size_kb": 7944.5
         },
         {
-          "path": "AltiumPCBLIB/GPS.PcbLib",
+          "path": "AltiumPCBLIB/CONN_TBLOCK_7P62.PcbLib",
           "type": ".PcbLib",
-          "size_kb": 2320.0
-        },
-        {
-          "path": "AltiumPCBLIB/GRAPHICAL_SIGN.PcbLib",
-          "type": ".PcbLib",
-          "size_kb": 1567.5
-        },
-        {
-          "path": "AltiumPCBLIB/GSM.PcbLib",
-          "type": ".PcbLib",
-          "size_kb": 7923.5
+          "size_kb": 20141.0
         }
       ]
     },
     {
       "repo": "issus/AltiumSharp",
       "url": "https://github.com/issus/AltiumSharp",
-      "stars": 107,
+      "stars": 109,
       "desc": "C# .NET Standard library to read Altium library files and render them",
       "altium_file_count": 198,
       "files": [
@@ -2340,7 +2340,7 @@
     {
       "repo": "luxonis/oak-hardware",
       "url": "https://github.com/luxonis/oak-hardware",
-      "stars": 550,
+      "stars": 552,
       "desc": "Open Source OAK Hardware designs in Altium",
       "altium_file_count": 86,
       "files": [
@@ -3374,268 +3374,9 @@
       ]
     },
     {
-      "repo": "wavenumber-eng/altium_cruncher",
-      "url": "https://github.com/wavenumber-eng/altium_cruncher",
-      "stars": 22,
-      "desc": "an altium cli toolkit based upon the altium_monkey library",
-      "altium_file_count": 61,
-      "files": [
-        {
-          "path": "examples/mate/cricket-node/cricket-node-hw__B.PcbLib",
-          "type": ".PcbLib",
-          "size_kb": 1871.0
-        },
-        {
-          "path": "examples/mate/cricket-node/mating_parts/pcblib/9774080360R-YIYUAN.PcbLib",
-          "type": ".PcbLib",
-          "size_kb": 108.5
-        },
-        {
-          "path": "examples/mate/cricket-node/mating_parts/pcblib/H2184-05.PcbLib",
-          "type": ".PcbLib",
-          "size_kb": 109.5
-        },
-        {
-          "path": "examples/mate/cricket-node/mating_parts/pcblib/YZ209315103P-01.PcbLib",
-          "type": ".PcbLib",
-          "size_kb": 121.0
-        },
-        {
-          "path": "examples/mate/cricket-node/mating_parts/schlib/9774080360R.SchLib",
-          "type": ".SchLib",
-          "size_kb": 4.0
-        },
-        {
-          "path": "examples/mate/cricket-node/mating_parts/schlib/H2184-05.SchLib",
-          "type": ".SchLib",
-          "size_kb": 5.0
-        },
-        {
-          "path": "examples/mate/cricket-node/mating_parts/schlib/YZ209315103P-01.SchLib",
-          "type": ".SchLib",
-          "size_kb": 5.0
-        },
-        {
-          "path": "tests/assets/intlib/rt_super_c1/input/RT_SUPER_C1.IntLib",
-          "type": ".IntLib",
-          "size_kb": 1064.0
-        },
-        {
-          "path": "tests/assets/projects/bunny_brain/input/bunny_brain_D.PcbLib",
-          "type": ".PcbLib",
-          "size_kb": 1574.5
-        },
-        {
-          "path": "tests/assets/projects/cricket-node/reference_output/cricket-node-hw__B.PcbLib",
-          "type": ".PcbLib",
-          "size_kb": 1855.5
-        },
-        {
-          "path": "tests/assets/projects/cricket-node/reference_output/split/AQFN50P700X700X85_HS-74N.PcbLib",
-          "type": ".PcbLib",
-          "size_kb": 172.0
-        },
-        {
-          "path": "tests/assets/projects/cricket-node/reference_output/split/C0402_0.55MM_HD.PcbLib",
-          "type": ".PcbLib",
-          "size_kb": 132.0
-        },
-        {
-          "path": "tests/assets/projects/cricket-node/reference_output/split/C0402_0.55MM_MD.PcbLib",
-          "type": ".PcbLib",
-          "size_kb": 132.0
-        },
-        {
-          "path": "tests/assets/projects/cricket-node/reference_output/split/C0603_0.90MM_HD.PcbLib",
-          "type": ".PcbLib",
-          "size_kb": 132.0
-        },
-        {
-          "path": "tests/assets/projects/cricket-node/reference_output/split/C0603_0.90MM_MD.PcbLib",
-          "type": ".PcbLib",
-          "size_kb": 132.0
-        },
-        {
-          "path": "tests/assets/projects/cricket-node/reference_output/split/C0603_0.90MM_MD_2.PcbLib",
-          "type": ".PcbLib",
-          "size_kb": 113.0
-        },
-        {
-          "path": "tests/assets/projects/cricket-node/reference_output/split/C0805_1.40MM_MD.PcbLib",
-          "type": ".PcbLib",
-          "size_kb": 132.0
-        },
-        {
-          "path": "tests/assets/projects/cricket-node/reference_output/split/C0805_1.40MM_MD_2.PcbLib",
-          "type": ".PcbLib",
-          "size_kb": 131.5
-        },
-        {
-          "path": "tests/assets/projects/cricket-node/reference_output/split/C1210_2.80MM_MD.PcbLib",
-          "type": ".PcbLib",
-          "size_kb": 113.0
-        },
-        {
-          "path": "tests/assets/projects/cricket-node/reference_output/split/C_ALU_D.PcbLib",
-          "type": ".PcbLib",
-          "size_kb": 134.0
-        },
-        {
-          "path": "tests/assets/projects/cricket-node/reference_output/split/C_ALU_F.PcbLib",
-          "type": ".PcbLib",
-          "size_kb": 135.0
-        },
-        {
-          "path": "tests/assets/projects/cricket-node/reference_output/split/D_SOD-323_P.PcbLib",
-          "type": ".PcbLib",
-          "size_kb": 120.5
-        },
-        {
-          "path": "tests/assets/projects/cricket-node/reference_output/split/D_SOT-23-3_P.PcbLib",
-          "type": ".PcbLib",
-          "size_kb": 126.5
-        },
-        {
-          "path": "tests/assets/projects/cricket-node/reference_output/split/FTSH-105-05-F-DV.PcbLib",
-          "type": ".PcbLib",
-          "size_kb": 208.0
-        },
-        {
-          "path": "tests/assets/projects/cricket-node/reference_output/split/L0805_1.45MM_MD.PcbLib",
-          "type": ".PcbLib",
-          "size_kb": 113.0
-        },
-        {
-          "path": "tests/assets/projects/cricket-node/reference_output/split/LED-0805-GREEN.PcbLib",
-          "type": ".PcbLib",
-          "size_kb": 109.5
-        },
-        {
-          "path": "tests/assets/projects/cricket-node/reference_output/split/LED-0805-RED.PcbLib",
-          "type": ".PcbLib",
-          "size_kb": 109.5
-        },
-        {
-          "path": "tests/assets/projects/cricket-node/reference_output/split/L_MSS1038.PcbLib",
-          "type": ".PcbLib",
-          "size_kb": 150.0
-        },
-        {
-          "path": "tests/assets/projects/cricket-node/reference_output/split/M2.5.PcbLib",
-          "type": ".PcbLib",
-          "size_kb": 107.0
-        },
-        {
-          "path": "tests/assets/projects/cricket-node/reference_output/split/QFN50P300X300X80_HS-17N-2.PcbLib",
-          "type": ".PcbLib",
-          "size_kb": 130.5
-        },
-        {
-          "path": "tests/assets/projects/cricket-node/reference_output/split/R0603_0.55MM_HD.PcbLib",
-          "type": ".PcbLib",
-          "size_kb": 119.5
-        },
-        {
-          "path": "tests/assets/projects/cricket-node/reference_output/split/R0603_0.55MM_MD.PcbLib",
-          "type": ".PcbLib",
-          "size_kb": 119.5
-        },
-        {
-          "path": "tests/assets/projects/cricket-node/reference_output/split/R0603_0.55MM_MD_2.PcbLib",
-          "type": ".PcbLib",
-          "size_kb": 119.0
-        },
-        {
-          "path": "tests/assets/projects/cricket-node/reference_output/split/R0603_0.55MM_MD_3.PcbLib",
-          "type": ".PcbLib",
-          "size_kb": 119.0
-        },
-        {
-          "path": "tests/assets/projects/cricket-node/reference_output/split/R0603_0.55MM_MD_4.PcbLib",
-          "type": ".PcbLib",
-          "size_kb": 119.0
-        },
-        {
-          "path": "tests/assets/projects/cricket-node/reference_output/split/R0805_0.70MM_HD.PcbLib",
-          "type": ".PcbLib",
-          "size_kb": 119.5
-        },
-        {
-          "path": "tests/assets/projects/cricket-node/reference_output/split/R0805_0.70MM_HD_2.PcbLib",
-          "type": ".PcbLib",
-          "size_kb": 119.0
-        },
-        {
-          "path": "tests/assets/projects/cricket-node/reference_output/split/SMT_TP-1MM.PcbLib",
-          "type": ".PcbLib",
-          "size_kb": 104.5
-        },
-        {
-          "path": "tests/assets/projects/cricket-node/reference_output/split/SO8-EP.PcbLib",
-          "type": ".PcbLib",
-          "size_kb": 176.5
-        },
-        {
-          "path": "tests/assets/projects/cricket-node/reference_output/split/SOIC 8.PcbLib",
-          "type": ".PcbLib",
-          "size_kb": 178.0
-        },
-        {
-          "path": "tests/assets/projects/cricket-node/reference_output/split/SOIC127P600X175-8N.PcbLib",
-          "type": ".PcbLib",
-          "size_kb": 189.0
-        },
-        {
-          "path": "tests/assets/projects/cricket-node/reference_output/split/SON127P600X80_HS-9N.PcbLib",
-          "type": ".PcbLib",
-          "size_kb": 128.0
-        },
-        {
-          "path": "tests/assets/projects/cricket-node/reference_output/split/SOT-23.PcbLib",
-          "type": ".PcbLib",
-          "size_kb": 125.0
-        },
-        {
-          "path": "tests/assets/projects/cricket-node/reference_output/split/SOT143B.PcbLib",
-          "type": ".PcbLib",
-          "size_kb": 139.0
-        },
-        {
-          "path": "tests/assets/projects/cricket-node/reference_output/split/SOT223.PcbLib",
-          "type": ".PcbLib",
-          "size_kb": 124.5
-        },
-        {
-          "path": "tests/assets/projects/cricket-node/reference_output/split/SOT23-5.PcbLib",
-          "type": ".PcbLib",
-          "size_kb": 128.5
-        },
-        {
-          "path": "tests/assets/projects/cricket-node/reference_output/split/SOT23-5_2.PcbLib",
-          "type": ".PcbLib",
-          "size_kb": 128.0
-        },
-        {
-          "path": "tests/assets/projects/cricket-node/reference_output/split/TC2030.PcbLib",
-          "type": ".PcbLib",
-          "size_kb": 109.5
-        },
-        {
-          "path": "tests/assets/projects/cricket-node/reference_output/split/USB4145-03-0230-C.PcbLib",
-          "type": ".PcbLib",
-          "size_kb": 440.0
-        },
-        {
-          "path": "tests/assets/projects/cricket-node/reference_output/split/WIREPAD-18AWG-4X-3.5MM.PcbLib",
-          "type": ".PcbLib",
-          "size_kb": 107.0
-        }
-      ]
-    },
-    {
       "repo": "KitSprout/AltiumDesigner_PcbLibrary",
       "url": "https://github.com/KitSprout/AltiumDesigner_PcbLibrary",
-      "stars": 666,
+      "stars": 668,
       "desc": "AD 元件庫，AltiumDesigner PCB Library",
       "altium_file_count": 33,
       "files": [
@@ -4060,7 +3801,7 @@
         {
           "path": "Switch.SchLib",
           "type": ".SchLib",
-          "size_kb": 310.5
+          "size_kb": 313.0
         }
       ]
     },
@@ -4225,7 +3966,7 @@
     {
       "repo": "embedded-society/altium-designer-mcp",
       "url": "https://github.com/embedded-society/altium-designer-mcp",
-      "stars": 54,
+      "stars": 59,
       "desc": "MCP server for AI-assisted management of Altium Designer component libraries",
       "altium_file_count": 7,
       "files": [
@@ -4269,7 +4010,7 @@
     {
       "repo": "XuanyouLiu/EITWatch_Hardware",
       "url": "https://github.com/XuanyouLiu/EITWatch_Hardware",
-      "stars": 96,
+      "stars": 99,
       "desc": "",
       "altium_file_count": 4,
       "files": [
@@ -4298,7 +4039,7 @@
     {
       "repo": "adamtheone/canDrive",
       "url": "https://github.com/adamtheone/canDrive",
-      "stars": 680,
+      "stars": 682,
       "desc": "Tools for hacking your car",
       "altium_file_count": 2,
       "files": [
@@ -4469,7 +4210,7 @@
     {
       "repo": "SergeyLadanov/Altium_Templates",
       "url": "https://github.com/SergeyLadanov/Altium_Templates",
-      "stars": 42,
+      "stars": 43,
       "desc": "Шаблоны для оформления документов в Altium Designer по ЕСКД",
       "altium_file_count": 1,
       "files": [
