@@ -1,10 +1,10 @@
 {
-  "scan_time": "2026-09-13T02:04:24.475435",
-  "repos_found": 72,
-  "repos_scanned": 72,
+  "scan_time": "2026-09-20T02:22:43.685357",
+  "repos_found": 71,
+  "repos_scanned": 71,
   "repos_with_altium_files": 30,
-  "total_altium_files": 22024,
-  "total_downloaded": 13,
+  "total_altium_files": 22025,
+  "total_downloaded": 1,
   "repos": [
     {
       "repo": "issus/altium-library",
@@ -813,7 +813,7 @@
         {
           "path": "AltiumPCBLIB/CELLULAR.PcbLib",
           "type": ".PcbLib",
-          "size_kb": 16414.0
+          "size_kb": 15943.5
         },
         {
           "path": "AltiumPCBLIB/CONN_B2B.PcbLib",
@@ -1045,7 +1045,7 @@
     {
       "repo": "issus/AltiumSharp",
       "url": "https://github.com/issus/AltiumSharp",
-      "stars": 109,
+      "stars": 110,
       "desc": "C# .NET Standard library to read Altium library files and render them",
       "altium_file_count": 198,
       "files": [
@@ -1563,7 +1563,7 @@
     {
       "repo": "amiryeg/Altium-Libraries",
       "url": "https://github.com/amiryeg/Altium-Libraries",
-      "stars": 80,
+      "stars": 81,
       "desc": "Open source Altium libraries including symbols, footprints, and 3D models for thousands of part",
       "altium_file_count": 181,
       "files": [
@@ -2340,7 +2340,7 @@
     {
       "repo": "luxonis/oak-hardware",
       "url": "https://github.com/luxonis/oak-hardware",
-      "stars": 552,
+      "stars": 554,
       "desc": "Open Source OAK Hardware designs in Altium",
       "altium_file_count": 86,
       "files": [
@@ -3376,7 +3376,7 @@
     {
       "repo": "KitSprout/AltiumDesigner_PcbLibrary",
       "url": "https://github.com/KitSprout/AltiumDesigner_PcbLibrary",
-      "stars": 668,
+      "stars": 669,
       "desc": "AD 元件庫，AltiumDesigner PCB Library",
       "altium_file_count": 33,
       "files": [
@@ -3550,7 +3550,7 @@
     {
       "repo": "matthiasbock/Altium-Libraries",
       "url": "https://github.com/matthiasbock/Altium-Libraries",
-      "stars": 59,
+      "stars": 60,
       "desc": "Symbols, footprints and 3d models for use with Altium Designer",
       "altium_file_count": 25,
       "files": [
@@ -3966,14 +3966,19 @@
     {
       "repo": "embedded-society/altium-designer-mcp",
       "url": "https://github.com/embedded-society/altium-designer-mcp",
-      "stars": 59,
+      "stars": 64,
       "desc": "MCP server for AI-assisted management of Altium Designer component libraries",
-      "altium_file_count": 7,
+      "altium_file_count": 8,
       "files": [
         {
           "path": "scripts/samples/footprints.PcbLib",
           "type": ".PcbLib",
           "size_kb": 173.5
+        },
+        {
+          "path": "scripts/samples/manual/i18n4.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 112.5
         },
         {
           "path": "scripts/samples/manual/i18n5.SchLib",
@@ -4010,7 +4015,7 @@
     {
       "repo": "XuanyouLiu/EITWatch_Hardware",
       "url": "https://github.com/XuanyouLiu/EITWatch_Hardware",
-      "stars": 99,
+      "stars": 102,
       "desc": "",
       "altium_file_count": 4,
       "files": [
@@ -4039,7 +4044,7 @@
     {
       "repo": "adamtheone/canDrive",
       "url": "https://github.com/adamtheone/canDrive",
-      "stars": 682,
+      "stars": 683,
       "desc": "Tools for hacking your car",
       "altium_file_count": 2,
       "files": [
@@ -4096,7 +4101,7 @@
     {
       "repo": "anarthrous-eda/FYPA",
       "url": "https://github.com/anarthrous-eda/FYPA",
-      "stars": 44,
+      "stars": 43,
       "desc": "Altium/Gerber Power-Delivery-Network (PDN) Analyser",
       "altium_file_count": 2,
       "files": [
