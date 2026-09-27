@@ -1,10 +1,10 @@
 {
-  "scan_time": "2026-09-20T02:22:43.685357",
+  "scan_time": "2026-09-27T02:30:55.765833",
   "repos_found": 71,
   "repos_scanned": 71,
   "repos_with_altium_files": 30,
-  "total_altium_files": 22025,
-  "total_downloaded": 1,
+  "total_altium_files": 22033,
+  "total_downloaded": 8,
   "repos": [
     {
       "repo": "issus/altium-library",
@@ -1045,7 +1045,7 @@
     {
       "repo": "issus/AltiumSharp",
       "url": "https://github.com/issus/AltiumSharp",
-      "stars": 110,
+      "stars": 111,
       "desc": "C# .NET Standard library to read Altium library files and render them",
       "altium_file_count": 198,
       "files": [
@@ -1563,7 +1563,7 @@
     {
       "repo": "amiryeg/Altium-Libraries",
       "url": "https://github.com/amiryeg/Altium-Libraries",
-      "stars": 81,
+      "stars": 82,
       "desc": "Open source Altium libraries including symbols, footprints, and 3D models for thousands of part",
       "altium_file_count": 181,
       "files": [
@@ -1822,7 +1822,7 @@
     {
       "repo": "francescosacco/HardwareLibrary",
       "url": "https://github.com/francescosacco/HardwareLibrary",
-      "stars": 24,
+      "stars": 26,
       "desc": "It's an open source Altium database Libraries for Altium Designer.",
       "altium_file_count": 167,
       "files": [
@@ -2340,7 +2340,7 @@
     {
       "repo": "luxonis/oak-hardware",
       "url": "https://github.com/luxonis/oak-hardware",
-      "stars": 554,
+      "stars": 555,
       "desc": "Open Source OAK Hardware designs in Altium",
       "altium_file_count": 86,
       "files": [
@@ -2599,7 +2599,7 @@
     {
       "repo": "vpodlesnyi/AltiumLibrary",
       "url": "https://github.com/vpodlesnyi/AltiumLibrary",
-      "stars": 20,
+      "stars": 21,
       "desc": "A component library for projects in Altium Designer.",
       "altium_file_count": 83,
       "files": [
@@ -3376,7 +3376,7 @@
     {
       "repo": "KitSprout/AltiumDesigner_PcbLibrary",
       "url": "https://github.com/KitSprout/AltiumDesigner_PcbLibrary",
-      "stars": 669,
+      "stars": 670,
       "desc": "AD 元件庫，AltiumDesigner PCB Library",
       "altium_file_count": 33,
       "files": [
@@ -3905,6 +3905,95 @@
       ]
     },
     {
+      "repo": "embedded-society/altium-designer-mcp",
+      "url": "https://github.com/embedded-society/altium-designer-mcp",
+      "stars": 65,
+      "desc": "MCP server for AI-assisted management of Altium Designer component libraries",
+      "altium_file_count": 16,
+      "files": [
+        {
+          "path": "scripts/samples/footprints.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 173.5
+        },
+        {
+          "path": "scripts/samples/manual/cavity.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 103.0
+        },
+        {
+          "path": "scripts/samples/manual/footprint_link.SchLib",
+          "type": ".SchLib",
+          "size_kb": 4.0
+        },
+        {
+          "path": "scripts/samples/manual/i18n4.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 112.5
+        },
+        {
+          "path": "scripts/samples/manual/i18n5.SchLib",
+          "type": ".SchLib",
+          "size_kb": 11.0
+        },
+        {
+          "path": "scripts/samples/manual/identifier.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 105.0
+        },
+        {
+          "path": "scripts/samples/manual/intlib_link.SchLib",
+          "type": ".SchLib",
+          "size_kb": 6.0
+        },
+        {
+          "path": "scripts/samples/manual/parameters.SchLib",
+          "type": ".SchLib",
+          "size_kb": 4.5
+        },
+        {
+          "path": "scripts/samples/manual/pipe.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 103.5
+        },
+        {
+          "path": "scripts/samples/manual/pipe.SchLib",
+          "type": ".SchLib",
+          "size_kb": 4.0
+        },
+        {
+          "path": "scripts/samples/manual/plane_and_via.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 116.5
+        },
+        {
+          "path": "scripts/samples/manual/region_hole.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 103.0
+        },
+        {
+          "path": "scripts/samples/manual/subpoly.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 103.5
+        },
+        {
+          "path": "scripts/samples/manual/thermal_relief.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 106.0
+        },
+        {
+          "path": "scripts/samples/manual/wide.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 104.0
+        },
+        {
+          "path": "scripts/samples/symbols.SchLib",
+          "type": ".SchLib",
+          "size_kb": 153.0
+        }
+      ]
+    },
+    {
       "repo": "gsuberland/altium_jlcpcb_libraries",
       "url": "https://github.com/gsuberland/altium_jlcpcb_libraries",
       "stars": 68,
@@ -3964,58 +4053,9 @@
       ]
     },
     {
-      "repo": "embedded-society/altium-designer-mcp",
-      "url": "https://github.com/embedded-society/altium-designer-mcp",
-      "stars": 64,
-      "desc": "MCP server for AI-assisted management of Altium Designer component libraries",
-      "altium_file_count": 8,
-      "files": [
-        {
-          "path": "scripts/samples/footprints.PcbLib",
-          "type": ".PcbLib",
-          "size_kb": 173.5
-        },
-        {
-          "path": "scripts/samples/manual/i18n4.PcbLib",
-          "type": ".PcbLib",
-          "size_kb": 112.5
-        },
-        {
-          "path": "scripts/samples/manual/i18n5.SchLib",
-          "type": ".SchLib",
-          "size_kb": 11.0
-        },
-        {
-          "path": "scripts/samples/manual/identifier.PcbLib",
-          "type": ".PcbLib",
-          "size_kb": 105.0
-        },
-        {
-          "path": "scripts/samples/manual/parameters.SchLib",
-          "type": ".SchLib",
-          "size_kb": 4.5
-        },
-        {
-          "path": "scripts/samples/manual/pipe.PcbLib",
-          "type": ".PcbLib",
-          "size_kb": 103.5
-        },
-        {
-          "path": "scripts/samples/manual/pipe.SchLib",
-          "type": ".SchLib",
-          "size_kb": 4.0
-        },
-        {
-          "path": "scripts/samples/symbols.SchLib",
-          "type": ".SchLib",
-          "size_kb": 153.0
-        }
-      ]
-    },
-    {
       "repo": "XuanyouLiu/EITWatch_Hardware",
       "url": "https://github.com/XuanyouLiu/EITWatch_Hardware",
-      "stars": 102,
+      "stars": 104,
       "desc": "",
       "altium_file_count": 4,
       "files": [
@@ -4044,7 +4084,7 @@
     {
       "repo": "adamtheone/canDrive",
       "url": "https://github.com/adamtheone/canDrive",
-      "stars": 683,
+      "stars": 685,
       "desc": "Tools for hacking your car",
       "altium_file_count": 2,
       "files": [
@@ -4120,7 +4160,7 @@
     {
       "repo": "yasir-shahzad/Altium-Library",
       "url": "https://github.com/yasir-shahzad/Altium-Library",
-      "stars": 39,
+      "stars": 40,
       "desc": "🖥️ Altium Library with 4000+ components! 🛠️ It ensures design accuracy 📐 and includes 3D STEP models 📏✨—perfect for engineers! 🚀😊 Let me know if you need more! 👍",
       "altium_file_count": 2,
       "files": [
@@ -4158,7 +4198,7 @@
     {
       "repo": "ddtdanilo/Personal-Altium-Library",
       "url": "https://github.com/ddtdanilo/Personal-Altium-Library",
-      "stars": 21,
+      "stars": 22,
       "desc": "Curated Altium Designer schematic symbols and PCB footprints with verified inventory, documentation, and integrity checks.",
       "altium_file_count": 2,
       "files": [
