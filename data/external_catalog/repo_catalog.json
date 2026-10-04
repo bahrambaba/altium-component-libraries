@@ -1,10 +1,10 @@
 {
-  "scan_time": "2026-09-27T02:30:55.765833",
-  "repos_found": 71,
-  "repos_scanned": 71,
-  "repos_with_altium_files": 30,
-  "total_altium_files": 22033,
-  "total_downloaded": 8,
+  "scan_time": "2026-10-04T03:24:40.509085",
+  "repos_found": 70,
+  "repos_scanned": 70,
+  "repos_with_altium_files": 29,
+  "total_altium_files": 22085,
+  "total_downloaded": 1,
   "repos": [
     {
       "repo": "issus/altium-library",
@@ -529,7 +529,7 @@
       "url": "https://github.com/WurthElektronik/Altium-Library",
       "stars": 70,
       "desc": "Wurth Elektronik official library",
-      "altium_file_count": 1304,
+      "altium_file_count": 1307,
       "files": [
         {
           "path": "Database Libraries/Footprints/WA-BCMC.PcbLib",
@@ -788,7 +788,7 @@
       "url": "https://github.com/chilaboard/Altium-Library",
       "stars": 126,
       "desc": "4000+ IPC compliant components",
-      "altium_file_count": 271,
+      "altium_file_count": 321,
       "files": [
         {
           "path": "AltiumPCBLIB/7SEG.PCBLIB",
@@ -1045,7 +1045,7 @@
     {
       "repo": "issus/AltiumSharp",
       "url": "https://github.com/issus/AltiumSharp",
-      "stars": 111,
+      "stars": 113,
       "desc": "C# .NET Standard library to read Altium library files and render them",
       "altium_file_count": 198,
       "files": [
@@ -2340,7 +2340,7 @@
     {
       "repo": "luxonis/oak-hardware",
       "url": "https://github.com/luxonis/oak-hardware",
-      "stars": 555,
+      "stars": 556,
       "desc": "Open Source OAK Hardware designs in Altium",
       "altium_file_count": 86,
       "files": [
@@ -3376,7 +3376,7 @@
     {
       "repo": "KitSprout/AltiumDesigner_PcbLibrary",
       "url": "https://github.com/KitSprout/AltiumDesigner_PcbLibrary",
-      "stars": 670,
+      "stars": 672,
       "desc": "AD 元件庫，AltiumDesigner PCB Library",
       "altium_file_count": 33,
       "files": [
@@ -3907,9 +3907,9 @@
     {
       "repo": "embedded-society/altium-designer-mcp",
       "url": "https://github.com/embedded-society/altium-designer-mcp",
-      "stars": 65,
+      "stars": 72,
       "desc": "MCP server for AI-assisted management of Altium Designer component libraries",
-      "altium_file_count": 16,
+      "altium_file_count": 17,
       "files": [
         {
           "path": "scripts/samples/footprints.PcbLib",
@@ -3945,6 +3945,11 @@
           "path": "scripts/samples/manual/intlib_link.SchLib",
           "type": ".SchLib",
           "size_kb": 6.0
+        },
+        {
+          "path": "scripts/samples/manual/layer_kinds.PcbLib",
+          "type": ".PcbLib",
+          "size_kb": 772.0
         },
         {
           "path": "scripts/samples/manual/parameters.SchLib",
@@ -4055,7 +4060,7 @@
     {
       "repo": "XuanyouLiu/EITWatch_Hardware",
       "url": "https://github.com/XuanyouLiu/EITWatch_Hardware",
-      "stars": 104,
+      "stars": 105,
       "desc": "",
       "altium_file_count": 4,
       "files": [
@@ -4141,7 +4146,7 @@
     {
       "repo": "anarthrous-eda/FYPA",
       "url": "https://github.com/anarthrous-eda/FYPA",
-      "stars": 43,
+      "stars": 46,
       "desc": "Altium/Gerber Power-Delivery-Network (PDN) Analyser",
       "altium_file_count": 2,
       "files": [
@@ -4154,25 +4159,6 @@
           "path": "ExampleDesigns/Sandbox/Sandbox.SCHLIB",
           "type": ".SchLib",
           "size_kb": 6.0
-        }
-      ]
-    },
-    {
-      "repo": "yasir-shahzad/Altium-Library",
-      "url": "https://github.com/yasir-shahzad/Altium-Library",
-      "stars": 40,
-      "desc": "🖥️ Altium Library with 4000+ components! 🛠️ It ensures design accuracy 📐 and includes 3D STEP models 📏✨—perfect for engineers! 🚀😊 Let me know if you need more! 👍",
-      "altium_file_count": 2,
-      "files": [
-        {
-          "path": "Mastermind Connectors.IntLib",
-          "type": ".IntLib",
-          "size_kb": 3461.5
-        },
-        {
-          "path": "Mastermind Devices.IntLib",
-          "type": ".IntLib",
-          "size_kb": 70483.5
         }
       ]
     },

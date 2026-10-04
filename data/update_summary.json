@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-09-27T02:30:55.778380",
+  "update_time": "2026-10-04T03:24:40.521548",
   "sources": [
     {
       "source": "JLCPCB/LCSC",
@@ -20,11 +20,11 @@
     },
     {
       "source": "GitHub Aggregator",
-      "total": 22033,
+      "total": 22085,
       "generated": 0,
       "details": {
-        "downloaded": 8,
-        "repos": 30
+        "downloaded": 1,
+        "repos": 29
       }
     },
     {
@@ -82,10 +82,10 @@
             "pcblib": "/home/runner/work/altium-component-libraries/altium-component-libraries/libraries/PcbLib/mcus_esp32.PcbLib"
           }
         ],
-        "timestamp": "2026-09-27T02:30:55.778065"
+        "timestamp": "2026-10-04T03:24:40.521213"
       }
     }
   ],
-  "total_fetched": 22072,
+  "total_fetched": 22124,
   "total_generated": 8
 }
